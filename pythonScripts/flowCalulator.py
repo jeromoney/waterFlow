@@ -2,7 +2,6 @@
 Populates a network of unknown stream flows from a sparse data.
 '''
 
-pass
 import psycopg2,sys
 
 def connect2db():
@@ -68,15 +67,16 @@ def flow(node):
 
 # Get the flow information from database
 def main():
-    sys.setrecursionlimit(4000)
-
     cursor,conn = connect2db()
+    sys.setrecursionlimit(4000)
+    #reset old flow readings
+    cursor.execute("TRUNCATE node_flow")
+    cursor.execute("TRUNCATE analyzed_terminal_streams")
+    conn.commit()
 
     # get final downstream rivers
     global destination_line
     destination_line = get_head_nodes(cursor)
-    analyzed_nodes = get_analyzed_headnodes(cursor)
-    destination_line = [x for x in destination_line if x not in analyzed_nodes]
     print "number of nodes to analyze: " + str(len(destination_line))
     # get network of rivers
     global upstream_map
@@ -93,11 +93,9 @@ def main():
     # The flow is the sum of the all incoming streams
     # go upstream looking for gauge
     # The final result is a river seqment with a list of all gauges for the section
-
     for desination in destination_line:
         print "Working on " + str(desination)
-        if desination == 720034138:
-            x =1
+
         try:
             flow(desination)
             print("Executing SQL")
@@ -111,16 +109,13 @@ def main():
                         (node, gauge, desination))
 
             conn.commit()
-            node_flow_ids = []
         except:
-            # Error will occur if recursion depth is exceeded.
-            # Save terminal stream for later analysis
+            # Program probably ran into recursion limits
             cursor.execute( \
                 "INSERT INTO analyzed_terminal_streams VALUES (%s,%s)", \
                 (desination, True))
-            conn.commit()
+        node_flow_ids = []
 
-    x = 2
 
 
 if __name__ == "__main__":
