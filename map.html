@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+<style>
+        body { margin:0; padding:0; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+    </style>
+</head>
+<body>
+
+<style>
+    #menu {
+        position: absolute;
+        background: #fff;
+        font-family: 'Open Sans', sans-serif;
+    }
+</style>
+
+
+<div id='map'></div>
+
+<div id='menu' class="btn-group" role="group" aria-label="Basic example">
+  <input class="btn btn-primary" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
+  <input class="btn btn-outline-primary" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
+    <input class="btn btn-outline-primary" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
+</div>
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
+    zoom: 4,
+    center: [-98.290,35.854]
+});
+
+var layerList = document.getElementById('menu');
+var inputs = layerList.getElementsByTagName('input');
+// It's dumb to id the layer by this cryptic string. Should change it.
+var oldLayer = document.getElementById('cjjemazx490w12rryv15r5jao');
+function switchLayer(layer) {
+    if (layer.target != oldLayer){
+        var layerId = layer.target.id;
+        layer.target.classList.remove('btn-outline-primary');
+        layer.target.classList.add('btn-primary');
+        oldLayer.classList.remove('btn-primary');
+        oldLayer.classList.add('btn-outline-primary');
+        map.setStyle('mapbox://styles/jimmyjohn/' + layerId);
+        oldLayer = layer.target
+    }
+}
+
+for (var i = 0; i < inputs.length; i++) {
+    inputs[i].onclick = switchLayer;
+}
+
+</script>
+
+</body>
+</html>
