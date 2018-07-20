@@ -58,6 +58,31 @@ for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
 }
 
+
+map.on('click', function(e) {
+  var box = 2;
+  var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
+    layers: ['rivers'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  };
+  var feature = features[0];
+  var prop = feature.properties;
+  debugger;
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates[0])
+    .setHTML('<a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a>' +
+    prop.difficulty + prop.flow +' cfs' + prop.slope + ' fpm')
+    .addTo(map);
+
+});
+
+
+
+
+
 </script>
 
 </body>
