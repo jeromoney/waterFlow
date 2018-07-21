@@ -2,20 +2,28 @@
 <html>
 <head>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link href='https://mapbox.com/base/latest/base.css' rel='stylesheet' />
+
 <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
 <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
 <style>
         body { margin:0; padding:0; }
         #map { position:absolute; top:0; bottom:0; width:100%; }
+        .topright { position: absolute;top: 8px; right: 16px; z-index: 99999;}
+
     </style>
 </head>
 <body>
-
+<span id="locateme" class="dark fill-blue inline round topright" onclick="locateme(); return false">
+    <span class='icon big crosshair'></span>
+</span>
 <style>
     #menu {
         position: absolute;
         background: #fff;
         font-family: 'Open Sans', sans-serif;
+        top: 8px;
+        left: 16px;
     }
 </style>
 
@@ -58,6 +66,29 @@ for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
 }
 
+
+var options = {
+  enableHighAccuracy: true,
+  timeout: 5000,
+  maximumAge: 0
+};
+
+
+function error(err) {
+  console.warn(`ERROR(${err.code}): ${err.message}`);
+}
+function locateme(){
+navigator.geolocation.getCurrentPosition(zoomMap,error,options);
+    debugger;
+
+};
+
+function zoomMap(position) {
+    map.setCenter([-74, 38]);
+    map.setZoom(13);
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+}
 
 map.on('click', function(e) {
   var box = 2;
