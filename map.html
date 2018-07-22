@@ -97,12 +97,9 @@ navigator.geolocation.getCurrentPosition(zoomMap,error,options);
 };
 
 function zoomMap(position) {
-    debugger;
 
-    map.setCenter([-74, 38]);
+    map.setCenter([position.coords.longitude, position.coords.latitude]);
     map.setZoom(13);
-    x.innerHTML = "Latitude: " + position.coords.latitude +
-    "<br>Longitude: " + position.coords.longitude;
 }
 
 map.on('click', function(e) {
