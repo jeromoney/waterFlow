@@ -123,7 +123,8 @@ map.on('click', function(e) {
 });
 
 map.addControl(new MapboxGeocoder({
-    accessToken: mapboxgl.accessToken
+    accessToken: mapboxgl.accessToken,
+    bbox: [-125, 24, -66, 49.1]  //[minX, minY, maxX, maxY] limits of the lower 48
 }));
 
 
