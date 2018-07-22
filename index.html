@@ -1,133 +1,150 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-<link href='https://mapbox.com/base/latest/base.css' rel='stylesheet' />
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <link href='https://mapbox.com/base/latest/base.css' rel='stylesheet' />
 
-<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
-<style>
-        body { margin:0; padding:0; }
-        #map { position:absolute; top:0; bottom:0; width:100%; }
-        .topright { position: absolute;top: 8px; right: 16px; z-index: 99999;}
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
+    <style>
+            body { margin:0; padding:0; }
+            #map { position:absolute; top:0; bottom:0; width:100%; }
+            .topleft { position: absolute;top: 8px; left: 16px; z-index: 99999;}
 
-    </style>
+        </style>
 </head>
 <body>
-<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
+    <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
+    <div class="dropdown topleft">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        options
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a id='riverhide' class="dropdown-item" href="#" onclick="hideDryRivers()">hide dry rivers</a>
+            <div id='menu' class="btn-group" role="group" aria-label="Basic example">
+            <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
+            <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
+            <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
 
-<style>
-    #menu {
-        position: absolute;
-        background: #fff;
-        font-family: 'Open Sans', sans-serif;
-        top: 8px;
-        left: 16px;
+
+
+        </div>
+        </div>
+    </div>
+
+
+        <span id="locateme" class="dark fill-blue inline round" onclick="locateme(); return false">
+            <span class='icon big crosshair'></span>
+            <div id='map'></div>
+        </span>
+
+
+
+
+
+    <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
+
+    var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
+        zoom: 4,
+        center: [-98.290,35.854]
+        });
+
+    // This should be in the object delclaration.
+    map.setMaxBounds([[-140, 10], [-40, 70]]);
+
+    var layerList = document.getElementById('menu');
+    var inputs = layerList.getElementsByTagName('input');
+    // It's dumb to id the layer by this cryptic string. Should change it.
+    var oldLayer = document.getElementById('cjjemazx490w12rryv15r5jao');
+    function switchLayer(layer) {
+        if (layer.target != oldLayer){
+            var layerId = layer.target.id;
+            layer.target.classList.remove('btn-outline-secondary');
+            layer.target.classList.add('btn-secondary');
+            oldLayer.classList.remove('btn-secondary');
+            oldLayer.classList.add('btn-outline-secondary');
+            map.setStyle('mapbox://styles/jimmyjohn/' + layerId);
+            oldLayer = layer.target
+        }
     }
-</style>
+
+    for (var i = 0; i < inputs.length; i++) {
+        inputs[i].onclick = switchLayer;
+    }
 
 
-<div id='map'></div>
+
+    // Locate user on map
+    var options = {
+      enableHighAccuracy: false,
+      timeout: 50000,
+      maximumAge: 3600000 // 1 hour old locations are acceptable.
+    };
 
 
+    function error(err) {
+      console.warn(`ERROR(${err.code}): ${err.message}`);
+    }
+    function locateme(){
+    navigator.geolocation.getCurrentPosition(zoomMap,error,options);
 
-<div id='menu' class="btn-group" role="group" aria-label="Basic example">
-    <input class="btn btn-primary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
-    <input class="btn btn-outline-primary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
-    <input class="btn btn-outline-primary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
-    <span id="locateme" class="dark fill-blue inline round" onclick="locateme(); return false">
-    <span class='icon big crosshair'></span>
-</span>
+    };
 
-</div>
+    function zoomMap(position) {
 
+        map.setCenter([position.coords.longitude, position.coords.latitude]);
+        map.setZoom(13);
+    }
 
-<script>
-mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
+    map.on('click', function(e) {
+      var box = 2;
+      var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
+        layers: ['rivers-flowing','rivers-dry'] // replace this with the name of the layer
+      });
 
-var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
-    zoom: 4,
-    center: [-98.290,35.854]
+      if (!features.length) {
+        return;
+      };
+      var feature = features[0];
+      var prop = feature.properties;
+      var popup = new mapboxgl.Popup({ offset: [0, -15] })
+        .setLngLat(feature.geometry.coordinates[0])
+        .setHTML('<a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a>' +
+        prop.difficulty + prop.flow +' cfs' + prop.slope + ' fpm')
+        .addTo(map);
+
     });
 
-// This should be in the object delclaration.
-map.setMaxBounds([[-140, 10], [-40, 70]]);
+    map.addControl(new MapboxGeocoder({
+        accessToken: mapboxgl.accessToken,
+        bbox: [-125, 24, -66, 49.1]  //[minX, minY, maxX, maxY] limits of the lower 48
+    }));
 
-var layerList = document.getElementById('menu');
-var inputs = layerList.getElementsByTagName('input');
-// It's dumb to id the layer by this cryptic string. Should change it.
-var oldLayer = document.getElementById('cjjemazx490w12rryv15r5jao');
-function switchLayer(layer) {
-    if (layer.target != oldLayer){
-        var layerId = layer.target.id;
-        layer.target.classList.remove('btn-outline-primary');
-        layer.target.classList.add('btn-primary');
-        oldLayer.classList.remove('btn-primary');
-        oldLayer.classList.add('btn-outline-primary');
-        map.setStyle('mapbox://styles/jimmyjohn/' + layerId);
-        oldLayer = layer.target
+    function hideDryRivers() {
+
+        var layer = 'rivers-dry';
+        var property = 'visibility';
+        if (map.getLayoutProperty(layer, property) == 'visible'){
+            map.setLayoutProperty(layer, property, 'none');
+            document.getElementById("riverhide").innerHTML = 'show dry rivers';
+        }
+        else {
+            map.setLayoutProperty(layer, property, 'visible');
+            document.getElementById("riverhide").innerHTML = 'hide dry rivers';
+        }
     }
-}
-
-for (var i = 0; i < inputs.length; i++) {
-    inputs[i].onclick = switchLayer;
-}
 
 
-
-// Locate user on map
-var options = {
-  enableHighAccuracy: false,
-  timeout: 50000,
-  maximumAge: 3600000 // 1 hour old locations are acceptable.
-};
-
-
-function error(err) {
-  console.warn(`ERROR(${err.code}): ${err.message}`);
-}
-function locateme(){
-navigator.geolocation.getCurrentPosition(zoomMap,error,options);
-
-};
-
-function zoomMap(position) {
-
-    map.setCenter([position.coords.longitude, position.coords.latitude]);
-    map.setZoom(13);
-}
-
-map.on('click', function(e) {
-  var box = 2;
-  var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: ['rivers-dry','rivers-running'] // replace this with the name of the layer
-  });
-
-  if (!features.length) {
-    return;
-  };
-  var feature = features[0];
-  var prop = feature.properties;
-  debugger;
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates[0])
-    .setHTML('<a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a>' +
-    prop.difficulty + prop.flow +' cfs' + prop.slope + ' fpm')
-    .addTo(map);
-
-});
-
-map.addControl(new MapboxGeocoder({
-    accessToken: mapboxgl.accessToken,
-    bbox: [-125, 24, -66, 49.1]  //[minX, minY, maxX, maxY] limits of the lower 48
-}));
-
-
-
-</script>
+    </script>
 
 </body>
 </html>
