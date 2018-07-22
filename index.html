@@ -17,9 +17,6 @@
 <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
 <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
 
-
-
-<
 <style>
     #menu {
         position: absolute;
@@ -48,6 +45,7 @@
 
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
+
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
@@ -105,7 +103,7 @@ function zoomMap(position) {
 map.on('click', function(e) {
   var box = 2;
   var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: ['rivers'] // replace this with the name of the layer
+    layers: ['rivers-dry','rivers-running'] // replace this with the name of the layer
   });
 
   if (!features.length) {
