@@ -160,14 +160,14 @@
 
 
     function hideDiffRivers() {
-        // hide linestrings
+        // hides Rivers based on difficulty ratings
         var layers = ['rivers-dry','rivers-flowing','putins']
         var arrayLength = layers.length;
         for (var i = 0; i < arrayLength; i++) {
             var layer = layers[i];
             filter = map.getFilter(layer);
-            filter[2][1][2] = maxClass;
-            filter[2][2][2] = minClass;
+            filter[2][1][2] = maxClass+0.1;
+            filter[2][2][2] = minClass-0.1;
             map.setFilter(layer, filter);
         }
     }
