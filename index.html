@@ -28,13 +28,17 @@
 
     <script>
       $( function() {
-        $( "#slider-range" ).slider({
+                $( "#slider-range" ).slider({
           range: true,
           min: 0,
-          max: 500,
-          values: [ 75, 300 ],
+          max: 14,
+          step: 1,
+          values: [ 2, 8 ],
           slide: function( event, ui ) {
-            $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+            var classes = ['I-','I','I+','II-','II','II+','III-','III','III+','IV-','IV','IV+','V-','V','V+']
+            document.getElementById("classhide").innerHTML = 'filter by class: '+ classes[ui.values[ 0 ]]+' to '+ classes[ui.values[ 1 ]];
+            minClass = ui.values[ 0 ];
+            maxClass = ui.values[ 1 ];
           }
         });
         $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
@@ -50,13 +54,14 @@
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a id='riverhide' class="dropdown-item" href="#" onclick="hideDryRivers()">hide dry rivers</a>
-            <div id='menu' class="btn-group" role="group" aria-label="Basic example">
+            <div id='menu' class="btn-group dropdown-item" role="group" aria-label="Basic example">
                 <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
             </div>
             <div id="slider-range">
             </div>
+            <a id='classhide' class="dropdown-item" href="#" onclick="hideDiffRivers()">filter by class</a>
         </div>
     </div>
 
@@ -72,6 +77,9 @@
 
 
     <script>
+    var minClass = 0;
+    var maxClass = 14;
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
     $("#ex2").slider({});
 
@@ -84,7 +92,6 @@
 
     // This should be in the object delclaration.
     map.setMaxBounds([[-140, 10], [-40, 70]]);
-
     var layerList = document.getElementById('menu');
     var inputs = layerList.getElementsByTagName('input');
     // It's dumb to id the layer by this cryptic string. Should change it.
@@ -105,29 +112,6 @@
         inputs[i].onclick = switchLayer;
     }
 
-
-
-    // Locate user on map
-    var options = {
-      enableHighAccuracy: false,
-      timeout: 50000,
-      maximumAge: 3600000 // 1 hour old locations are acceptable.
-    };
-
-
-    function error(err) {
-      console.warn(`ERROR(${err.code}): ${err.message}`);
-    }
-    function locateme(){
-    navigator.geolocation.getCurrentPosition(zoomMap,error,options);
-
-    };
-
-    function zoomMap(position) {
-
-        map.setCenter([position.coords.longitude, position.coords.latitude]);
-        map.setZoom(13);
-    }
 
     map.on('click', function(e) {
       var box = 2;
@@ -160,20 +144,32 @@
         var property = 'visibility';
         if (map.getLayoutProperty('rivers-dry', property) == 'visible'){
             map.setLayoutProperty('rivers-dry', property, 'none');
-            map.setLayoutProperty('putins-dry', property, 'none');
+            filter = map.getFilter('putins');
+            filter[2][3] = ['in','level','high','med'];
+            map.setFilter('putins', filter);
             document.getElementById("riverhide").innerHTML = 'show dry rivers';
         }
         else {
             map.setLayoutProperty('rivers-dry', property, 'visible');
-            map.setLayoutProperty('putins-dry', property, 'visible');
+            filter = map.getFilter('putins');
+            filter[2][3] = ['in','level','high','med','','low'];
+            map.setFilter('putins', filter);
             document.getElementById("riverhide").innerHTML = 'hide dry rivers';
         }
     }
 
 
-    function hideDiffRivers(minDiff,maxDiff) {
-
-        console.log(minDiff,maxDiff);
+    function hideDiffRivers() {
+        // hide linestrings
+        var layers = ['rivers-dry','rivers-flowing','putins']
+        var arrayLength = layers.length;
+        for (var i = 0; i < arrayLength; i++) {
+            var layer = layers[i];
+            filter = map.getFilter(layer);
+            filter[2][1][2] = maxClass;
+            filter[2][2][2] = minClass;
+            map.setFilter(layer, filter);
+        }
     }
 
     </script>
