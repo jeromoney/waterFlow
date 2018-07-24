@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/slider.css">
+
+    <!--Bootstrap-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+    <!--Mapbox-->
     <link href='https://mapbox.com/base/latest/base.css' rel='stylesheet' />
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.47.0/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.min.js'></script>
-<link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
+    <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v2.2.0/mapbox-gl-geocoder.css' type='text/css' />
 
     <style>
             body { margin:0; padding:0; }
@@ -17,6 +25,23 @@
             .topleft { position: absolute;top: 8px; left: 16px; z-index: 99999;}
             .bottomleft { position: absolute;bottom: 8px; left: 16px; z-index: 99999;}
     </style>
+
+    <script>
+      $( function() {
+        $( "#slider-range" ).slider({
+          range: true,
+          min: 0,
+          max: 500,
+          values: [ 75, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+          }
+        });
+        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
+          " - $" + $( "#slider-range" ).slider( "values", 1 ) );
+      } );
+    </script>
+
 </head>
 <body>
    <div class="dropdown topleft">
@@ -26,17 +51,16 @@
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a id='riverhide' class="dropdown-item" href="#" onclick="hideDryRivers()">hide dry rivers</a>
             <div id='menu' class="btn-group" role="group" aria-label="Basic example">
-            <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
-            <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
-            <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
-
-
-
-        </div>
+                <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
+                <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
+                <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
+            </div>
+            <div id="slider-range">
+            </div>
         </div>
     </div>
 
-<!-- Hiding geolocatio for now
+<!-- Hiding geolocation for now
         <span id="locateme" class="dark fill-blue inline round bottomleft" onclick="locateme(); return false">
             <span class='icon big crosshair'></span>
 -->
@@ -49,6 +73,7 @@
 
     <script>
     mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
+    $("#ex2").slider({});
 
     var map = new mapboxgl.Map({
         container: 'map',
@@ -117,10 +142,13 @@
       var prop = feature.properties;
       var popup = new mapboxgl.Popup({ offset: [0, -15] })
         .setLngLat(feature.geometry.coordinates[0])
-        .setHTML('<a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a>' +
-        prop.difficulty + prop.flow +' cfs' + prop.slope + ' fpm')
-        .addTo(map);
+        .setHTML(
 
+        '<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
+        '<h4>class: ' + prop.difficulty + '</h4>'+
+        '<h5>flow: ' + prop.flow +' cfs</h5>' +
+        '<h5>gradient: ' + prop.slope + ' fpm</h5>')
+        .addTo(map);
     });
 
     map.addControl(new MapboxGeocoder({
@@ -129,19 +157,24 @@
     }));
 
     function hideDryRivers() {
-
-        var layer = 'rivers-dry';
         var property = 'visibility';
-        if (map.getLayoutProperty(layer, property) == 'visible'){
-            map.setLayoutProperty(layer, property, 'none');
+        if (map.getLayoutProperty('rivers-dry', property) == 'visible'){
+            map.setLayoutProperty('rivers-dry', property, 'none');
+            map.setLayoutProperty('putins-dry', property, 'none');
             document.getElementById("riverhide").innerHTML = 'show dry rivers';
         }
         else {
-            map.setLayoutProperty(layer, property, 'visible');
+            map.setLayoutProperty('rivers-dry', property, 'visible');
+            map.setLayoutProperty('putins-dry', property, 'visible');
             document.getElementById("riverhide").innerHTML = 'hide dry rivers';
         }
     }
 
+
+    function hideDiffRivers(minDiff,maxDiff) {
+
+        console.log(minDiff,maxDiff);
+    }
 
     </script>
 
