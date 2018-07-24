@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Whitewater Maps 2.0</title>
+
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
@@ -53,7 +55,7 @@
         options
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a id='riverhide' class="dropdown-item" href="#" onclick="hideDryRivers()">hide dry rivers</a>
+            <a id='riverhide' class="dropdown-item" href="#" onclick="showDryRivers = !showDryRivers;hideDryRivers()">hide dry rivers</a>
             <div id='menu' class="btn-group dropdown-item" role="group" aria-label="Basic example">
                 <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
@@ -79,6 +81,8 @@
     <script>
     var minClass = 0;
     var maxClass = 14;
+    var showDryRivers = false;
+    var styleCounter = 0;
 
     mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
     $("#ex2").slider({});
@@ -104,13 +108,25 @@
             oldLayer.classList.remove('btn-secondary');
             oldLayer.classList.add('btn-outline-secondary');
             map.setStyle('mapbox://styles/jimmyjohn/' + layerId);
-            oldLayer = layer.target
+            oldLayer = layer.target;
+            styleCounter = 0;
         }
     }
 
     for (var i = 0; i < inputs.length; i++) {
         inputs[i].onclick = switchLayer;
     }
+
+    map.on('styledata', function(e) {
+        // Waits for style to be loaded and then filters out relevent features.
+        // style is being loaded 3 times for some reason
+        if (styleCounter == 0) {
+            hideDiffRivers();
+            hideDryRivers();
+            console.log('loaded style.');
+            styleCounter++;
+        }
+    });
 
 
     map.on('click', function(e) {
@@ -141,16 +157,23 @@
     }));
 
     function hideDryRivers() {
-        var property = 'visibility';
-        if (map.getLayoutProperty('rivers-dry', property) == 'visible'){
-            map.setLayoutProperty('rivers-dry', property, 'none');
+        if (showDryRivers){
+            // hiding dry rivers
+            filter = map.getFilter('rivers-dry');
+            filter[2][3] = ['in','level','filteroutall'];
+            map.setFilter('rivers-dry', filter);
+
             filter = map.getFilter('putins');
             filter[2][3] = ['in','level','high','med'];
             map.setFilter('putins', filter);
             document.getElementById("riverhide").innerHTML = 'show dry rivers';
         }
         else {
-            map.setLayoutProperty('rivers-dry', property, 'visible');
+            // showing dry rivers
+            filter = map.getFilter('rivers-dry');
+            filter[2][3] = ['in','level','low',''];
+            map.setFilter('rivers-dry', filter);
+
             filter = map.getFilter('putins');
             filter[2][3] = ['in','level','high','med','','low'];
             map.setFilter('putins', filter);
