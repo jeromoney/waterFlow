@@ -27,11 +27,11 @@ def get_analyzed_headnodes(cursor):
     return [datum[0] for datum in data]
 
 def get_upstream_map(cursor):
-    cursor.execute("SELECT * FROM py_upstreammap")
+    cursor.execute("SELECT * FROM py_upstreammap") # changed this from materialized to normal view
     return dict(cursor.fetchall())
 
 def get_gauges(cursor):
-    cursor.execute("SELECT * FROM py_gauges")
+    cursor.execute("SELECT * FROM py_gauges") # switch to normal view.
     return dict(cursor.fetchall())
 
 def flow(node):

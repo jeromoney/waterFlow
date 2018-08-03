@@ -6,3 +6,6 @@
 *.pyc
 *.qgs
 .gitignore
+*bootstrap*
+mapbox-gl-geocoder/
+mapbox-sdk-js/

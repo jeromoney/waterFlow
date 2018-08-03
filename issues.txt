@@ -5,6 +5,7 @@
 * Layout is poor on mobile devices [medium]
 * slider needs to be made smaller to fit in drop down window [medium]
 * fix time zone on NOAA data
+* ensure that the data table only has one record per gauge
 
 
 Supported Data Sources:
