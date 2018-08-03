@@ -1,5 +1,8 @@
 # Node rules:
-.log
-.xml
-.fmw.recover
-
+*.log
+*.xml
+*.fmw.recover
+*.idea/*
+*.pyc
+*.qgs
+.gitignore
