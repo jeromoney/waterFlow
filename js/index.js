@@ -7,13 +7,16 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_Rfgg
 $("#ex2").slider({});
 
 var url = new URL(window.location.href);
-var params = JSON.parse(decodeURI(url.search.slice(1)));
+//var params = JSON.parse(Math.max('',decodeURI(url.search.slice(1))));
+var params = {};
 var map = new mapboxgl.Map({
+    hash : true,
     container: 'map',
     style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
     zoom: params['zoom'] || 4, //if search parameter doesn't exist, defaults to 4
     center: params['center'] || [-98.290,35.854] // likewise
     });
+
 
 // This should be in the object delclaration.
 map.setMaxBounds([[-140, 10], [-40, 70]]);
@@ -41,17 +44,13 @@ for (var i = 0; i < inputs.length; i++) {
 
 // Map events to enable bookmarking of URL
 
-map.on('moveend', function(e) {
-    let url = new URL(window.location.href);
-    let center = map.getCenter().toArray();
-    let jsonParams = JSON.stringify({
-        center : map.getCenter().toArray(),
-        zoom   : Math.round(map.getZoom())
-        })
-    url.search = jsonParams;
-    history.pushState('', '', url);
-
-});
+//map.on('moveend', function(e) {
+//    let url = new URL(window.location.href);
+//    let jsonParams = encodeURI(JSON.stringify(map.getStyle()))
+//    url.search = jsonParams;
+//    history.pushState('', '', url);
+//
+//});
 
 
 
