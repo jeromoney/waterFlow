@@ -31,8 +31,8 @@ def get_upstream_map(cursor):
     return dict(cursor.fetchall())
 
 def get_gauges(cursor):
-    cursor.execute("SELECT * FROM py_gauges") # switch to normal view.
-    return dict(cursor.fetchall())
+    cursor.execute("SELECT watersource FROM py_gauges") # switch to normal view.
+    return [x[0] for x in cursor.fetchall()]
 
 def flow(node):
     '''
@@ -43,6 +43,7 @@ def flow(node):
     # get streams that flow directly into segment
     upstream_nodes = upstream_map.get(node, [])
 
+
     # Case 1: River segment is a headwater so assume zero flow
     if upstream_nodes == []:
         return []
@@ -51,12 +52,12 @@ def flow(node):
     del upstream_map[node]
 
     # Case 2: River segment has a gauge. The flow is simply the gauge value
-    gauge = gauges.get(node,None)
-    if gauge is not None:
-        # deleting record for speed
-        del gauges[node]
-        node_flow_ids.append((node,[gauge]))
-        return [gauge]
+    if node in gauges:
+        node_flow_ids.append((node,[node]))
+        # continue search upstream
+        for upstream_node in upstream_nodes:
+            flow(upstream_node)
+        return [node]
 
     # Case 3: River flow is the sum of all the upstream segments leading directly to it.
     flow_gauges = []
@@ -68,7 +69,7 @@ def flow(node):
 # Get the flow information from database
 def main():
     cursor,conn = connect2db()
-    sys.setrecursionlimit(4000)
+    sys.setrecursionlimit(8000)
     #reset old flow readings
     cursor.execute("TRUNCATE node_flow")
     cursor.execute("TRUNCATE analyzed_terminal_streams")
@@ -93,27 +94,24 @@ def main():
     # The flow is the sum of the all incoming streams
     # go upstream looking for gauge
     # The final result is a river seqment with a list of all gauges for the section
-    for desination in destination_line:
-        print "Working on " + str(desination)
+    for bad_segment in [150000002,270000545]: #these florida segments are causing recursion issues
+        destination_line.remove(bad_segment)
+    for destination in destination_line:
+        print "Working on " + str(destination)
+        # i need the flow for upstream nodes, not the node itself
+        for node in upstream_map.get(destination, []):
+            flow(node)
+        print("Executing SQL")
+        cursor.execute( \
+            "INSERT INTO analyzed_terminal_streams VALUES (%s,%s)", \
+            (destination, False))
+        for node, gaugexx in node_flow_ids:
+            for gauge in gaugexx:
+                cursor.execute( \
+                    "INSERT INTO node_flow VALUES (%s, %s, %s)", \
+                    (node, gauge, destination))
 
-        try:
-            flow(desination)
-            print("Executing SQL")
-            cursor.execute( \
-                "INSERT INTO analyzed_terminal_streams VALUES (%s,%s)", \
-                (desination, False))
-            for node, gaugexx in node_flow_ids:
-                for gauge in gaugexx:
-                    cursor.execute( \
-                        "INSERT INTO node_flow VALUES (%s, %s, %s)", \
-                        (node, gauge, desination))
-
-            conn.commit()
-        except:
-            # Program probably ran into recursion limits
-            cursor.execute( \
-                "INSERT INTO analyzed_terminal_streams VALUES (%s,%s)", \
-                (desination, True))
+        conn.commit()
         node_flow_ids = []
 
 

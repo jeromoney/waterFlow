@@ -116,7 +116,7 @@ class boatingSegment:
 
 def get_awnodes(cursor,riverNodes):
     '''Gets list of AW putins and matching river segments'''
-    cursor.execute("SELECT hydroseq::INT FROM americanwhitewater_match")
+    cursor.execute("SELECT hydroseq::INT FROM riverlevels WHERE hydroseq is not null")
     datum = [x[0] for x in cursor.fetchall()]
     putinNodes = {}
     for data in datum:

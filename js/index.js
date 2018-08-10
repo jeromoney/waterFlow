@@ -6,8 +6,6 @@ var styleCounter = 0;
 mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
 $("#ex2").slider({});
 
-var url = new URL(window.location.href);
-//var params = JSON.parse(Math.max('',decodeURI(url.search.slice(1))));
 var params = {};
 var map = new mapboxgl.Map({
     hash : true,
@@ -66,26 +64,33 @@ map.on('styledata', function(e) {
 
 
 map.on('click', function(e) {
-  var box = 2;
-  var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: ['rivers-flowing','rivers-dry']
-  });
+    var box = 2;
+    let videoLayer = 'videos';
+    let gaugeLayer = 'gauge';
+    var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
+    layers: ['rivers-flowing','rivers-dry',videoLayer,gaugeLayer]
+    });
 
-  if (!features.length) {
+    if (!features.length) {
     return;
-  };
-  var feature = features[0];
-  var prop = feature.properties;
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates[0])
-    .setHTML(
+    };
+    var feature = features[0];
+    var prop = feature.properties;
+    var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates);
+    if (feature.layer['id'] == videoLayer ){
+        popup.setHTML('<iframe width="640" height="360" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/'+ prop.videoid +'"></iframe>');}
+    else if (feature.layer['id'] == gaugeLayer){
+            popup.setHTML('<h3><a href="' + prop.url + '">' + prop.name+  '</a><h3><h4> flow: '+prop.value + ' cfs </h4>');
+    }
+    else {
+        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
+        '<h4>class: ' + prop.difficulty + '</h4>'+
+        '<h5>flow: ' + prop.flow +' cfs</h5>' +
+        '<h5>gradient: ' + prop.slope + ' fpm</h5>')}
+    popup.addTo(map);
 
-    '<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
-    '<h4>class: ' + prop.difficulty + '</h4>'+
-    '<h5>flow: ' + prop.flow +' cfs</h5>' +
-    '<h5>gradient: ' + prop.slope + ' fpm</h5>')
-    .addTo(map);
-});
+    });
 
 map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,

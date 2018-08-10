@@ -1,0 +1,456 @@
+#! <?xml version="1.0" encoding="UTF-8" ?>
+#! <WORKSPACE
+#    Command-line to run this workspace:
+#        /opt/fme-desktop-2018/fme /home/justin/Documents/waterFlow/fmeWorkspaces/index.fmw
+#    
+#!   ATTR_TYPE_ENCODING="SDF"
+#!   BEGIN_PYTHON=""
+#!   BEGIN_TCL=""
+#!   CATEGORY=""
+#!   DESCRIPTION=""
+#!   DESTINATION="NONE"
+#!   DESTINATION_ROUTING_FILE=""
+#!   DOC_EXTENTS="2280 379.5"
+#!   DOC_TOP_LEFT="429.504 -1116.51"
+#!   END_PYTHON=""
+#!   END_TCL=""
+#!   EXPLICIT_BOOKMARK_ORDER="false"
+#!   FME_BUILD_NUM="18295"
+#!   FME_DOCUMENT_GUID="6c6c6eb1-f1cc-427d-903f-f12f61c3e25f"
+#!   FME_DOCUMENT_PRIORGUID=""
+#!   FME_GEOMETRY_HANDLING="Enhanced"
+#!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
+#!   FME_REPROJECTION_ENGINE="FME"
+#!   FME_SERVER_SERVICES=""
+#!   FME_STROKE_MAX_DEVIATION="0"
+#!   HISTORY=""
+#!   IGNORE_READER_FAILURE="No"
+#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
+#!   LAST_SAVE_DATE="2018-08-03T17:37:29"
+#!   LOG_FILE=""
+#!   LOG_MAX_RECORDED_FEATURES="200"
+#!   MARKDOWN_DESCRIPTION=""
+#!   MARKDOWN_USAGE=""
+#!   MAX_LOG_FEATURES="200"
+#!   MULTI_WRITER_DATASET_ORDER="BY_ID"
+#!   PASSWORD=""
+#!   PYTHON_COMPATIBILITY="27"
+#!   REDIRECT_TERMINATORS="NONE"
+#!   SHOW_ANNOTATIONS="true"
+#!   SHOW_INFO_NODES="true"
+#!   SOURCE="NONE"
+#!   SOURCE_ROUTING_FILE=""
+#!   TERMINATE_REJECTED="YES"
+#!   TITLE=""
+#!   USAGE=""
+#!   USE_MARKDOWN=""
+#!   VIEW_POSITION="138.001 0"
+#!   WARN_INVALID_XFORM_PARAM="Yes"
+#!   WORKSPACE_VERSION="1"
+#!   ZOOM_SCALE="100"
+#! >
+#! <DATASETS>
+#! </DATASETS>
+#! <DATA_TYPES>
+#! </DATA_TYPES>
+#! <GEOM_TYPES>
+#! </GEOM_TYPES>
+#! <FEATURE_TYPES>
+#! </FEATURE_TYPES>
+#! <FMESERVER>
+#! </FMESERVER>
+#! <GLOBAL_PARAMETERS>
+#! </GLOBAL_PARAMETERS>
+#! <COMMENTS>
+#! </COMMENTS>
+#! <CONSTANTS>
+#! </CONSTANTS>
+#! <BOOKMARKS>
+#! <BOOKMARK
+#!   IDENTIFIER="9"
+#!   NAME="Import"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="921.50441504415016 -737.00848008480091"
+#!   ORDER="500000000000005"
+#!   BOTTOM_RIGHT="1517.5044150441502 -1116.5084800848008"
+#!   BOUNDING_RECT="921.50441504415016 -737.00848008480091 596 379.5"
+#!   STICKY="true"
+#!   COLOUR="0.29019607843137257,0.92549019607843142,0.3411764705882353"
+#!   CONTENTS="3 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="10"
+#!   NAME="Process"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="1517.5044150441502 -737.00848008480091"
+#!   ORDER="500000000000006"
+#!   BOTTOM_RIGHT="2113.5044150441499 -1116.5084800848008"
+#!   BOUNDING_RECT="1517.5044150441502 -737.00848008480091 596 379.5"
+#!   STICKY="true"
+#!   COLOUR="0.48627450980392156,0.68235294117647061,0.38823529411764707"
+#!   CONTENTS="5 "
+#! >
+#! </BOOKMARK>
+#! <BOOKMARK
+#!   IDENTIFIER="11"
+#!   NAME="Export"
+#!   DESCRIPTION=""
+#!   TOP_LEFT="2113.5044150441499 -737.00848008480091"
+#!   ORDER="500000000000007"
+#!   BOTTOM_RIGHT="2709.5044150441499 -1116.5084800848008"
+#!   BOUNDING_RECT="2113.5044150441499 -737.00848008480091 596 379.5"
+#!   STICKY="true"
+#!   COLOUR="0.0078431372549019607,0.54117647058823526,0.51372549019607838"
+#!   CONTENTS="7 "
+#! >
+#! </BOOKMARK>
+#! </BOOKMARKS>
+#! <TRANSFORMERS>
+#! <TRANSFORMER
+#!   IDENTIFIER="2"
+#!   TYPE="Creator"
+#!   VERSION="5"
+#!   POSITION="429.50429504295039 -797.00797007970084"
+#!   BOUNDING_RECT="429.50429504295039 -797.00797007970084 -1 -1"
+#!   ORDER="500000000000001"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="CREATED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATEND" PARM_VALUE="no"/>
+#!     <XFORM_PARM PARM_NAME="COORDS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="CRE_ATTR" PARM_VALUE="_creation_instance"/>
+#!     <XFORM_PARM PARM_NAME="GEOM" PARM_VALUE="&lt;lt&gt;?xml&lt;space&gt;version=&lt;quote&gt;1.0&lt;quote&gt;&lt;space&gt;encoding=&lt;quote&gt;US_ASCII&lt;quote&gt;&lt;space&gt;standalone=&lt;quote&gt;no&lt;quote&gt;&lt;space&gt;?&lt;gt&gt;&lt;lt&gt;geometry&lt;space&gt;dimension=&lt;quote&gt;2&lt;quote&gt;&lt;gt&gt;&lt;lt&gt;null&lt;solidus&gt;&lt;gt&gt;&lt;lt&gt;&lt;solidus&gt;geometry&lt;gt&gt;"/>
+#!     <XFORM_PARM PARM_NAME="GEOMTYPE" PARM_VALUE="Geometry Object"/>
+#!     <XFORM_PARM PARM_NAME="NUM" PARM_VALUE="1"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Creator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="3"
+#!   TYPE="WorkspaceRunner"
+#!   VERSION="3"
+#!   POSITION="995.50441504415016 -848.00848008480091"
+#!   BOUNDING_RECT="995.50441504415016 -848.00848008480091 -1 -1"
+#!   ORDER="500000000000002"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="SUCCEEDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_failure_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_proc_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_processes{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="BLOCKING" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="MAX_PROC" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_TO_BATCH" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_FILE" PARM_VALUE="$(FME_MF_DIR)import/index.fmw"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WS_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WorkspaceRunner"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="5"
+#!   TYPE="WorkspaceRunner"
+#!   VERSION="3"
+#!   POSITION="1591.5044150441502 -848.00848008480091"
+#!   BOUNDING_RECT="1591.5044150441502 -848.00848008480091 -1 -1"
+#!   ORDER="500000000000003"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="SUCCEEDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_failure_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_proc_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_processes{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="BLOCKING" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="MAX_PROC" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_TO_BATCH" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_FILE" PARM_VALUE="$(FME_MF_DIR)process/process.fmw"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WS_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WorkspaceRunner_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="7"
+#!   TYPE="WorkspaceRunner"
+#!   VERSION="3"
+#!   POSITION="2187.5044150441499 -848.00848008480091"
+#!   BOUNDING_RECT="2187.5044150441499 -848.00848008480091 -1 -1"
+#!   ORDER="500000000000004"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="SUCCEEDED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="FAILED"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="_creation_instance" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_failure_message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <OUTPUT_FEAT NAME="SUMMARY"/>
+#!     <FEAT_COLLAPSED COLLAPSED="2"/>
+#!     <XFORM_ATTR ATTR_NAME="_proc_count" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="_processes{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_PARM PARM_NAME="BLOCKING" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="MAX_PROC" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MAX_TO_BATCH" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_TYPES" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_FILE" PARM_VALUE="$(FME_MF_DIR)export/index.fmw"/>
+#!     <XFORM_PARM PARM_NAME="WORKSPACE_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WS_PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="WorkspaceRunner_3"/>
+#! </TRANSFORMER>
+#! </TRANSFORMERS>
+#! <FEAT_LINKS>
+#! <FEAT_LINK
+#!   IDENTIFIER="4"
+#!   SOURCE_NODE="2"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 CREATED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="6"
+#!   SOURCE_NODE="3"
+#!   TARGET_NODE="5"
+#!   SOURCE_PORT_DESC="fo 0 SUCCEEDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="8"
+#!   SOURCE_NODE="5"
+#!   TARGET_NODE="7"
+#!   SOURCE_PORT_DESC="fo 0 SUCCEEDED"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! </FEAT_LINKS>
+#! <BREAKPOINTS>
+#! </BREAKPOINTS>
+#! <ATTR_LINKS>
+#! </ATTR_LINKS>
+#! <SUBDOCUMENTS>
+#! </SUBDOCUMENTS>
+#! <LOOKUP_TABLES>
+#! </LOOKUP_TABLES>
+#! </WORKSPACE>
+FME_PYTHON_VERSION 27
+#! START_HEADER
+#! START_WB_HEADER
+READER_TYPE MULTI_READER
+
+WRITER_TYPE NULL
+WRITER_KEYWORD NULL_DEST
+NULL_DEST_DATASET null
+#! END_WB_HEADER
+
+#! START_WB_HEADER
+#! END_WB_HEADER
+
+#! END_HEADER
+
+LOG_FILENAME "$(FME_MF_DIR)index.log"
+LOG_APPEND NO
+LOG_MAX_FEATURES 200
+LOG_MAX_RECORDED_FEATURES 200
+FME_REPROJECTION_ENGINE FME
+FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
+FME_GEOMETRY_HANDLING Enhanced
+FME_STROKE_MAX_DEVIATION 0
+LOG_FILTER_MASK -1
+# -------------------------------------------------------------------------
+
+MULTI_READER_CONTINUE_ON_READER_FAILURE No
+
+# -------------------------------------------------------------------------
+
+MACRO WORKSPACE_NAME index
+MACRO FME_VIEWER_APP fmedatainspector
+DEFAULT_MACRO WB_CURRENT_CONTEXT
+# -------------------------------------------------------------------------
+
+Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
+MACRO Creator_XML     NOT_ACTIVATED
+MACRO Creator_CLASSIC NOT_ACTIVATED
+MACRO Creator_2D3D    2D_GEOMETRY
+MACRO Creator_COORDS  <Unused>
+INCLUDE [ if { {Geometry Object} == {Geometry Object} } {            puts {MACRO Creator_XML *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Coordinate List} } {            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {3D Coordinate List} } {            puts {MACRO Creator_2D3D 3D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+INCLUDE [ if { {Geometry Object} == {2D Min/Max Box} } {            set comment {                We need to turn the COORDS which are                    minX minY maxX maxY                into a full polygon list of coordinates            };            set splitCoords [split [string trim {<Unused>}]];            if { [llength $splitCoords] > 4} {               set trimmedCoords {};               foreach item $splitCoords { if { $item != {} } {lappend trimmedCoords $item} };               set splitCoords $trimmedCoords;            };            if { [llength $splitCoords] != 4 } {                error {Creator: Coordinate list is expected to be a space delimited list of four numbers as 'minx miny maxx maxy' - `<Unused>' is invalid};            };            set minX [lindex $splitCoords 0];            set minY [lindex $splitCoords 1];            set maxX [lindex $splitCoords 2];            set maxY [lindex $splitCoords 3];            puts "MACRO Creator_COORDS $minX $minY $minX $maxY $maxX $maxY $maxX $minY $minX $minY";            puts {MACRO Creator_2D3D 2D_GEOMETRY};            puts {MACRO Creator_CLASSIC *} } ]
+FACTORY_DEF $(Creator_XML) CreationFactory    FACTORY_NAME Creator_XML_Creator    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______        @Geometry(FROM_ENCODED_STRING,<lt>?xml<space>version=<quote>1.0<quote><space>encoding=<quote>US_ASCII<quote><space>standalone=<quote>no<quote><space>?<gt><lt>geometry<space>dimension=<quote>2<quote><gt><lt>null<solidus><gt><lt><solidus>geometry<gt>)
+FACTORY_DEF $(Creator_CLASSIC) CreationFactory    FACTORY_NAME Creator_CLASSIC_Creator    $(Creator_2D3D) $(Creator_COORDS)    CREATE_AT_END no    OUTPUT FEATURE_TYPE _____CREATED______
+FACTORY_DEF * TeeFactory    FACTORY_NAME Creator_Cloner    INPUT FEATURE_TYPE _____CREATED______        @Tcl2(Creator_CoordSysRemover)        @CoordSys()    NUMBER_OF_COPIES 1    COPY_NUMBER_ATTRIBUTE "_creation_instance"    OUTPUT FEATURE_TYPE Creator_CREATED        fme_feature_type Creator
+
+FACTORY_DEF * BranchingFactory   FACTORY_NAME "Creator_CREATED Brancher -1 4"   INPUT FEATURE_TYPE Creator_CREATED   TARGET_FACTORY "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   MAXIMUM_COUNT None   OUTPUT PASSED FEATURE_TYPE *
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
+# -------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Determine the "NULL" device so we can ensure we don't get stray output
+# messing up our stdout if we are running workspaces in the background
+# See http://wiki.tcl.tk/1649 for a description of the tcl_platform
+# variable, the "platform" part seems to have valid values windows, unix, and
+# macintosh (the latter of which is actually pre-OS X)
+
+Tcl2 if { $tcl_platform(platform) == {windows} } {         set ::null_device {NUL:};         set ::__WR_ENV_HELPER__ {};      } else {         set ::null_device {/dev/null};         set ::__WR_ENV_HELPER__ {/usr/bin/env FME_SUBPROCESS_RUN_DETACHED=1};      };
+# ------------------------------------------------------------------------------
+# Escape existing double quotes and then wrap in double quotes
+
+Tcl2 proc quotifyForParameterFileV3 { sourceString } {   if {[string length $sourceString] == 0} {      return \"\";   };   set doQuote 0;   if {[string first { } $sourceString] != -1} {      set doQuote 1;   };   set sourceString [string map {{\"} {\\"}} $sourceString];   if {$doQuote == 1} {      set sourceString \\"$sourceString\\";   };   return $sourceString; };
+# ------------------------------------------------------------------------------
+# Main runner procedure, takes in a parameter list as string which is delimited
+# by \x07 (BELL) character and the workspace to run
+
+Tcl2 proc WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_runner { parmListString workspaceFile } {    global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands;    global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count;    incr WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count 0;    if { [info exists WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands] == 0 } {       set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands {};    };    set workspaceFileUnix [regsub -all {\\} $workspaceFile {/}];    set parmListString [string range $parmListString 1 end-1];    set comment    {        Build up the command line in a list, which we'll write it out to a        parameter file.    };    set commandArguments {};    set commandArgumentsToLog {};    set workspaceToRun [quotifyForParameterFileV3 $workspaceFileUnix];    lappend commandArguments $workspaceToRun;    lappend commandArgumentsToLog $workspaceToRun;    set parameterList [split $parmListString \x07];    set parmTypes [split {} {,}];    foreach {parmName parmValue} $parameterList {parmType} $parmTypes {      set parmValue [quotifyForParameterFileV3 $parmValue];      lappend commandArguments --$parmName;      lappend commandArgumentsToLog --$parmName;      lappend commandArguments $parmValue;      if { [string first {PASSWORD} $parmType] != -1 } {           lappend commandArgumentsToLog {*********};      } else {           lappend commandArgumentsToLog $parmValue;      };    };    lappend WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands [join $commandArguments " "];    incr WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count;    if { {Yes} == {No} && {<Unused>} > 1  && $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count <= {<Unused>} } {       FME_LogMessage fme_inform 933450 WorkspaceRunner $commandArgumentsToLog;    } else {       FME_LogMessage fme_inform 933451 WorkspaceRunner $commandArgumentsToLog;    };    if { {Yes} != {No} || $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count == {<Unused>} } {       set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_batch_count 0;       set commandFile [WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_writeCommandFile $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands {};       lappend cmdArgs {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;    } else {       return SUCCESS;    };    return [WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_runCommand $cmdArgs $workspaceFileUnix]; }
+# ------------------------------------------------------------------------------
+# When batching commands, any overflow commands will be run at the end. Say you
+# batch by 2 and there are 5 incoming features. Then we will have 2 batches with
+# 2 commands each and 1 overflow batch with 1 command
+
+Tcl2 proc WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_flushPending { } {    global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands;    if { [info exists WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands] == 1 && [llength $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands] > 0 } {       set workspaceToRun [lindex $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands 0];       set commandFile [WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_writeCommandFile $WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_commands {};       lappend commandArguments {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;       return [WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_runCommand $commandArguments $workspaceToRun];    };    return SUCCESS; }
+# ------------------------------------------------------------------------------
+# Build and run the command
+
+Tcl2 proc WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_runCommand {commandArguments workspaceFileUnix} {    if { {Yes} == {No} } {        lappend commandArguments \">$::null_device\";        lappend commandArguments \"<$::null_device\";    };    set comment    {        The below 2>@1 forces any standard error output to go into the msg variable        or to NULL if we're running in the background.    };    lappend commandArguments {2>@1};    if { {Yes} == {No} } {        lappend commandArguments {&};    };    if { {Yes} == {No} } {       after 1000;       while { [FME_CanSpawnFme <Unused>] == {0} } {             after 2000;       };    };    if { Yes == {No} && {<Unused>} > 1 } {       FME_LogMessage fme_inform 933452 WorkspaceRunner $commandArguments;    } else {       FME_LogMessage fme_inform 933453 WorkspaceRunner $commandArguments;    };    if {[catch {eval [concat exec $commandArguments] } msg ]} {       set msg [regsub {\015*\012child[^\012]*$} $msg {}];       FME_LogMessage fme_warn 933454 WorkspaceRunner $workspaceFileUnix "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return FAILURE;    } else {       global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_process_count;       incr WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_process_count;       if { {Yes} == {No} } {           FME_LogMessage fme_inform 933455 WorkspaceRunner $workspaceFileUnix;           global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_all_processes;           lappend WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_all_processes $msg;       } else {           FME_LogMessage fme_inform 933456 WorkspaceRunner $workspaceFileUnix;       };       return SUCCESS;    }; }
+# ------------------------------------------------------------------------------
+# Create and write commands to command file
+
+Tcl2 proc WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_writeCommandFile { commands } {    set commandFile [FME_TempFilename wsr_cm_];    if { [catch { set cmdFileId [open $commandFile "w"] } msg ] } {       FME_LogMessage fme_warn 933457 WorkspaceRunner $commandFile "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return {};    };    fconfigure $cmdFileId -encoding utf-8;    puts $cmdFileId {#! encoding=\"utf-8\"};    puts $cmdFileId DELETE_FILE_AFTER_LOAD;    foreach {command} $commands {       puts $cmdFileId $command;    };    close $cmdFileId;    return $commandFile; }
+# ------------------------------------------------------------------------------
+# Use \x07 (BELL) character as the delimiter when writing WORKSPACE_PARAMETERS
+# to mapping file
+FACTORY_DEF * TestFactory    FACTORY_NAME WorkspaceRunner_ExecutorAndRouter    INPUT  FEATURE_TYPE Creator_CREATED    TEST @Tcl2("WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_runner {()} {@EvaluateExpression(FDIV,STRING,$(FME_MF_DIR$encode)import<solidus>index.fmw,WorkspaceRunner)}") == SUCCESS    OUTPUT PASSED FEATURE_TYPE WorkspaceRunner_SUCCEEDED
+Tcl2 proc WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_summarizer { } {     global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_process_count;     set comment { incr 0 creates the variable if it wasn't present };     incr WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_process_count 0;     FME_SetAttribute _proc_count [set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_process_count];     global WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_all_processes;     if {[info exists WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_all_processes]} {         set index 0;         foreach pid [set WorkspaceRunner_d7a13a7a_ea77_41ff_adaa_bf34574543234_all_processes] {             FME_SetAttribute \"_processes{$index}\" $pid;             incr index;         }     } }
+FACTORY_DEF * CreationFactory    FACTORY_NAME WorkspaceRunner_SummaryMaker    CREATE_AT_END yes
+
+# -------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Determine the "NULL" device so we can ensure we don't get stray output
+# messing up our stdout if we are running workspaces in the background
+# See http://wiki.tcl.tk/1649 for a description of the tcl_platform
+# variable, the "platform" part seems to have valid values windows, unix, and
+# macintosh (the latter of which is actually pre-OS X)
+
+Tcl2 if { $tcl_platform(platform) == {windows} } {         set ::null_device {NUL:};         set ::__WR_ENV_HELPER__ {};      } else {         set ::null_device {/dev/null};         set ::__WR_ENV_HELPER__ {/usr/bin/env FME_SUBPROCESS_RUN_DETACHED=1};      };
+# ------------------------------------------------------------------------------
+# Escape existing double quotes and then wrap in double quotes
+
+Tcl2 proc quotifyForParameterFileV3 { sourceString } {   if {[string length $sourceString] == 0} {      return \"\";   };   set doQuote 0;   if {[string first { } $sourceString] != -1} {      set doQuote 1;   };   set sourceString [string map {{\"} {\\"}} $sourceString];   if {$doQuote == 1} {      set sourceString \\"$sourceString\\";   };   return $sourceString; };
+# ------------------------------------------------------------------------------
+# Main runner procedure, takes in a parameter list as string which is delimited
+# by \x07 (BELL) character and the workspace to run
+
+Tcl2 proc WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_runner { parmListString workspaceFile } {    global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands;    global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count;    incr WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count 0;    if { [info exists WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands] == 0 } {       set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands {};    };    set workspaceFileUnix [regsub -all {\\} $workspaceFile {/}];    set parmListString [string range $parmListString 1 end-1];    set comment    {        Build up the command line in a list, which we'll write it out to a        parameter file.    };    set commandArguments {};    set commandArgumentsToLog {};    set workspaceToRun [quotifyForParameterFileV3 $workspaceFileUnix];    lappend commandArguments $workspaceToRun;    lappend commandArgumentsToLog $workspaceToRun;    set parameterList [split $parmListString \x07];    set parmTypes [split {} {,}];    foreach {parmName parmValue} $parameterList {parmType} $parmTypes {      set parmValue [quotifyForParameterFileV3 $parmValue];      lappend commandArguments --$parmName;      lappend commandArgumentsToLog --$parmName;      lappend commandArguments $parmValue;      if { [string first {PASSWORD} $parmType] != -1 } {           lappend commandArgumentsToLog {*********};      } else {           lappend commandArgumentsToLog $parmValue;      };    };    lappend WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands [join $commandArguments " "];    incr WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count;    if { {Yes} == {No} && {<Unused>} > 1  && $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count <= {<Unused>} } {       FME_LogMessage fme_inform 933450 WorkspaceRunner_2 $commandArgumentsToLog;    } else {       FME_LogMessage fme_inform 933451 WorkspaceRunner_2 $commandArgumentsToLog;    };    if { {Yes} != {No} || $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count == {<Unused>} } {       set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_batch_count 0;       set commandFile [WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_writeCommandFile $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands {};       lappend cmdArgs {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;    } else {       return SUCCESS;    };    return [WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_runCommand $cmdArgs $workspaceFileUnix]; }
+# ------------------------------------------------------------------------------
+# When batching commands, any overflow commands will be run at the end. Say you
+# batch by 2 and there are 5 incoming features. Then we will have 2 batches with
+# 2 commands each and 1 overflow batch with 1 command
+
+Tcl2 proc WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_flushPending { } {    global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands;    if { [info exists WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands] == 1 && [llength $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands] > 0 } {       set workspaceToRun [lindex $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands 0];       set commandFile [WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_writeCommandFile $WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_commands {};       lappend commandArguments {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;       return [WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_runCommand $commandArguments $workspaceToRun];    };    return SUCCESS; }
+# ------------------------------------------------------------------------------
+# Build and run the command
+
+Tcl2 proc WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_runCommand {commandArguments workspaceFileUnix} {    if { {Yes} == {No} } {        lappend commandArguments \">$::null_device\";        lappend commandArguments \"<$::null_device\";    };    set comment    {        The below 2>@1 forces any standard error output to go into the msg variable        or to NULL if we're running in the background.    };    lappend commandArguments {2>@1};    if { {Yes} == {No} } {        lappend commandArguments {&};    };    if { {Yes} == {No} } {       after 1000;       while { [FME_CanSpawnFme <Unused>] == {0} } {             after 2000;       };    };    if { Yes == {No} && {<Unused>} > 1 } {       FME_LogMessage fme_inform 933452 WorkspaceRunner_2 $commandArguments;    } else {       FME_LogMessage fme_inform 933453 WorkspaceRunner_2 $commandArguments;    };    if {[catch {eval [concat exec $commandArguments] } msg ]} {       set msg [regsub {\015*\012child[^\012]*$} $msg {}];       FME_LogMessage fme_warn 933454 WorkspaceRunner_2 $workspaceFileUnix "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return FAILURE;    } else {       global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_process_count;       incr WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_process_count;       if { {Yes} == {No} } {           FME_LogMessage fme_inform 933455 WorkspaceRunner_2 $workspaceFileUnix;           global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_all_processes;           lappend WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_all_processes $msg;       } else {           FME_LogMessage fme_inform 933456 WorkspaceRunner_2 $workspaceFileUnix;       };       return SUCCESS;    }; }
+# ------------------------------------------------------------------------------
+# Create and write commands to command file
+
+Tcl2 proc WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_writeCommandFile { commands } {    set commandFile [FME_TempFilename wsr_cm_];    if { [catch { set cmdFileId [open $commandFile "w"] } msg ] } {       FME_LogMessage fme_warn 933457 WorkspaceRunner_2 $commandFile "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return {};    };    fconfigure $cmdFileId -encoding utf-8;    puts $cmdFileId {#! encoding=\"utf-8\"};    puts $cmdFileId DELETE_FILE_AFTER_LOAD;    foreach {command} $commands {       puts $cmdFileId $command;    };    close $cmdFileId;    return $commandFile; }
+# ------------------------------------------------------------------------------
+# Use \x07 (BELL) character as the delimiter when writing WORKSPACE_PARAMETERS
+# to mapping file
+FACTORY_DEF * TestFactory    FACTORY_NAME WorkspaceRunner_2_ExecutorAndRouter    INPUT  FEATURE_TYPE WorkspaceRunner_SUCCEEDED    TEST @Tcl2("WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_runner {()} {@EvaluateExpression(FDIV,STRING,$(FME_MF_DIR$encode)process<solidus>process.fmw,WorkspaceRunner_2)}") == SUCCESS    OUTPUT PASSED FEATURE_TYPE WorkspaceRunner_2_SUCCEEDED
+Tcl2 proc WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_summarizer { } {     global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_process_count;     set comment { incr 0 creates the variable if it wasn't present };     incr WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_process_count 0;     FME_SetAttribute _proc_count [set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_process_count];     global WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_all_processes;     if {[info exists WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_all_processes]} {         set index 0;         foreach pid [set WorkspaceRunner_2_46db441e_af07_4d71_8853_718fb5027d5e4_all_processes] {             FME_SetAttribute \"_processes{$index}\" $pid;             incr index;         }     } }
+FACTORY_DEF * CreationFactory    FACTORY_NAME WorkspaceRunner_2_SummaryMaker    CREATE_AT_END yes
+
+# -------------------------------------------------------------------------
+
+# ------------------------------------------------------------------------------
+# Determine the "NULL" device so we can ensure we don't get stray output
+# messing up our stdout if we are running workspaces in the background
+# See http://wiki.tcl.tk/1649 for a description of the tcl_platform
+# variable, the "platform" part seems to have valid values windows, unix, and
+# macintosh (the latter of which is actually pre-OS X)
+
+Tcl2 if { $tcl_platform(platform) == {windows} } {         set ::null_device {NUL:};         set ::__WR_ENV_HELPER__ {};      } else {         set ::null_device {/dev/null};         set ::__WR_ENV_HELPER__ {/usr/bin/env FME_SUBPROCESS_RUN_DETACHED=1};      };
+# ------------------------------------------------------------------------------
+# Escape existing double quotes and then wrap in double quotes
+
+Tcl2 proc quotifyForParameterFileV3 { sourceString } {   if {[string length $sourceString] == 0} {      return \"\";   };   set doQuote 0;   if {[string first { } $sourceString] != -1} {      set doQuote 1;   };   set sourceString [string map {{\"} {\\"}} $sourceString];   if {$doQuote == 1} {      set sourceString \\"$sourceString\\";   };   return $sourceString; };
+# ------------------------------------------------------------------------------
+# Main runner procedure, takes in a parameter list as string which is delimited
+# by \x07 (BELL) character and the workspace to run
+
+Tcl2 proc WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_runner { parmListString workspaceFile } {    global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands;    global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count;    incr WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count 0;    if { [info exists WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands] == 0 } {       set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands {};    };    set workspaceFileUnix [regsub -all {\\} $workspaceFile {/}];    set parmListString [string range $parmListString 1 end-1];    set comment    {        Build up the command line in a list, which we'll write it out to a        parameter file.    };    set commandArguments {};    set commandArgumentsToLog {};    set workspaceToRun [quotifyForParameterFileV3 $workspaceFileUnix];    lappend commandArguments $workspaceToRun;    lappend commandArgumentsToLog $workspaceToRun;    set parameterList [split $parmListString \x07];    set parmTypes [split {} {,}];    foreach {parmName parmValue} $parameterList {parmType} $parmTypes {      set parmValue [quotifyForParameterFileV3 $parmValue];      lappend commandArguments --$parmName;      lappend commandArgumentsToLog --$parmName;      lappend commandArguments $parmValue;      if { [string first {PASSWORD} $parmType] != -1 } {           lappend commandArgumentsToLog {*********};      } else {           lappend commandArgumentsToLog $parmValue;      };    };    lappend WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands [join $commandArguments " "];    incr WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count;    if { {Yes} == {No} && {<Unused>} > 1  && $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count <= {<Unused>} } {       FME_LogMessage fme_inform 933450 WorkspaceRunner_3 $commandArgumentsToLog;    } else {       FME_LogMessage fme_inform 933451 WorkspaceRunner_3 $commandArgumentsToLog;    };    if { {Yes} != {No} || $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count == {<Unused>} } {       set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_batch_count 0;       set commandFile [WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_writeCommandFile $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands {};       lappend cmdArgs {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;    } else {       return SUCCESS;    };    return [WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_runCommand $cmdArgs $workspaceFileUnix]; }
+# ------------------------------------------------------------------------------
+# When batching commands, any overflow commands will be run at the end. Say you
+# batch by 2 and there are 5 incoming features. Then we will have 2 batches with
+# 2 commands each and 1 overflow batch with 1 command
+
+Tcl2 proc WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_flushPending { } {    global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands;    if { [info exists WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands] == 1 && [llength $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands] > 0 } {       set workspaceToRun [lindex $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands 0];       set commandFile [WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_writeCommandFile $WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_commands {};       lappend commandArguments {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;       return [WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_runCommand $commandArguments $workspaceToRun];    };    return SUCCESS; }
+# ------------------------------------------------------------------------------
+# Build and run the command
+
+Tcl2 proc WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_runCommand {commandArguments workspaceFileUnix} {    if { {Yes} == {No} } {        lappend commandArguments \">$::null_device\";        lappend commandArguments \"<$::null_device\";    };    set comment    {        The below 2>@1 forces any standard error output to go into the msg variable        or to NULL if we're running in the background.    };    lappend commandArguments {2>@1};    if { {Yes} == {No} } {        lappend commandArguments {&};    };    if { {Yes} == {No} } {       after 1000;       while { [FME_CanSpawnFme <Unused>] == {0} } {             after 2000;       };    };    if { Yes == {No} && {<Unused>} > 1 } {       FME_LogMessage fme_inform 933452 WorkspaceRunner_3 $commandArguments;    } else {       FME_LogMessage fme_inform 933453 WorkspaceRunner_3 $commandArguments;    };    if {[catch {eval [concat exec $commandArguments] } msg ]} {       set msg [regsub {\015*\012child[^\012]*$} $msg {}];       FME_LogMessage fme_warn 933454 WorkspaceRunner_3 $workspaceFileUnix "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return FAILURE;    } else {       global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_process_count;       incr WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_process_count;       if { {Yes} == {No} } {           FME_LogMessage fme_inform 933455 WorkspaceRunner_3 $workspaceFileUnix;           global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_all_processes;           lappend WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_all_processes $msg;       } else {           FME_LogMessage fme_inform 933456 WorkspaceRunner_3 $workspaceFileUnix;       };       return SUCCESS;    }; }
+# ------------------------------------------------------------------------------
+# Create and write commands to command file
+
+Tcl2 proc WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_writeCommandFile { commands } {    set commandFile [FME_TempFilename wsr_cm_];    if { [catch { set cmdFileId [open $commandFile "w"] } msg ] } {       FME_LogMessage fme_warn 933457 WorkspaceRunner_3 $commandFile "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return {};    };    fconfigure $cmdFileId -encoding utf-8;    puts $cmdFileId {#! encoding=\"utf-8\"};    puts $cmdFileId DELETE_FILE_AFTER_LOAD;    foreach {command} $commands {       puts $cmdFileId $command;    };    close $cmdFileId;    return $commandFile; }
+# ------------------------------------------------------------------------------
+# Use \x07 (BELL) character as the delimiter when writing WORKSPACE_PARAMETERS
+# to mapping file
+FACTORY_DEF * TestFactory    FACTORY_NAME WorkspaceRunner_3_ExecutorAndRouter    INPUT  FEATURE_TYPE WorkspaceRunner_2_SUCCEEDED    TEST @Tcl2("WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_runner {()} {@EvaluateExpression(FDIV,STRING,$(FME_MF_DIR$encode)export<solidus>index.fmw,WorkspaceRunner_3)}") == SUCCESS
+Tcl2 proc WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_summarizer { } {     global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_process_count;     set comment { incr 0 creates the variable if it wasn't present };     incr WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_process_count 0;     FME_SetAttribute _proc_count [set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_process_count];     global WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_all_processes;     if {[info exists WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_all_processes]} {         set index 0;         foreach pid [set WorkspaceRunner_3_41721711_03c1_48e4_aea7_9df12bb329b84_all_processes] {             FME_SetAttribute \"_processes{$index}\" $pid;             incr index;         }     } }
+FACTORY_DEF * CreationFactory    FACTORY_NAME WorkspaceRunner_3_SummaryMaker    CREATE_AT_END yes
+
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
+
