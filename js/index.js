@@ -39,36 +39,47 @@ for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
 }
 
+layerList = document.getElementById('river-hide-buttons');
+inputs = layerList.getElementsByTagName('input');
 
-// Map events to enable bookmarking of URL
+function hideFeature(layer){
+    let layerId = layer.target.id;
+    if (map.getLayoutProperty(layerId, 'visibility') == 'none'){
+        // feature is invisible so show it
+        map.setLayoutProperty(layerId, 'visibility', 'visible');
+        layer.target.classList.remove('btn-outline-secondary');
+        layer.target.classList.add('btn-secondary');
+    }
+    else {
+        // feature is visible so hide it
+        map.setLayoutProperty(layerId, 'visibility', 'none');
+        layer.target.classList.remove('btn-secondary');
+        layer.target.classList.add('btn-outline-secondary');
+    }
 
-//map.on('moveend', function(e) {
-//    let url = new URL(window.location.href);
-//    let jsonParams = encodeURI(JSON.stringify(map.getStyle()))
-//    url.search = jsonParams;
-//    history.pushState('', '', url);
-//
-//});
+}
 
 
+for (var i = 0; i < inputs.length; i++) {
+    inputs[i].onclick = hideFeature;
+}
 
 map.on('styledata', function(e) {
     // Waits for style to be loaded and then filters out relevent features.
     // style is being loaded 3 times for some reason
     if (styleCounter == 0) {
         hideDiffRivers();
-        hideDryRivers();
         styleCounter++;
     }
 });
 
-
+// click on map and get information about feature
 map.on('click', function(e) {
     var box = 2;
     let videoLayer = 'videos';
     let gaugeLayer = 'gauge';
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: ['rivers-flowing','rivers-dry',videoLayer,gaugeLayer]
+    layers: ['rivers-running','rivers-dry','rivers-big',videoLayer,gaugeLayer,'rivercount']
     });
 
     if (!features.length) {
@@ -78,49 +89,30 @@ map.on('click', function(e) {
     var prop = feature.properties;
     var popup = new mapboxgl.Popup({ offset: [0, -15] })
     .setLngLat(feature.geometry.coordinates);
-    if (feature.layer['id'] == videoLayer ){
-        popup.setHTML('<iframe width="640" height="360" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/'+ prop.videoid +'"></iframe>');}
-    else if (feature.layer['id'] == gaugeLayer){
-            popup.setHTML('<h3><a href="' + prop.url + '">' + prop.name+  '</a><h3><h4> flow: '+prop.value + ' cfs </h4>');
-    }
-    else {
+    switch(feature.sourceLayer) {
+    case 'rivercount-4zwtwi':
+        popup.setHTML(prop.name+ ' has ' + prop.runningrivers + ' running whitewater rivers.');
+
+        break;
+    case 'video':
+        popup.setHTML('<iframe width="640" height="360" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/'+ prop.videoid +'"></iframe>');
+        break;
+    case 'gauge':
         popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
         '<h4>class: ' + prop.difficulty + '</h4>'+
         '<h5>flow: ' + prop.flow +' cfs</h5>' +
-        '<h5>gradient: ' + prop.slope + ' fpm</h5>')}
+        '<h5>gradient: ' + prop.slope + ' fpm</h5>')
+        break;
+    default:
+        ;
+    }
     popup.addTo(map);
-
     });
 
 map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
     bbox: [-125, 24, -66, 49.1]  //[minX, minY, maxX, maxY] limits of the lower 48
 }));
-
-function hideDryRivers() {
-    if (showDryRivers){
-        // hiding dry rivers
-        filter = map.getFilter('rivers-dry');
-        filter[2][3] = ['in','level','filteroutall'];
-        map.setFilter('rivers-dry', filter);
-
-        filter = map.getFilter('putins');
-        filter[2][3] = ['in','level','high','med'];
-        map.setFilter('putins', filter);
-        document.getElementById("riverhide").innerHTML = 'show dry rivers';
-    }
-    else {
-        // showing dry rivers
-        filter = map.getFilter('rivers-dry');
-        filter[2][3] = ['in','level','low',''];
-        map.setFilter('rivers-dry', filter);
-
-        filter = map.getFilter('putins');
-        filter[2][3] = ['in','level','high','med','','low'];
-        map.setFilter('putins', filter);
-        document.getElementById("riverhide").innerHTML = 'hide dry rivers';
-    }
-}
 
 
 function hideDiffRivers() {

@@ -5,7 +5,10 @@
 * Layout is poor on mobile devices [medium]
 * slider needs to be made smaller to fit in drop down window [medium]
 * fix time zone on NOAA data
-* ensure that the data table only has one record per gauge
+* get rid of "coastal" rivers in ww segment creater
+* just have one export of river data
+* fix url on USGS gauges.
+* change names on mapbox to get rid of nonsensical text.
 
 
 Supported Data Sources:
