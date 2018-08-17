@@ -20,8 +20,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="a13a5d9a-36ab-4a97-9274-43c990b430a8"
-#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33"
+#!   FME_DOCUMENT_GUID="f1666173-d3b2-40ea-a248-705253fe69b2"
+#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -30,7 +30,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-13T16:12:10"
+#!   LAST_SAVE_DATE="2018-08-17T12:14:07"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,7 +48,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-681.007 -1014.01"
+#!   VIEW_POSITION="-681.007 654.007"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -67,7 +67,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 multi_reader_id int4 postgis_type char(50) fme_sweep_angle float8 postgis_collection_part_id int4 fme_basename char(50) multi_reader_full_id int4 multi_reader_keyword char(50) multi_reader_type char(50) fme_start_angle float8 fme_feature_type char(50) fme_geometry char(50) postgres_oid int4 fme_dataset char(50) postgis_collection_id int4 fme_fill_color char(50) fme_primary_axis float8 fme_text_string char(50) fme_rotation float8 fme_color char(50) fme_text_size float8 fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_basename char(50) fme_type char(50) multi_reader_id int4 fme_secondary_axis float8 fme_sweep_angle float8 postgis_collection_id int4 fme_text_size float8 postgis_type char(50) multi_reader_keyword char(50) multi_reader_type char(50) postgis_collection_part_id int4 postgres_oid int4 fme_primary_axis float8 fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 fme_text_string char(50) fme_start_angle float8 fme_feature_type char(50) fme_dataset char(50) fme_color char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -133,7 +133,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 multi_reader_id int4 postgis_type char(50) fme_sweep_angle float8 postgis_collection_part_id int4 fme_basename char(50) multi_reader_full_id int4 multi_reader_keyword char(50) multi_reader_type char(50) fme_start_angle float8 fme_feature_type char(50) fme_geometry char(50) postgres_oid int4 fme_dataset char(50) postgis_collection_id int4 fme_fill_color char(50) fme_primary_axis float8 fme_text_string char(50) fme_rotation float8 fme_color char(50) fme_text_size float8 fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_basename char(50) fme_type char(50) multi_reader_id int4 fme_secondary_axis float8 fme_sweep_angle float8 postgis_collection_id int4 fme_text_size float8 postgis_type char(50) multi_reader_keyword char(50) multi_reader_type char(50) postgis_collection_part_id int4 postgres_oid int4 fme_primary_axis float8 fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 fme_text_string char(50) fme_start_angle float8 fme_feature_type char(50) fme_dataset char(50) fme_color char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -199,7 +199,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float8 multi_reader_id int4 postgis_type char(50) fme_sweep_angle float8 postgis_collection_part_id int4 fme_basename char(50) multi_reader_full_id int4 multi_reader_keyword char(50) multi_reader_type char(50) fme_start_angle float8 fme_feature_type char(50) fme_geometry char(50) postgres_oid int4 fme_dataset char(50) postgis_collection_id int4 fme_fill_color char(50) fme_primary_axis float8 fme_text_string char(50) fme_rotation float8 fme_text_size float8 fme_color char(50) fme_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_basename char(50) fme_type char(50) multi_reader_id int4 fme_secondary_axis float8 fme_sweep_angle float8 postgis_collection_id int4 fme_text_size float8 postgis_type char(50) multi_reader_keyword char(50) multi_reader_type char(50) postgis_collection_part_id int4 postgres_oid int4 fme_primary_axis float8 fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 fme_text_string char(50) fme_start_angle float8 fme_feature_type char(50) fme_dataset char(50) fme_color char(50)"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -265,7 +265,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis float fme_primary_axis float fme_geometry string fme_rotation float fme_fill_color string fme_basename string fme_feature_type string fme_sweep_angle float fme_text_string string fme_text_size float fme_dataset string fme_color string fme_start_angle float"
+#!   EXPOSABLE_ATTRS="fme_geometry string fme_fill_color string fme_text_size float fme_type string fme_secondary_axis float fme_dataset string fme_color string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_start_angle float fme_text_string string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -308,7 +308,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis float fme_primary_axis float fme_geometry string fme_rotation float fme_fill_color string fme_basename string fme_feature_type string fme_sweep_angle float fme_text_string string fme_text_size float fme_dataset string fme_color string fme_start_angle float"
+#!   EXPOSABLE_ATTRS="fme_geometry string fme_fill_color string fme_text_size float fme_type string fme_secondary_axis float fme_dataset string fme_color string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_start_angle float fme_text_string string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -351,7 +351,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis float fme_primary_axis float fme_geometry string fme_rotation float fme_fill_color string fme_basename string fme_feature_type string fme_sweep_angle float fme_text_string string fme_text_size float fme_dataset string fme_color string fme_start_angle float"
+#!   EXPOSABLE_ATTRS="fme_geometry string fme_fill_color string fme_text_size float fme_type string fme_secondary_axis float fme_dataset string fme_color string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_start_angle float fme_text_string string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -394,7 +394,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type string fme_secondary_axis float fme_primary_axis float fme_geometry string fme_rotation float fme_fill_color string fme_basename string fme_feature_type string fme_sweep_angle float fme_text_string string fme_text_size float fme_dataset string fme_color string fme_start_angle float"
+#!   EXPOSABLE_ATTRS="fme_geometry string fme_fill_color string fme_text_size float fme_type string fme_secondary_axis float fme_dataset string fme_color string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_start_angle float fme_text_string string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -437,7 +437,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_type char(50) fme_secondary_axis number(31,15) fme_primary_axis number(31,15) text_line_eol char(10) fme_geometry char(50) fme_rotation number(31,15) fme_fill_color char(50) fme_basename char(50) fme_feature_type char(50) fme_sweep_angle number(31,15) fme_text_string char(50) fme_text_size number(31,15) fme_dataset char(50) fme_color char(50) fme_start_angle number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_geometry char(50) text_line_eol char(10) fme_fill_color char(50) fme_text_size number(31,15) fme_type char(50) fme_secondary_axis number(31,15) fme_dataset char(50) fme_color char(50) fme_primary_axis number(31,15) fme_rotation number(31,15) fme_sweep_angle number(31,15) fme_basename char(50) fme_feature_type char(50) fme_start_angle number(31,15) fme_text_string char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -1300,17 +1300,17 @@
 #!   NODE_NAME="public.fme_gauge_export"
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
-#!   IS_EDITABLE="false"
+#!   IS_EDITABLE="true"
 #!   IDENTIFIER="3"
 #!   FEAT_GEOMTYPE="All"
-#!   POSITION="377.506591796875 -175.76104736328125"
-#!   BOUNDING_RECT="377.506591796875 -175.76104736328125 -1 -1"
+#!   POSITION="875.51157184667636 25.739192639118784"
+#!   BOUNDING_RECT="875.51157184667636 25.739192639118784 -1 -1"
 #!   ORDER="500000000000136"
 #!   COLLAPSED="false"
 #!   KEYWORD="GEOJSON_1"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   SCHEMA_ATTRIBUTE_SOURCE="0"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
 #! >
 #!     <FEAT_ATTRIBUTE ATTR_NAME="datasource" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="name" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
@@ -1318,6 +1318,7 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="watersourcename" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="value" ATTR_TYPE="int" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="measure_time" ATTR_TYPE="string" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="timeSincePresent" ATTR_TYPE="int" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
@@ -1327,8 +1328,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="4"
 #!   FEAT_GEOMTYPE="postgis_point"
-#!   POSITION="-315.49285345621405 -175.76104736328125"
-#!   BOUNDING_RECT="-315.49285345621405 -175.76104736328125 -1 -1"
+#!   POSITION="-354.49324346011326 10.739042637618752"
+#!   BOUNDING_RECT="-354.49324346011326 10.739042637618752 -1 -1"
 #!   ORDER="500000000000142"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_1"
@@ -1611,20 +1612,20 @@
 #!   BOUNDING_RECT="-441.00441004410044 516.73907263791875 1397.5115718466764 484.5"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.79607843137254897,0.67450980392156867"
-#!   CONTENTS="7 8 5 "
+#!   CONTENTS="7 5 8 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="13"
 #!   NAME="Gauge exports"
 #!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   TOP_LEFT="-407.49285345621405 -64.76104736328125"
+#!   TOP_LEFT="-407.4928534562132 124.73907263791875"
 #!   ORDER="500000000000157.25"
-#!   BOTTOM_RIGHT="899.506591796875 -606.26104736328125"
-#!   BOUNDING_RECT="-407.49285345621405 -64.76104736328125 1306.9994452530891 541.5"
+#!   BOTTOM_RIGHT="1599.0159901599025 -416.76092736208125"
+#!   BOUNDING_RECT="-407.4928534562132 124.73907263791875 2006.5088436161157 541.5"
 #!   STICKY="true"
 #!   COLOUR="0.81960784313725488,0.21568627450980393,0.10980392156862745"
-#!   CONTENTS="3 4 6 "
+#!   CONTENTS="47 39 4 3 46 45 40 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1637,7 +1638,7 @@
 #!   BOUNDING_RECT="-407.4928534562132 -651.51122736508137 1364.0000152587891 313.5"
 #!   STICKY="true"
 #!   COLOUR="0.94117647058823528,0.050980392156862744,0.18431372549019609"
-#!   CONTENTS="12 9 10 "
+#!   CONTENTS="9 10 12 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1650,7 +1651,7 @@
 #!   BOUNDING_RECT="-450.00450004500044 1325.0144901449012 1426.0150001500006 259.50003000030028"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.61568627450980395,0.84705882352941175"
-#!   CONTENTS="21 20 19 "
+#!   CONTENTS="19 21 20 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1663,7 +1664,7 @@
 #!   BOUNDING_RECT="-657.00657006570066 -1115.5081000810012 2386.0239402393986 1260.5156601566011"
 #!   STICKY="true"
 #!   COLOUR="0.14509803921568629,0.47843137254901963,0.51764705882352946"
-#!   CONTENTS="30 42 34 32 37 38 25 43 35 36 31 33 28 "
+#!   CONTENTS="28 36 31 30 42 35 38 32 34 37 25 33 43 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1886,14 +1887,92 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryExtractor"/>
 #!     <XFORM_PARM PARM_NAME="XML_GROUP" PARM_VALUE=""/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="39"
+#!   TYPE="DateTimeCalculator"
+#!   VERSION="3"
+#!   POSITION="447.51283185927633 -45.761707369881321"
+#!   BOUNDING_RECT="447.51283185927633 -45.761707369881321 -1 -1"
+#!   ORDER="500000000000213.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="MODE" PARM_VALUE="DATETIMECALC_3_CALCULATE_INTERVAL"/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OPERATION_PARAMETERS" PARM_VALUE="START_DATETIME]&lt;at&gt;Value&lt;openparen&gt;measure_time&lt;closeparen&gt;]END_DATETIME]&lt;at&gt;DateTimeNow&lt;openparen&gt;&lt;closeparen&gt;]RESULT_TYPE]HOURS]RESULT_INTERVAL]timeSincePresent]FME_CONTROLLER_QUERY_FILE]transformers&lt;solidus&gt;dependencies&lt;solidus&gt;datetimecalculator&lt;solidus&gt;DATETIMECALC_3_CALCULATE_INTERVAL.fme"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeCalculator"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="45"
+#!   TYPE="DateTimeConverter"
+#!   VERSION="1"
+#!   POSITION="56.503381764775526 -197.25741732698077"
+#!   BOUNDING_RECT="56.503381764775526 -197.25741732698077 -1 -1"
+#!   ORDER="500000000000215.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="DATETIME_ATTR" PARM_VALUE="measure_time"/>
+#!     <XFORM_PARM PARM_NAME="IN_FORMAT" PARM_VALUE="%Y%m%d%H%M%S"/>
+#!     <XFORM_PARM PARM_NAME="OUT_FORMAT" PARM_VALUE="FME"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REFERENCE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REPAIR_INPUT" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="TEST_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT" PARM_VALUE="20180813181500-06:00"/>
+#!     <XFORM_PARM PARM_NAME="TEST_INPUT_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
+#!     <XFORM_PARM PARM_NAME="TEST_RESULT" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="DateTimeConverter"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="6"
+#!   IDENTIFIER="46"
 #!   SOURCE_NODE="4"
-#!   TARGET_NODE="3"
+#!   TARGET_NODE="45"
 #!   SOURCE_PORT_DESC="-1"
-#!   TARGET_PORT_DESC="-1"
+#!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -1988,10 +2067,32 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="40"
+#!   SOURCE_NODE="39"
+#!   TARGET_NODE="3"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="35"
 #!   SOURCE_NODE="42"
 #!   TARGET_NODE="36"
 #!   SOURCE_PORT_DESC="fo 0 2D"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="47"
+#!   SOURCE_NODE="45"
+#!   TARGET_NODE="39"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
@@ -2683,12 +2784,15 @@ MACRO WORKSPACE_NAME mapboxExport
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::public.vw_putins multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_putins ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.fme_gauge_export multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.fme_gauge_export ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.vw_rivercount multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_rivercount ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::public.youtube multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::public.youtube ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_3::public.vw_all_rivers multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_3) TO FME_GENERIC ::public.vw_all_rivers ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::public.vw_putins multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_putins ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.vw_rivercount multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_rivercount ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.fme_gauge_export multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.fme_gauge_export ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::public.youtube multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::public.youtube ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_3::public.vw_all_rivers multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_3) TO FME_GENERIC ::public.vw_all_rivers ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::public.vw_putins EXACT public.vw_putins DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,difficulty_numeric,int4,name,varchar<openparen>200<closeparen>,level,varchar<openparen>200<closeparen>,id,int8,awid,int4
-POSTGIS_1_MERGE_DEF POSTGIS_1::public.fme_gauge_export EXACT public.fme_gauge_export DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,datasource,varchar<openparen>10<closeparen>,name,varchar<openparen>100<closeparen>,url,varchar<openparen>80<closeparen>,watersourcename,varchar<openparen>80<closeparen>,value,int4,measure_time,timestamptz
 POSTGIS_1_MERGE_DEF POSTGIS_1::public.vw_rivercount EXACT public.vw_rivercount DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,name,varchar<openparen>100<closeparen>,runningrivers,int8
+POSTGIS_1_MERGE_DEF POSTGIS_1::public.fme_gauge_export EXACT public.fme_gauge_export DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,datasource,varchar<openparen>10<closeparen>,name,varchar<openparen>100<closeparen>,url,varchar<openparen>80<closeparen>,watersourcename,varchar<openparen>80<closeparen>,value,int4,measure_time,timestamptz
 POSTGIS_2_MERGE_DEF POSTGIS_2::public.youtube EXACT public.youtube DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,videoid,varchar<openparen>100<closeparen><comma>PrimaryKey
 POSTGIS_3_MERGE_DEF POSTGIS_3::public.vw_all_rivers EXACT public.vw_all_rivers DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,flow,int8,gnis_name,varchar<openparen>65<closeparen>,difficulty_numeric,int4,level,varchar<openparen>200<closeparen>,awid,int4,difficulty,varchar<openparen>10<closeparen>,slope,int8
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_all_rivers (POSTGIS_3) Splitter"    INPUT FEATURE_TYPE public.vw_all_rivers    OUTPUT FEATURE_TYPE public.vw_all_rivers_POSTGIS_3
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.fme_gauge_export (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.fme_gauge_export    OUTPUT FEATURE_TYPE public.fme_gauge_export_POSTGIS_1
@@ -2698,9 +2802,6 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_putins (POSTGIS_1) Splitter"
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_rivercount (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.vw_rivercount    OUTPUT FEATURE_TYPE public.vw_rivercount_POSTGIS_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_all_rivers (POSTGIS_3) Splitter"    INPUT FEATURE_TYPE public.vw_all_rivers    OUTPUT FEATURE_TYPE public.vw_all_rivers_POSTGIS_3
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.youtube (POSTGIS_2) Splitter"    INPUT FEATURE_TYPE public.youtube    OUTPUT FEATURE_TYPE public.youtube_POSTGIS_2
@@ -2741,13 +2842,48 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFormatter_<Rejected> INPUT FEATURE_TYPE JSONFormatter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFormatter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC public.vw_putins_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>p<closeparen> GEOMETRY    ROUTE FME_GENERIC public.fme_gauge_export_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.fme_gauge_export<closeparen> GEOMETRY    ROUTE FME_GENERIC public.vw_rivercount_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.vw_rivercount<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,4,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+DEFAULT_MACRO DateTimeConverter_EXPRESSION_LIST
+DEFAULT_MACRO DateTimeConverter_TEST_CLAUSE_LIST
+INCLUDE [    set repairInput {};    if {{NO} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {%Y%m%d%H%M%S} ne {} } {       set inFormat {%Y%m%d%H%M%S};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {FME};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set testList {};    set attrs [split {measure_time} { }];    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;       lappend testList "TEST $attr ATTRIBUTE_VALUE_NULL \"\" ENCODED"    };    puts "MACRO DateTimeConverter_EXPRESSION_LIST [join $parmList {,}]";    puts "MACRO DateTimeConverter_TEST_CLAUSE_LIST [join $testList { }]"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE public.fme_gauge_export_POSTGIS_1    OUTPUT FEATURE_TYPE DateTimeConverter__TEST_NULL__         @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, $(DateTimeConverter_EXPRESSION_LIST), DateTimeConverter)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2    INPUT FEATURE_TYPE DateTimeConverter__TEST_NULL__    $(DateTimeConverter_TEST_CLAUSE_LIST)    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_<REJECTED>       fme_rejection_code "INVALID_INPUT"    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_OUTPUT
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeConverter_<Rejected> INPUT FEATURE_TYPE DateTimeConverter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeConverter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+DEFAULT_MACRO START_DATETIME
+DEFAULT_MACRO END_DATETIME
+DEFAULT_MACRO OPERATOR
+DEFAULT_MACRO YEARS
+DEFAULT_MACRO MONTHS
+DEFAULT_MACRO DAYS
+DEFAULT_MACRO HOURS
+DEFAULT_MACRO MINUTES
+DEFAULT_MACRO SECONDS
+DEFAULT_MACRO ISO_INTERVAL
+DEFAULT_MACRO EXPRESSION
+DEFAULT_MACRO RESULT_TYPE
+DEFAULT_MACRO RESULT_INTERVAL
+DEFAULT_MACRO RESULT_DATETIME
+DEFAULT_MACRO RESULT
+DEFAULT_MACRO DateTimeCalculator_EXPRESSION expression
+DEFAULT_MACRO DateTimeCalculator_RESULT_ATTR attr
+INCLUDE [    set expression {};    set result_attr {};    if { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" ||         "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_2_ADD_ISO_INTERVAL" } {       set interval {$(ISO_INTERVAL)};       if { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_1_ADD_INTERVAL" } {          set interval {<at>DateTimeIntervalCreate<openparen><quote>$(YEARS)<quote><comma><quote>$(MONTHS)<quote><comma><quote>$(DAYS)<quote><comma><quote>$(HOURS)<quote><comma><quote>$(MINUTES)<quote><comma><quote>$(SECONDS)<quote><closeparen>};       };       set signed_interval $interval;       if { "$(OPERATOR)" eq "SUBTRACT" } {          set signed_interval <at>DateTimeIntervalNegate<openparen><quote>$interval<quote><closeparen>;       };       set result_attr {$(RESULT_DATETIME)};       set expression <at>DateTimeAdd<openparen><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>measure_time<closeparen>,DateTimeCalculator)<quote><comma><quote>$signed_interval<quote><closeparen>;    } elseif { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_3_CALCULATE_INTERVAL" } {       set result_attr {timeSincePresent};       set expression {<at>DateTimeDiff<openparen><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>DateTimeNow<openparen><closeparen>,DateTimeCalculator)<quote><comma><quote>@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>measure_time<closeparen>,DateTimeCalculator)<quote><comma><quote>HOURS<quote><closeparen>};    } elseif { "DATETIMECALC_3_CALCULATE_INTERVAL" eq "DATETIMECALC_4_EXPRESSION" } {       set result_attr {$(RESULT)};       set expression {$(EXPRESSION)};    };    puts "MACRO DateTimeCalculator_EXPRESSION $expression";    puts "MACRO DateTimeCalculator_RESULT_ATTR $result_attr"; ]
+FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeCalculator_1    INPUT  FEATURE_TYPE DateTimeConverter_OUTPUT    OUTPUT FEATURE_TYPE __TEST_NULL__       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV,$(DateTimeCalculator_RESULT_ATTR),"$(DateTimeCalculator_EXPRESSION)",DateTimeCalculator)
+FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeCalculator_2    INPUT FEATURE_TYPE __TEST_NULL__    TEST "$(DateTimeCalculator_RESULT_ATTR)" ATTRIBUTE_VALUE_NULL "" ENCODED    OUTPUT PASSED FEATURE_TYPE DateTimeCalculator_<REJECTED>       fme_rejection_code "INVALID_INPUT"    OUTPUT FAILED FEATURE_TYPE DateTimeCalculator_OUTPUT
+
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeCalculator_<Rejected> INPUT FEATURE_TYPE DateTimeCalculator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeCalculator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC public.vw_putins_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>p<closeparen> GEOMETRY    ROUTE FME_GENERIC DateTimeCalculator_OUTPUT TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.fme_gauge_export<closeparen> GEOMETRY    ROUTE FME_GENERIC public.vw_rivercount_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.vw_rivercount<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,4,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
 # -------------------------------------------------------------------------
-GEOJSON_1_DEF public.fme_gauge_export   datasource                   string   name                         string   url                          string   watersourcename              string   value                        int   measure_time                 string
+GEOJSON_1_DEF public.fme_gauge_export   datasource                   string   name                         string   url                          string   watersourcename              string   value                        int   measure_time                 string   timeSincePresent             int
 # -------------------------------------------------------------------------
 GEOJSON_2_DEF p   difficulty_numeric           int   name                         string   level                        string   id                           int   awid                         int
 # -------------------------------------------------------------------------

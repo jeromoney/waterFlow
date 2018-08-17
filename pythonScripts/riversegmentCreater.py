@@ -116,7 +116,8 @@ class boatingSegment:
 
 def get_awnodes(cursor,riverNodes):
     '''Gets list of AW putins and matching river segments'''
-    cursor.execute("SELECT hydroseq::INT FROM riverlevels WHERE hydroseq is not null")
+    # lake michigan/Superior is actually a listing of various surf spots
+    cursor.execute("SELECT hydroseq::INT FROM riverlevels WHERE hydroseq is not null AND not (name like \'%Lake Michigan%\' OR name like \'%Lake Superior%\')")
     datum = [x[0] for x in cursor.fetchall()]
     putinNodes = {}
     for data in datum:
@@ -126,7 +127,10 @@ def get_awnodes(cursor,riverNodes):
 
 def get_river_nodes(cursor):
     riverNodes = {}
-    cursor.execute("SELECT hydroseq::INT, divergence, uphydroseq::INT,dnhydroseq::INT,lengthkm,terminalfl = 1,totdasqkm FROM \"NHDSnapshot_NHDFlowline_Network\" n")
+    # added an exception for a section on Lake Michigan
+    cursor.execute("SELECT hydroseq::INT, divergence, uphydroseq::INT,dnhydroseq::INT,lengthkm,terminalfl = 1,totdasqkm FROM \"NHDSnapshot_NHDFlowline_Network\" n WHERE hydroseq in \
+    (90002176,90000687,90001151,150001515,90000645,150000699,150000286,150000025)\
+     OR ftype <> \'Coastline\'")
     for row in cursor:
         hydroseq, divergence, uphydroseq, dnhydroseq, lengthkm, terminalfl,totdasqkm = row
         riverNode = riverSegment(hydroseq, divergence, uphydroseq, dnhydroseq, lengthkm, terminalfl, totdasqkm)

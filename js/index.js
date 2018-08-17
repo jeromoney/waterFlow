@@ -49,12 +49,23 @@ function hideFeature(layer){
         map.setLayoutProperty(layerId, 'visibility', 'visible');
         layer.target.classList.remove('btn-outline-secondary');
         layer.target.classList.add('btn-secondary');
+        // if layer is dry rivers, hide put-ins as well
+        if (layerId == 'rivers-dry'){
+            filter = map.getFilter('putins');
+            filter[2][3] = ['in','level','med','high','','low'];
+            map.setFilter('putins', filter);
+        }
     }
     else {
         // feature is visible so hide it
         map.setLayoutProperty(layerId, 'visibility', 'none');
         layer.target.classList.remove('btn-secondary');
         layer.target.classList.add('btn-outline-secondary');
+        if (layerId == 'rivers-dry'){
+            filter = map.getFilter('putins');
+            filter[2][3] = ['in','level','med','high'];
+            map.setFilter('putins', filter);
+        }
     }
 
 }
@@ -75,33 +86,67 @@ map.on('styledata', function(e) {
 
 // click on map and get information about feature
 map.on('click', function(e) {
-    var box = 2;
-    let videoLayer = 'videos';
-    let gaugeLayer = 'gauge';
+    var box = 10;
+    //let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos-cdb2mm','gauge','rivercount','putins'];
+    let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','rivercount','putins'];
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: ['rivers-running','rivers-dry','rivers-big',videoLayer,gaugeLayer,'rivercount']
+    layers: null // myLayers
     });
 
     if (!features.length) {
     return;
     };
     var feature = features[0];
-    var prop = feature.properties;
-    var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates);
-    switch(feature.sourceLayer) {
-    case 'rivercount-4zwtwi':
-        popup.setHTML(prop.name+ ' has ' + prop.runningrivers + ' running whitewater rivers.');
 
-        break;
-    case 'video':
-        popup.setHTML('<iframe width="640" height="360" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/'+ prop.videoid +'"></iframe>');
-        break;
-    case 'gauge':
+    // properties for all info boxes
+    var prop = feature.properties;
+    if (feature.layer.type == 'line') {
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+        // lines are a set of points so I center the info box where the user clicked instead of the actual point
+        .setLngLat(e.lngLat);
+    }
+    else {
+        var popup = new mapboxgl.Popup({ offset: [0, -15] })
+        .setLngLat(feature.geometry.coordinates);
+    }
+
+
+    // specific properties for the different types of features
+    // refer to array declaration for values
+    switch(feature.layer.id) {
+    case myLayers[0]:
+    // flowing whitewater river
         popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
         '<h4>class: ' + prop.difficulty + '</h4>'+
         '<h5>flow: ' + prop.flow +' cfs</h5>' +
-        '<h5>gradient: ' + prop.slope + ' fpm</h5>')
+        '<h5>gradient: ' + prop.slope + ' fpm</h5>');
+        break;
+    case myLayers[1]:
+    // dry river
+        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
+        '<h4>class: ' + prop.difficulty + '</h4>'+
+        '<h5>flow: ' + prop.flow +' cfs</h5>' +
+        '<h5>gradient: ' + prop.slope + ' fpm</h5>');
+        break;
+    case myLayers[2]:
+    // non- whitewater river
+        popup.setHTML('i am a nonww river');
+        break;
+    case myLayers[3]:
+    // video
+        popup.setHTML('<iframe width="640" height="360" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/'+ prop.videoid +'"></iframe>');
+        break;
+    case myLayers[4]:
+    // gauge
+        popup.setHTML('i am a gauge');
+        break;
+    case myLayers[5]:
+    // state/province summary of running whitewater rivers
+        popup.setHTML(prop.name+ ' has ' + prop.runningrivers + ' running whitewater rivers.');
+        break;
+    case myLayers[6]:
+    // putins
+        popup.setHTML('i am a putin');
         break;
     default:
         ;

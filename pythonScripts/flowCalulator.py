@@ -78,6 +78,12 @@ def main():
     # get final downstream rivers
     global destination_line
     destination_line = get_head_nodes(cursor)
+
+    for bad_nodes in (270000242,10001099,270000782,270001836,90002185,270000256):
+        # hackish solution. these nodes are causing the algo to run wild along coast lines.
+        destination_line.remove(bad_nodes)
+
+
     print "number of nodes to analyze: " + str(len(destination_line))
     # get network of rivers
     global upstream_map
@@ -94,8 +100,6 @@ def main():
     # The flow is the sum of the all incoming streams
     # go upstream looking for gauge
     # The final result is a river seqment with a list of all gauges for the section
-    for bad_segment in [150000002,270000545]: #these florida segments are causing recursion issues
-        destination_line.remove(bad_segment)
     for destination in destination_line:
         print "Working on " + str(destination)
         # i need the flow for upstream nodes, not the node itself
