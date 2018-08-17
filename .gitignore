@@ -10,3 +10,4 @@
 mapbox-gl-geocoder/
 mapbox-sdk-js/
 *.mbtiles
+*.ffs
