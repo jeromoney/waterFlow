@@ -115,31 +115,19 @@ map.on('click', function(e) {
     switch(feature.layer.id) {
     case myLayers[0]:
     // flowing whitewater river
-        var level = prop.level;
-        if (level == '') {
-            level = 'unknown'};
-        var flow = prop.flow;
-        if (flow == '') {
-            flow = 'unknown'};
         popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a></h3>' +
-        '<div>level: ' + level + '</div>'+
+        (prop.level  !== '' ?  '<div>level: ' + prop.level +'</div>': "")+
         '<div>class: ' + prop.difficulty + '</div>'+
-        '<div>flow: ' + prop.flow +' cfs</div>' +
-        '<div>gradient: ' + prop.slope + ' fpm</div>');
+        (prop.flow  !== '' ?  '<div>flow: ' + prop.flow +' cfs</div>': ""))+
+        '<div>gradient: ' + prop.slope + ' fpm</div>';
         break;
     case myLayers[1]:
     // dry river
-        var level = prop.level;
-        if (level == '') {
-            level = 'unknown'};
-        var flow = prop.flow;
-        if (flow == '') {
-            flow = 'unknown'};
         popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a></h3>' +
-        '<div>level: ' + level + '</div>'+
+        (prop.level  !== '' ?  '<div>level: ' + prop.level +'</div>': "")+
         '<div>class: ' + prop.difficulty + '</div>'+
-        '<div>flow: ' + flow +' cfs</div>' +
-        '<div>gradient: ' + prop.slope + ' fpm</div>');
+        (prop.flow  !== '' ?  '<div>flow: ' + prop.flow +' cfs</div>': ""))+
+        '<div>gradient: ' + prop.slope + ' fpm</div>';
         break;
     case myLayers[2]:
     // non- whitewater river
