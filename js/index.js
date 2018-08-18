@@ -87,7 +87,6 @@ map.on('styledata', function(e) {
 // click on map and get information about feature
 map.on('click', function(e) {
     var box = 10;
-    //let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos-cdb2mm','gauge','rivercount','putins'];
     let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','rivercount','putins'];
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
     layers: null // myLayers
@@ -116,21 +115,37 @@ map.on('click', function(e) {
     switch(feature.layer.id) {
     case myLayers[0]:
     // flowing whitewater river
-        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
-        '<h4>class: ' + prop.difficulty + '</h4>'+
-        '<h5>flow: ' + prop.flow +' cfs</h5>' +
-        '<h5>gradient: ' + prop.slope + ' fpm</h5>');
+        var level = prop.level;
+        if (level == '') {
+            level = 'unknown'};
+        var flow = prop.flow;
+        if (flow == '') {
+            flow = 'unknown'};
+        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a></h3>' +
+        '<div>level: ' + level + '</div>'+
+        '<div>class: ' + prop.difficulty + '</div>'+
+        '<div>flow: ' + prop.flow +' cfs</div>' +
+        '<div>gradient: ' + prop.slope + ' fpm</div>');
         break;
     case myLayers[1]:
     // dry river
-        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a><h3>' +
-        '<h4>class: ' + prop.difficulty + '</h4>'+
-        '<h5>flow: ' + prop.flow +' cfs</h5>' +
-        '<h5>gradient: ' + prop.slope + ' fpm</h5>');
+        var level = prop.level;
+        if (level == '') {
+            level = 'unknown'};
+        var flow = prop.flow;
+        if (flow == '') {
+            flow = 'unknown'};
+        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.gnis_name + ' </a></h3>' +
+        '<div>level: ' + level + '</div>'+
+        '<div>class: ' + prop.difficulty + '</div>'+
+        '<div>flow: ' + flow +' cfs</div>' +
+        '<div>gradient: ' + prop.slope + ' fpm</div>');
         break;
     case myLayers[2]:
     // non- whitewater river
-        popup.setHTML('i am a nonww river');
+        popup.setHTML('<h3>' + prop.gnis_name + '</h3>' +
+            '<div>flow: ' + prop.flow +' cfs</div>' +
+            '<div>gradient: ' + prop.slope + ' fpm</div>');
         break;
     case myLayers[3]:
     // video
@@ -138,7 +153,7 @@ map.on('click', function(e) {
         break;
     case myLayers[4]:
     // gauge
-        popup.setHTML('i am a gauge');
+        popup.setHTML('<h3><a href="' + prop.url + '">'+prop.name +'</a></h3> Gauge Flow: '+prop.value + ' cfs');
         break;
     case myLayers[5]:
     // state/province summary of running whitewater rivers

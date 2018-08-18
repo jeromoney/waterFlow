@@ -3,7 +3,9 @@ Input: a large selection of geometry objects
 Output: a maximum zoom property attached to each object that drops objects with lesser property values.
 '''
 
-import numpy as np
+GEOM_LIMIT = 5  # number of objects to show per zoom.
+LOWER48_EXTENT = [[(-125., -66.), (24., 50.)]]
+
 from flowCalulator import connect2db
 
 def get_tiles(tiles):
@@ -26,9 +28,8 @@ def get_tiles(tiles):
                 out_tiles.append([(new_x_min,new_x_max),(new_y_min,new_y_max)])
     return out_tiles
 
-def main():
-    GEOM_LIMIT = 5 # number of objects to show per zoom.
-    LOWER48_EXTENT = [[(-125.,-66.),(24.,50.)]]
+def gauges():
+    GEOM_LIMIT = 50
     tiles = get_tiles(LOWER48_EXTENT)
     cursor, conn = connect2db()
     query = 'SELECT id from gauge'
@@ -47,18 +48,19 @@ def main():
         for box in tiles:
             empty_tiles = []
             box_text = 'ST_MakeEnvelope({}, {}, {},{},4326)'.format(box[0][0],box[1][0],box[0][1],box[1][1])
-            query = '''SELECT gauge.id
+            query = '''SELECT gauge.id,data.value
                             FROM gauge
                             JOIN data ON data.gauge = id
                             WHERE ST_Intersects(geom,  {})
                             ORDER BY value desc
                             LIMIT {}'''.format(box_text,GEOM_LIMIT)
             cursor.execute(query)
-            results = [x[0] for x in cursor.fetchall()]
-            if results == []:
+            results = dict(cursor.fetchall())
+            if results == {}:
                 empty_tiles.append(box)
-            for gauge in results:
-                gauges[gauge] = min(gauges[gauge], zoom)
+            for gauge in results.keys():
+                if results[gauge] > 100: # eliminates streams with less than 100 cfs of flow
+                    gauges[gauge] = min(gauges[gauge], zoom)
             for empty_tile in empty_tiles:
                 # remove empty_tiles to speed up computation (i.e. if no objects are in tile, then there still won't be objects if it is split into 4.
                 tiles.remove(empty_tile)
@@ -69,6 +71,51 @@ def main():
         query = "insert into gauge_zoom values ($${}$$, {})".format(gauge, gauges[gauge])
         cursor.execute(query)
     conn.commit()
+def streams():
+    tiles = get_tiles(LOWER48_EXTENT)
+    cursor, conn = connect2db()
+    query = 'SELECT node from today_flowxxx'
+    cursor.execute(query)
+    mystreams = {x[0]: 11 for x in cursor.fetchall()}
+
+    # zoom level 4: USA
+    # zoom level 11: a city, all points should be visible
+    for zoom in range(4, 10 + 1):  # should be 10
+        print 'working on zoom level {}'.format(zoom)
+        # get a tiled selection of bounding boxes covering range
+        tiles = get_tiles(tiles)
+        # run a query per tile
+        empty_tiles = []
+        for box in tiles:
+            empty_tiles = []
+            box_text = 'ST_MakeEnvelope({}, {}, {},{},4326)'.format(box[0][0], box[1][0], box[0][1], box[1][1])
+            query = '''SELECT   node,flow
+                                FROM today_flowxxx
+                                WHERE ST_Intersects(geom,  {})
+                                ORDER BY flow desc
+                                LIMIT {}'''.format(box_text, GEOM_LIMIT)
+            cursor.execute(query)
+            results = dict(cursor.fetchall())
+            if results == {}:
+                empty_tiles.append(box)
+            for stream in results.keys():
+                if results[stream] > 100:  # eliminates streams with less than 100 cfs of flow
+                    mystreams[stream] = min(mystreams[stream], zoom)
+            for empty_tile in empty_tiles:
+                # remove empty_tiles to speed up computation (i.e. if no objects are in tile, then there still won't be objects if it is split into 4.
+                tiles.remove(empty_tile)
+
+    cursor.execute("TRUNCATE stream_zoom")
+    for stream in mystreams.keys():
+        query = "insert into stream_zoom values ($${}$$, {})".format(stream, mystreams[stream])
+        cursor.execute(query)
+    conn.commit()
+
+
+def main():
+    #gauges()
+    streams()
+
 
 if __name__ == "__main__":
     main()

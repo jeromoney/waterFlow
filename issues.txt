@@ -1,15 +1,12 @@
 * Let Colorado River flow the full distance [easy]
 * Get takeout data [difficult]
 * Popups with null data should be blank [easy]
-* putin text is positioned too high for one line names [easy]
 * Layout is poor on mobile devices [medium]
 * slider needs to be made smaller to fit in drop down window [medium]
 * fix time zone on NOAA data
 * get rid of "coastal" rivers in ww segment creater
-* just have one export of river data
-* fix url on USGS gauges.
-* change names on mapbox to get rid of nonsensical text.
-
+* values on lake outflows are wrong by x1000
+* set zoom levels appropiately on non-ww rivers
 
 Supported Data Sources:
 USGS [x]
