@@ -7,7 +7,7 @@
 #              --DestDataset_TEXTLINE "/tmp/json/rivers.json"
 #              --DestDataset_TEXTLINE_3 "/tmp/json/gauge.json"
 #              --SourceDataset_POSTGIS_6 "flowdb"
-#              --SourceDataset_POSTGIS_8 "flowdb"
+#              --SourceDataset_POSTGIS_9 "flowdb"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -22,8 +22,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="73fe0ab8-a796-4645-bfde-cd8bfac57f00"
-#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b"
+#!   FME_DOCUMENT_GUID="d8e35101-d6b6-4489-9aa1-b066c0244eae"
+#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b,73fe0ab8-a796-4645-bfde-cd8bfac57f00,764486c8-6287-462c-8949-29b1e1b42046,29c3d635-42b8-4f3a-8efd-f177712fae3d,a8d9a5ab-6ad9-43eb-a027-6a6d66d0f42d"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -32,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-18T15:42:31"
+#!   LAST_SAVE_DATE="2018-08-22T14:14:48"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -50,7 +50,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-94.187 1151.17"
+#!   VIEW_POSITION="-272.096 1562.81"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="86"
@@ -69,7 +69,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 multi_reader_id int4 postgis_collection_id int4 multi_reader_type char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_basename char(50) fme_feature_type char(50) fme_type char(50) fme_fill_color char(50) postgis_type char(50) postgis_collection_part_id int4 fme_text_size float8 multi_reader_full_id int4 fme_start_angle float8 multi_reader_keyword char(50) fme_sweep_angle float8 fme_dataset char(50) fme_geometry char(50) postgres_oid int4"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_start_angle float8 fme_dataset char(50) fme_text_string char(50) fme_text_size float8 fme_geometry char(50) fme_sweep_angle float8 multi_reader_keyword char(50) postgis_collection_id int4 fme_basename char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_type char(50) multi_reader_id int4 postgis_type char(50) fme_color char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_fill_color char(50) postgres_oid int4"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -135,7 +135,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 multi_reader_id int4 postgis_collection_id int4 multi_reader_type char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_basename char(50) fme_feature_type char(50) fme_type char(50) fme_fill_color char(50) postgis_type char(50) postgis_collection_part_id int4 fme_text_size float8 multi_reader_full_id int4 fme_start_angle float8 multi_reader_keyword char(50) fme_sweep_angle float8 fme_dataset char(50) fme_geometry char(50) postgres_oid int4"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_start_angle float8 fme_dataset char(50) fme_text_string char(50) fme_text_size float8 fme_geometry char(50) fme_sweep_angle float8 multi_reader_keyword char(50) postgis_collection_id int4 fme_basename char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_type char(50) multi_reader_id int4 postgis_type char(50) fme_color char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_fill_color char(50) postgres_oid int4"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -201,7 +201,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 multi_reader_id int4 postgis_collection_id int4 multi_reader_type char(50) fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_basename char(50) fme_feature_type char(50) fme_type char(50) fme_fill_color char(50) postgis_type char(50) postgis_collection_part_id int4 fme_text_size float8 multi_reader_full_id int4 fme_start_angle float8 multi_reader_keyword char(50) fme_sweep_angle float8 fme_dataset char(50) fme_geometry char(50) postgres_oid int4"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_start_angle float8 fme_dataset char(50) fme_text_string char(50) fme_text_size float8 fme_geometry char(50) fme_sweep_angle float8 multi_reader_keyword char(50) postgis_collection_id int4 fme_basename char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_type char(50) multi_reader_id int4 postgis_type char(50) fme_color char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_fill_color char(50) postgres_oid int4"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -258,7 +258,7 @@
 #!   IS_SOURCE="true"
 #!   ROLE="READER"
 #!   FORMAT="POSTGIS"
-#!   DATASET="$(SourceDataset_POSTGIS_8)"
+#!   DATASET="$(SourceDataset_POSTGIS_9)"
 #!   KEYWORD="POSTGIS_4"
 #!   MULTI_GEOM_ALLOWED="false"
 #!   ATTR_MAX_LENGTH="0"
@@ -267,7 +267,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_primary_axis float8 multi_reader_id int4 multi_reader_type char(50) postgis_collection_id int4 fme_secondary_axis float8 fme_rotation float8 fme_text_string char(50) fme_color char(50) fme_basename char(50) fme_feature_type char(50) fme_type char(50) fme_fill_color char(50) postgis_collection_part_id int4 postgis_type char(50) fme_text_size float8 multi_reader_full_id int4 fme_start_angle float8 multi_reader_keyword char(50) fme_sweep_angle float8 fme_dataset char(50) fme_geometry char(50) postgres_oid int4"
+#!   EXPOSABLE_ATTRS="fme_rotation float8 fme_start_angle float8 fme_dataset char(50) fme_text_string char(50) fme_text_size float8 fme_geometry char(50) fme_sweep_angle float8 multi_reader_keyword char(50) postgis_collection_id int4 fme_basename char(50) fme_feature_type char(50) multi_reader_full_id int4 fme_type char(50) multi_reader_id int4 postgis_type char(50) fme_color char(50) fme_secondary_axis float8 multi_reader_type char(50) fme_primary_axis float8 postgis_collection_part_id int4 fme_fill_color char(50) postgres_oid int4"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -333,7 +333,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float fme_color string fme_start_angle float fme_fill_color string fme_type string fme_dataset string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_text_string string fme_geometry string fme_text_size float"
+#!   EXPOSABLE_ATTRS="fme_text_size float fme_geometry string fme_primary_axis float fme_feature_type string fme_text_string string fme_sweep_angle float fme_type string fme_basename string fme_color string fme_rotation float fme_dataset string fme_start_angle float fme_secondary_axis float fme_fill_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -376,7 +376,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float fme_color string fme_start_angle float fme_fill_color string fme_type string fme_dataset string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_text_string string fme_geometry string fme_text_size float"
+#!   EXPOSABLE_ATTRS="fme_text_size float fme_geometry string fme_primary_axis float fme_feature_type string fme_text_string string fme_sweep_angle float fme_type string fme_basename string fme_color string fme_rotation float fme_dataset string fme_start_angle float fme_secondary_axis float fme_fill_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -419,7 +419,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis float fme_color string fme_start_angle float fme_fill_color string fme_type string fme_dataset string fme_primary_axis float fme_rotation float fme_sweep_angle float fme_basename string fme_feature_type string fme_text_string string fme_geometry string fme_text_size float"
+#!   EXPOSABLE_ATTRS="fme_text_size float fme_geometry string fme_primary_axis float fme_feature_type string fme_text_string string fme_sweep_angle float fme_type string fme_basename string fme_color string fme_rotation float fme_dataset string fme_start_angle float fme_secondary_axis float fme_fill_color string"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -462,7 +462,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis number(31,15) fme_color char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_type char(50) fme_dataset char(50) fme_primary_axis number(31,15) fme_rotation number(31,15) fme_sweep_angle number(31,15) text_line_eol char(10) fme_basename char(50) fme_feature_type char(50) fme_text_string char(50) fme_geometry char(50) fme_text_size number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_geometry char(50) fme_primary_axis number(31,15) fme_feature_type char(50) fme_text_string char(50) fme_sweep_angle number(31,15) fme_type char(50) fme_basename char(50) fme_color char(50) fme_rotation number(31,15) fme_dataset char(50) text_line_eol char(10) fme_start_angle number(31,15) fme_secondary_axis number(31,15) fme_fill_color char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -517,7 +517,7 @@
 #!   WRITE_DEFS="false"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_secondary_axis number(31,15) fme_color char(50) fme_start_angle number(31,15) fme_fill_color char(50) fme_type char(50) fme_dataset char(50) fme_primary_axis number(31,15) fme_rotation number(31,15) fme_sweep_angle number(31,15) text_line_eol char(10) fme_basename char(50) fme_feature_type char(50) fme_text_string char(50) fme_geometry char(50) fme_text_size number(31,15)"
+#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_geometry char(50) fme_primary_axis number(31,15) fme_feature_type char(50) fme_text_string char(50) fme_sweep_angle number(31,15) fme_type char(50) fme_basename char(50) fme_color char(50) fme_rotation number(31,15) fme_dataset char(50) text_line_eol char(10) fme_start_angle number(31,15) fme_secondary_axis number(31,15) fme_fill_color char(50)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -761,144 +761,6 @@
 #! />
 #! <DATA_TYPE
 #!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="boolean"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="float"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="int"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="string"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="json"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="GEOJSON"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="TEXTLINE"
@@ -1034,6 +896,144 @@
 #!   FORMAT_TYPE="number(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="TEXTLINE"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="boolean"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="string"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="GEOJSON"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="GEOJSON"
 #! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
@@ -1195,6 +1195,96 @@
 #! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text_line_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="TEXTLINE"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
 #!   FORMAT_TYPE="json_point"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="GEOJSON"
@@ -1282,96 +1372,6 @@
 #!   FORMAT_TYPE="json_no_geom"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="GEOJSON"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="TEXTLINE"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="false"
-#!   FORMAT_TYPE="text_line_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="TEXTLINE"
 #! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
@@ -1600,11 +1600,11 @@
 #!   FEATURE_TYPE_NAME=""
 #!   FEATURE_TYPE_NAME_QUALIFIER=""
 #!   IS_EDITABLE="false"
-#!   IDENTIFIER="56"
+#!   IDENTIFIER="58"
 #!   FEAT_GEOMTYPE="postgis_none postgis_point postgis_multipoint postgis_linestring postgis_multilinestring postgis_circularstring postgis_compoundcurve postgis_multicurve postgis_polygon postgis_multipolygon postgis_curvepolygon postgis_multisurface postgis_triangle postgis_polyhedralsurface postgis_tin postgis_geometrycollection"
-#!   POSITION="431.39866282383747 78.689988411511877"
-#!   BOUNDING_RECT="431.39866282383747 78.689988411511877 -1 -1"
-#!   ORDER="500000000000224.25"
+#!   POSITION="406.97981398418631 97.524686060813963"
+#!   BOUNDING_RECT="406.97981398418631 97.524686060813963 -1 -1"
+#!   ORDER="500000000000225.25"
 #!   COLLAPSED="false"
 #!   KEYWORD="POSTGIS_4"
 #!   PARMS_EDITED="false"
@@ -1625,6 +1625,7 @@
 #!     <FEAT_ATTRIBUTE ATTR_NAME="slope" ATTR_TYPE="int8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="hydroseq" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <FEAT_ATTRIBUTE ATTR_NAME="zoom" ATTR_TYPE="int4" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#!     <FEAT_ATTRIBUTE ATTR_NAME="totdasqkm" ATTR_TYPE="float8" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgis_query_settings_group" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
@@ -1659,7 +1660,7 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_8 FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
+#!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_9 FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
 #!   DEFAULT_VALUE="flowdb"
 #!   IS_STAND_ALONE="false"
 #! />
@@ -1694,7 +1695,7 @@
 #!   BOUNDING_RECT="8 2380 1480 674"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.79607843137254897,0.67450980392156867"
-#!   CONTENTS="5 7 8 "
+#!   CONTENTS="7 5 8 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1707,7 +1708,7 @@
 #!   BOUNDING_RECT="8 1265.4884069770928 5740 836"
 #!   STICKY="true"
 #!   COLOUR="0.81960784313725488,0.21568627450980393,0.10980392156862745"
-#!   CONTENTS="40 52 41 39 51 45 54 55 44 46 48 50 49 53 47 "
+#!   CONTENTS="39 50 49 46 47 52 55 54 51 41 53 45 48 44 40 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1720,7 +1721,7 @@
 #!   BOUNDING_RECT="8 1698 1480 428"
 #!   STICKY="true"
 #!   COLOUR="0.94117647058823528,0.050980392156862744,0.18431372549019609"
-#!   CONTENTS="10 9 12 "
+#!   CONTENTS="9 10 12 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1733,7 +1734,7 @@
 #!   BOUNDING_RECT="8 2734 1480 346"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.61568627450980395,0.84705882352941175"
-#!   CONTENTS="21 20 19 "
+#!   CONTENTS="19 20 21 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1746,7 +1747,7 @@
 #!   BOUNDING_RECT="297.53777909872133 299.39416277883709 4990 410"
 #!   STICKY="true"
 #!   COLOUR="0.14509803921568629,0.47843137254901963,0.51764705882352946"
-#!   CONTENTS="42 57 33 43 56 37 28 34 38 30 36 35 25 "
+#!   CONTENTS="33 35 25 58 30 43 37 36 34 28 38 42 59 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1774,6 +1775,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_formatted" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1789,6 +1791,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1814,8 +1817,8 @@
 #!   IDENTIFIER="34"
 #!   TYPE="AttributeManager"
 #!   VERSION="1"
-#!   POSITION="1185.5377790987213 100.8941627788371"
-#!   BOUNDING_RECT="1185.5377790987213 100.8941627788371 -1 -1"
+#!   POSITION="1157.6305232819775 125.31301161848828"
+#!   BOUNDING_RECT="1157.6305232819775 125.31301161848828 -1 -1"
 #!   ORDER="500000000000193.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -1832,9 +1835,10 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="flow flow  NO_OP gnis_name gnis_name  NO_OP difficulty_numeric difficulty_numeric  NO_OP level level  NO_OP awid awid  NO_OP difficulty difficulty  NO_OP slope slope  NO_OP  rivertype &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;rivers-nonww&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;level&lt;closeparen&gt; = med;TEST &lt;at&gt;Value&lt;openparen&gt;level&lt;closeparen&gt; = high&apos;rivers-running&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_&apos;rivers-dry&apos;FME_NUM_CONDITIONS3___&quot; SET_TO hydroseq hydroseq  NO_OP zoom zoom &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST zoom ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;6&apos;FME_NUM_CONDITIONS2___&quot; SET_TO"/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="flow flow &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST flow ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;0&apos;FME_NUM_CONDITIONS2___&quot; SET_TO gnis_name gnis_name  NO_OP difficulty_numeric difficulty_numeric &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST difficulty_numeric ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;-1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO level level  NO_OP awid awid  NO_OP difficulty difficulty  NO_OP slope slope  NO_OP  rivertype &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;rivers-nonww&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST &lt;at&gt;Value&lt;openparen&gt;level&lt;closeparen&gt; = med;TEST &lt;at&gt;Value&lt;openparen&gt;level&lt;closeparen&gt; = high&apos;rivers-running&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_&apos;rivers-dry&apos;FME_NUM_CONDITIONS3___&quot; SET_TO hydroseq hydroseq  NO_OP zoom zoom &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;&lt;at&gt;Evaluate&lt;openparen&gt;&lt;at&gt;round&lt;openparen&gt;11-&lt;at&gt;sub&lt;openparen&gt;11&lt;comma&gt;&lt;at&gt;mult&lt;openparen&gt;&lt;at&gt;pow&lt;openparen&gt;&lt;at&gt;min&lt;openparen&gt;1&lt;comma&gt;&lt;at&gt;Value&lt;openparen&gt;totdasqkm&lt;closeparen&gt;&lt;solidus&gt;50000&lt;closeparen&gt;&lt;comma&gt;0.5&lt;closeparen&gt;&lt;comma&gt;7&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;closeparen&gt;&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_&apos;7&apos;FME_NUM_CONDITIONS2___&quot; SET_TO totdasqkm totdasqkm  NO_OP"/>
 #!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
 #!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1866,6 +1870,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="2DForcer"/>
 #! </TRANSFORMER>
@@ -1892,6 +1897,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="&lt;Unused&gt;"/>
@@ -1900,7 +1906,7 @@
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="_result"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;zoom&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;rivertype&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;flow&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;flow&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;gnis_name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;gnis_name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;riverytpe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;rivertype&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;slope&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;slope&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;zoom&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;rivertype&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;xs:int&lt;openparen&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;flow&lt;quote&gt;&lt;space&gt;:&lt;space&gt;xs:int&lt;openparen&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;flow&lt;quote&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;gnis_name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;gnis_name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;rivertype&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;rivertype&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;slope&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;slope&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
@@ -1932,6 +1938,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -1945,6 +1952,7 @@
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ATTR" PARM_VALUE="_geometry"/>
 #!     <XFORM_PARM PARM_NAME="ELLIPSOID_NAME" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2283,8 +2291,8 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="57"
-#!   SOURCE_NODE="56"
+#!   IDENTIFIER="59"
+#!   SOURCE_NODE="58"
 #!   TARGET_NODE="34"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
@@ -2422,7 +2430,7 @@
 #!   IDENTIFIER="65569"
 #!   SOURCE_NODE="25"
 #!   TARGET_NODE="28"
-#!   SOURCE_PORT_DESC="ao 0 12 OUTPUT"
+#!   SOURCE_PORT_DESC="ao 0 13 OUTPUT"
 #!   TARGET_PORT_DESC="0"
 #! />
 #! <ATTR_LINK
@@ -2450,8 +2458,8 @@ DEFAULT_MACRO DestDataset_TEXTLINE_3 /tmp/json/gauge.json
 GUI FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 DEFAULT_MACRO SourceDataset_POSTGIS_6 flowdb
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_6 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO SourceDataset_POSTGIS_8 flowdb
-GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_8 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
+DEFAULT_MACRO SourceDataset_POSTGIS_9 flowdb
+GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_9 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO SourceDataset_POSTGIS flowdb
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO DestDataset_GEOJSON_11 /tmp/json/putins.json
@@ -2463,7 +2471,7 @@ INCLUDE [ if {{$(DestDataset_GEOJSON_8)} == {}} { puts_real {Parameter 'DestData
 INCLUDE [ if {{$(DestDataset_TEXTLINE)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(DestDataset_TEXTLINE_3)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE_3' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_POSTGIS_6)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_6' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(SourceDataset_POSTGIS_8)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_8' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(SourceDataset_POSTGIS_9)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_9' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -2784,7 +2792,7 @@ INCLUDE [ if {{$(SourceDataset)} != ""} {                        \
  } ]
 #! END_WB_HEADER
 #! START_SOURCE_HEADER POSTGIS POSTGIS_4
-DEFAULT_MACRO SourceDataset_POSTGIS_4 $(SourceDataset_POSTGIS_8)
+DEFAULT_MACRO SourceDataset_POSTGIS_4 $(SourceDataset_POSTGIS_9)
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_4 FMT:POSTGIS Connection:
 DEFAULT_MACRO POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_4 Yes
 POSTGIS_4_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS "$(POSTGIS_IN_QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS_POSTGIS_4)"
@@ -3223,12 +3231,12 @@ MACRO WORKSPACE_NAME mapboxExport
 MACRO FME_VIEWER_APP fmedatainspector
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::public.vw_putins multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_putins ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.vw_rivercount multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_rivercount ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::public.youtube multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::public.youtube ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_3::public.fme_gauge_export multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_3) TO FME_GENERIC ::public.fme_gauge_export ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_4::public.vw_all_rivers multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_4) TO FME_GENERIC ::public.vw_all_rivers ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
-POSTGIS_1_MERGE_DEF POSTGIS_1::public.vw_putins EXACT public.vw_putins DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,difficulty_numeric,int4,name,varchar<openparen>200<closeparen>,level,varchar<openparen>200<closeparen>,id,int8,awid,int4
+FACTORY_DEF * RoutingFactory   FACTORY_NAME "Router and Unexpected Input Remover"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE POSTGIS POSTGIS_1::public.vw_rivercount multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_rivercount ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_1::public.vw_putins multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_1) TO FME_GENERIC ::public.vw_putins ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_2::public.youtube multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_2) TO FME_GENERIC ::public.youtube ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_3::public.fme_gauge_export multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_3) TO FME_GENERIC ::public.fme_gauge_export ALIAS_GEOMETRY    ROUTE POSTGIS POSTGIS_4::public.vw_all_rivers multi_reader_keyword,$(DATASET_KEYWORD_POSTGIS_4) TO FME_GENERIC ::public.vw_all_rivers ALIAS_GEOMETRY    MERGE_INPUT Yes   OUTPUT ROUTED FEATURE_TYPE *
 POSTGIS_1_MERGE_DEF POSTGIS_1::public.vw_rivercount EXACT public.vw_rivercount DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,name,varchar<openparen>100<closeparen>,runningrivers,int8
+POSTGIS_1_MERGE_DEF POSTGIS_1::public.vw_putins EXACT public.vw_putins DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,difficulty_numeric,int4,name,varchar<openparen>200<closeparen>,level,varchar<openparen>200<closeparen>,id,int8,awid,int4
 POSTGIS_2_MERGE_DEF POSTGIS_2::public.youtube EXACT public.youtube DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,videoid,varchar<openparen>100<closeparen><comma>PrimaryKey
 POSTGIS_3_MERGE_DEF POSTGIS_3::public.fme_gauge_export EXACT public.fme_gauge_export DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,datasource,varchar<openparen>10<closeparen>,name,varchar<openparen>100<closeparen>,url,varchar<openparen>80<closeparen>,watersourcename,varchar<openparen>80<closeparen>,value,int4,measure_time,timestamptz,minzoom,int4
-POSTGIS_4_MERGE_DEF POSTGIS_4::public.vw_all_rivers EXACT public.vw_all_rivers DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,flow,int8,gnis_name,varchar<openparen>65<closeparen>,difficulty_numeric,int4,level,varchar<openparen>200<closeparen>,awid,int4,difficulty,varchar<openparen>10<closeparen>,slope,int8,hydroseq,float8,zoom,int4
+POSTGIS_4_MERGE_DEF POSTGIS_4::public.vw_all_rivers EXACT public.vw_all_rivers DEFLINE postgis_sql_where_clause,,postgis_sql_statement,,flow,int8,gnis_name,varchar<openparen>65<closeparen>,difficulty_numeric,int4,level,varchar<openparen>200<closeparen>,awid,int4,difficulty,varchar<openparen>10<closeparen>,slope,int8,hydroseq,float8,zoom,int4,totdasqkm,float8
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.youtube (POSTGIS_2) Splitter"    INPUT FEATURE_TYPE public.youtube    OUTPUT FEATURE_TYPE public.youtube_POSTGIS_2
@@ -3240,15 +3248,15 @@ FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_putins (POSTGIS_1) Splitter"
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_rivercount (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.vw_rivercount    OUTPUT FEATURE_TYPE public.vw_rivercount_POSTGIS_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_all_rivers (POSTGIS_4) Splitter"    INPUT FEATURE_TYPE public.vw_all_rivers    OUTPUT FEATURE_TYPE public.vw_all_rivers_POSTGIS_4
+FACTORY_DEF * TeeFactory    FACTORY_NAME "public.fme_gauge_export (POSTGIS_3) Splitter"    INPUT FEATURE_TYPE public.fme_gauge_export    OUTPUT FEATURE_TYPE public.fme_gauge_export_POSTGIS_3
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "public.fme_gauge_export (POSTGIS_3) Splitter"    INPUT FEATURE_TYPE public.fme_gauge_export    OUTPUT FEATURE_TYPE public.fme_gauge_export_POSTGIS_3
+FACTORY_DEF * TeeFactory    FACTORY_NAME "public.vw_all_rivers (POSTGIS_4) Splitter"    INPUT FEATURE_TYPE public.vw_all_rivers    OUTPUT FEATURE_TYPE public.vw_all_rivers_POSTGIS_4
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 
 
-FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE public.vw_all_rivers_POSTGIS_4    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "" "rivertype" "FME_CONDITIONAL:DEFAULT_VALUE'rivers-nonww'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>level<closeparen> = med;TEST <at>Value<openparen>level<closeparen> = high'rivers-running'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_'rivers-dry'FME_NUM_CONDITIONS3___" "SET_TO" }      ATTR_ACTION { "zoom" "zoom" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST zoom ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'6'FME_NUM_CONDITIONS2___" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
+FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE public.vw_all_rivers_POSTGIS_4    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "flow" "flow" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST flow ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'0'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "difficulty_numeric" "difficulty_numeric" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST difficulty_numeric ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'-1'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "" "rivertype" "FME_CONDITIONAL:DEFAULT_VALUE'rivers-nonww'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST <at>Value<openparen>level<closeparen> = med;TEST <at>Value<openparen>level<closeparen> = high'rivers-running'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_'rivers-dry'FME_NUM_CONDITIONS3___" "SET_TO" }      ATTR_ACTION { "zoom" "zoom" "FME_CONDITIONAL:DEFAULT_VALUE'<at>Evaluate<openparen><at>round<openparen>11-<at>sub<openparen>11<comma><at>mult<openparen><at>pow<openparen><at>min<openparen>1<comma><at>Value<openparen>totdasqkm<closeparen><solidus>50000<closeparen><comma>0.5<closeparen><comma>7<closeparen><closeparen><closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST awid ATTRIBUTE_HAS_A_VALUE _FME_BLANK_STRING_'7'FME_NUM_CONDITIONS2___" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
 
 # -------------------------------------------------------------------------
 
@@ -3272,7 +3280,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME GeometryExtractor_Rejector    INPUT FE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME GeometryExtractor_<Rejected> INPUT FEATURE_TYPE GeometryExtractor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, GeometryExtractor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>fme:get-attribute<openparen><quote>zoom<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space>fme:get-attribute<openparen><quote>rivertype<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty<quote>:<space>fme:get-attribute<openparen><quote>difficulty<quote><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>flow<quote><space>:<space>fme:get-attribute<openparen><quote>flow<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>gnis_name<quote><space>:<space>fme:get-attribute<openparen><quote>gnis_name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><quote>riverytpe<quote><space>:<space>fme:get-attribute<openparen><quote>rivertype<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>slope<quote><space>:<space>fme:get-attribute<openparen><quote>slope<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>fme:get-attribute<openparen><quote>zoom<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space>fme:get-attribute<openparen><quote>rivertype<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty<quote>:<space>fme:get-attribute<openparen><quote>difficulty<quote><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>xs:int<openparen>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>flow<quote><space>:<space>xs:int<openparen>fme:get-attribute<openparen><quote>flow<quote><closeparen><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>gnis_name<quote><space>:<space>fme:get-attribute<openparen><quote>gnis_name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><quote>rivertype<quote><space>:<space>fme:get-attribute<openparen><quote>rivertype<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>slope<quote><space>:<space>fme:get-attribute<openparen><quote>slope<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_OUTPUT
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter       INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_<REJECTED>
@@ -3345,7 +3353,7 @@ DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFormatter_2_<Rejected> INPUT FEATURE_TYPE JSONFormatter_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFormatter_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC public.vw_rivercount_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.vw_rivercount<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.vw_putins_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>p<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,4,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC public.vw_putins_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>p<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,3,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,4,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY    ROUTE FME_GENERIC public.vw_rivercount_POSTGIS_1 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.vw_rivercount<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__

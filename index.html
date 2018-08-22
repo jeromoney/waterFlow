@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Whitewater Maps 2.0</title>
 
     <!--Jquery-->
@@ -13,6 +17,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+
 
     <!--Mapbox-->
     <link href='https://mapbox.com/base/latest/base.css' rel='stylesheet' />
@@ -50,23 +56,36 @@
 
 </head>
 <body>
+
    <div class="dropdown topleft">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         options
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <div id='river-hide-buttons' class="btn-group dropdown-item" role="group" aria-label="Basic example">
-                <input class="btn btn-secondary btn-sm" type="button" value="Flat Water" id='rivers-nonww'>
-                <input class="btn btn-secondary btn-sm" type="button" value="Dry Segments" id='rivers-dry'>
-            </div>
             <div id='menu' class="btn-group dropdown-item" role="group" aria-label="Basic example">
                 <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
             </div>
+
+            <h3 class="dropdown-item">filters</h3>
+            <div id='river-hide-buttons' class="btn-group dropdown-item" role="group" aria-label="Basic example">
+                <input class="btn btn-secondary btn-sm" type="button" value="Flat Water" id='rivers-nonww'>
+                <input class="btn btn-secondary btn-sm" type="button" value="Dry Rivers" id='rivers-dry'>
+            </div>
+            <div id='difficulty-hide-buttons' class="btn-group dropdown-item" role="group" aria-label="Basic example">
+                <input class="btn btn-secondary btn-sm" type="button" value="I">
+                <input class="btn btn-secondary btn-sm" type="button" value="II">
+                <input class="btn btn-secondary btn-sm" type="button" value="III">
+                <input class="btn btn-secondary btn-sm" type="button" value="IV">
+                <input class="btn btn-secondary btn-sm" type="button" value="V">
+            </div>
             <div id="slider-range">
             </div>
             <a id='classhide' class="dropdown-item" href="#" onclick="hideDiffRivers()">filter by class</a>
+
+
+
         </div>
     </div>
 
@@ -75,7 +94,7 @@
             <span class='icon big crosshair'></span>
 -->
             <div id='map'></div>
-        </span>
+
 <script src='js/index.js'></script>
 </body>
 </html>
