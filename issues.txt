@@ -1,12 +1,10 @@
-* Let Colorado River flow the full distance [easy]
 * Get takeout data [difficult]
-* Popups with null data should be blank [easy]
 * Layout is poor on mobile devices [medium]
 * slider needs to be made smaller to fit in drop down window [medium]
 * fix time zone on NOAA data
-* get rid of "coastal" rivers in ww segment creater
 * values on lake outflows are wrong by x1000
 * set zoom levels appropiately on non-ww rivers
+* dry river has a difficulty of -1 for some reason. find it and fix it
 
 Supported Data Sources:
 USGS [x]

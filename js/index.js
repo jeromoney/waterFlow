@@ -12,12 +12,22 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
     zoom: params['zoom'] || 4, //if search parameter doesn't exist, defaults to 4
-    center: params['center'] || [-98.290,35.854] // likewise
+    center: params['center'] || [-98.290,35.854], // likewise
+    minZoom: 4
     });
 
 
-// This should be in the object delclaration.
+
+// This should be in the object declaration.
 map.setMaxBounds([[-140, 10], [-40, 70]]);
+// hide dry rivers on load
+map.on('load', function () {
+    map.setLayoutProperty('rivers-dry', 'visibility', 'none');
+    var filter = map.getFilter('putins');
+    filter[2][2] = ["in","level","med","high"];
+    map.setFilter('putins', filter);
+    ;
+});
 var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
 // It's dumb to id the layer by this cryptic string. Should change it.
@@ -43,27 +53,28 @@ layerList = document.getElementById('river-hide-buttons');
 inputs = layerList.getElementsByTagName('input');
 
 function hideFeature(layer){
-    let layerId = layer.target.id;
+    let target = layer.target;
+    let layerId = target.id;
     if (map.getLayoutProperty(layerId, 'visibility') == 'none'){
         // feature is invisible so show it
         map.setLayoutProperty(layerId, 'visibility', 'visible');
-        layer.target.classList.remove('btn-outline-secondary');
-        layer.target.classList.add('btn-secondary');
+        target.classList.remove('btn-outline-secondary');
+        target.classList.add('btn-secondary');
         // if layer is dry rivers, hide put-ins as well
         if (layerId == 'rivers-dry'){
             filter = map.getFilter('putins');
-            filter[2][3] = ['in','level','med','high','','low'];
+            filter[2][2] = ['in','level','med','high','','low'];
             map.setFilter('putins', filter);
         }
     }
     else {
         // feature is visible so hide it
         map.setLayoutProperty(layerId, 'visibility', 'none');
-        layer.target.classList.remove('btn-secondary');
-        layer.target.classList.add('btn-outline-secondary');
+        target.classList.remove('btn-secondary');
+        target.classList.add('btn-outline-secondary');
         if (layerId == 'rivers-dry'){
             filter = map.getFilter('putins');
-            filter[2][3] = ['in','level','med','high'];
+            filter[2][2] = ['in','level','med','high'];
             map.setFilter('putins', filter);
         }
     }
@@ -74,6 +85,8 @@ function hideFeature(layer){
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = hideFeature;
 }
+
+
 
 layerList = document.getElementById('difficulty-hide-buttons');
 inputs = layerList.getElementsByTagName('input');
@@ -94,9 +107,9 @@ function hideDifficulty(button){
         var layer = layers[i];
         filter = map.getFilter(layer);
         // The toggle state is stored in the presence/absence of the difficult_arry in the filter
-        filter[2][1][2] = 3+0.1;
-        filter[2][2][2] = 3-0.1;
-        map.setFilter(layer, filter);
+        //filter[2][1][2] = 3+0.1;
+        //filter[2][2][2] = 3-0.1;
+        //map.setFilter(layer, filter);
     }
 }
 
@@ -107,8 +120,12 @@ for (var i = 0; i < inputs.length; i++) {
 map.on('styledata', function(e) {
     // Waits for style to be loaded and then filters out relevent features.
     // style is being loaded 3 times for some reason
+    // When user switches between maps, the filters need to go along with change.
+    // i.e. flatwater (show/hide), dry rivers (s/h) -- include put-ins, difficulty (s/h) -- include put-itns
     if (styleCounter == 0) {
-        hideDiffRivers();
+        // hideDiffRivers();
+        // hide flatwater
+        // hide dry rivers
         styleCounter++;
     }
 });
@@ -116,7 +133,7 @@ map.on('styledata', function(e) {
 // click on map and get information about feature
 map.on('click', function(e) {
     var box = 20;
-    let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','rivercount','putins'];
+    let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','putins'];
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
     layers: null // myLayers
     });
@@ -174,12 +191,9 @@ map.on('click', function(e) {
         popup.setHTML('<h3><a href="' + prop.url + '">'+prop.name +'</a></h3> Gauge Flow: '+prop.value + ' cfs');
         break;
     case myLayers[5]:
-    // state/province summary of running whitewater rivers
-        popup.setHTML(prop.name+ ' has ' + prop.runningrivers + ' running whitewater rivers.');
-        break;
-    case myLayers[6]:
-    // putins
-        popup.setHTML('i am a putin');
+    // put-ins
+        popup.setHTML('<h3><a href="https://www.americanwhitewater.org/content/River/detail/id/'+ prop.awid +'/">' + prop.name + ' </a></h3>' +
+        (prop.level  !== '' ?  '<div>level: ' + prop.level +'</div>': ""))
         break;
     default:
         ;
@@ -195,7 +209,7 @@ map.addControl(new MapboxGeocoder({
 
 function hideDiffRivers() {
     // hides Rivers based on difficulty ratings
-    let layers = ['rivers-dry','rivers-flowing','putins']
+    let layers = ['rivers-dry','rivers-running','putins']
     var arrayLength = layers.length;
     for (var i = 0; i < arrayLength; i++) {
         var layer = layers[i];
