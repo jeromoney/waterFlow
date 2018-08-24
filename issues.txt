@@ -3,8 +3,7 @@
 * slider needs to be made smaller to fit in drop down window [medium]
 * fix time zone on NOAA data
 * values on lake outflows are wrong by x1000
-* set zoom levels appropiately on non-ww rivers
-* dry river has a difficulty of -1 for some reason. find it and fix it
+* putins are conflicting with gauges labels.
 
 Supported Data Sources:
 USGS [x]

@@ -34,26 +34,6 @@
             .bottomleft { position: absolute;bottom: 8px; left: 16px; z-index: 99999;}
     </style>
 
-    <script>
-      $( function() {
-                $( "#slider-range" ).slider({
-          range: true,
-          min: 0,
-          max: 14,
-          step: 1,
-          values: [ 2, 8 ],
-          slide: function( event, ui ) {
-            var classes = ['I-','I','I+','II-','II','II+','III-','III','III+','IV-','IV','IV+','V-','V','V+']
-            document.getElementById("classhide").innerHTML = 'filter by class: '+ classes[ui.values[ 0 ]]+' to '+ classes[ui.values[ 1 ]];
-            minClass = ui.values[ 0 ];
-            maxClass = ui.values[ 1 ];
-          }
-        });
-        $( "#amount" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ) +
-          " - $" + $( "#slider-range" ).slider( "values", 1 ) );
-      } );
-    </script>
-
 </head>
 <body>
 
@@ -62,16 +42,17 @@
         options
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <!--
             <div id='menu' class="btn-group dropdown-item" role="group" aria-label="Basic example">
                 <input class="btn btn-secondary btn-sm" type="button" value="basic" id='cjjemazx490w12rryv15r5jao'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="outdoors" id='cjjt0zlii2oc42rlhwhz3mu5t'>
                 <input class="btn btn-outline-secondary btn-sm" type="button" value="satellite" id='cjjt10djr2xun2spszr8qf8k2'>
             </div>
-
+            -->
             <h3 class="dropdown-item">filters</h3>
             <div id='river-hide-buttons' class="btn-group dropdown-item" role="group" aria-label="Basic example">
-                <input class="btn btn-secondary btn-sm" type="button" value="Flat Water" id='rivers-nonww'>
-                <input class="btn btn-outline-secondary btn-sm" type="button" value="Dry Rivers" id='rivers-dry'>
+                <input class="btn btn-secondary btn-sm" type="button" value="flat water" id='rivers-nonww'>
+                <input class="btn btn-outline-secondary btn-sm" type="button" value="dry rivers" id='rivers-dry'>
             </div>
             <div id='difficulty-hide-buttons' class="btn-group dropdown-item" role="group" aria-label="Basic example">
                 <input class="btn btn-secondary btn-sm" type="button" value="I">
@@ -80,12 +61,9 @@
                 <input class="btn btn-secondary btn-sm" type="button" value="IV">
                 <input class="btn btn-secondary btn-sm" type="button" value="V">
             </div>
-            <div id="slider-range">
+            <div class="btn-group dropdown-item" role="group" aria-label="Basic example">
+                <input id="gauges" class="btn btn-outline-secondary btn-sm" type="button" value="gauges" onclick="hideGauges()">
             </div>
-            <a id='classhide' class="dropdown-item" href="#" onclick="hideDiffRivers()">filter by class</a>
-
-
-
         </div>
     </div>
 

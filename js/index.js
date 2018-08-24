@@ -24,11 +24,11 @@ map.setMaxBounds([[-140, 10], [-40, 70]]);
 map.on('load', function () {
     map.setLayoutProperty('rivers-dry', 'visibility', 'none');
     var filter = map.getFilter('putins');
-    filter[2][2] = ["in","level","med","high"];
+    filter[1][2] = ["in","level","med","high"];
     map.setFilter('putins', filter);
     hideGauges();
 });
-var layerList = document.getElementById('menu');
+/*var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
 // It's dumb to id the layer by this cryptic string. Should change it.
 var oldLayer = document.getElementById('cjjemazx490w12rryv15r5jao');
@@ -47,7 +47,7 @@ function switchLayer(layer) {
 
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
-}
+}*/
 // Flat water and dry river filters
 
 layerList = document.getElementById('river-hide-buttons');
@@ -65,7 +65,7 @@ function hideFeature(layer){
         // if layer is dry rivers, hide put-ins as well
         if (layerId == 'rivers-dry'){
             filter = map.getFilter('putins');
-            filter[2][2] = ['in','level','med','high','','low'];
+            filter[1][2] = ['in','level','med','high','','low'];
             map.setFilter('putins', filter);
         }
     }
@@ -76,7 +76,7 @@ function hideFeature(layer){
         target.classList.add('btn-outline-secondary');
         if (layerId == 'rivers-dry'){
             filter = map.getFilter('putins');
-            filter[2][2] = ['in','level','med','high'];
+            filter[1][2] = ['in','level','med','high'];
             map.setFilter('putins', filter);
         }
     }
@@ -132,7 +132,7 @@ function hideDifficulty(button){
         var filter = map.getFilter(layer);
         // make sure filter exists
         if (filter[filter.length - 1][1] !== "difficulty_numeric"){
-            filter.push(["in", "difficulty_numeric",-1,1,2,3,4,5,6,7,8,9,10,11,12,13,14]); // consider eliminating minus difficulties since they don't exist in dataset
+            filter.push(["in", "difficulty_numeric",-2,-1,1,2,3,4,5,6,7,8,9,10,11,12,13,14]); // consider eliminating minus difficulties since they don't exist in dataset
         }
         // The toggle state is stored in the presence/absence of the difficult_arry in the filter
         let showFeature = filter[filter.length - 1].indexOf(difficult_arry[0]) == -1;
@@ -254,17 +254,3 @@ map.addControl(new MapboxGeocoder({
     accessToken: mapboxgl.accessToken,
     bbox: [-125, 24, -66, 49.1]  //[minX, minY, maxX, maxY] limits of the lower 48
 }));
-
-
-function hideDiffRivers() {
-    // hides Rivers based on difficulty ratings
-    let layers = ['rivers-dry','rivers-running','putins']
-    var arrayLength = layers.length;
-    for (var i = 0; i < arrayLength; i++) {
-        var layer = layers[i];
-        filter = map.getFilter(layer);
-        filter[2][1][2] = maxClass+0.1;
-        filter[2][2][2] = minClass-0.1;
-        map.setFilter(layer, filter);
-    }
-}
