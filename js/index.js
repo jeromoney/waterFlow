@@ -13,7 +13,9 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/jimmyjohn/cjjemazx490w12rryv15r5jao',
     zoom: params['zoom'] || 4, //if search parameter doesn't exist, defaults to 4
     center: params['center'] || [-98.290,35.854], // likewise
-    minZoom: 4
+    minZoom: 4,
+    pitchWithRotate: false,
+    dragRotate: false
     });
 
 
