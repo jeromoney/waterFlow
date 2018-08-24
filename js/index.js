@@ -26,7 +26,7 @@ map.on('load', function () {
     var filter = map.getFilter('putins');
     filter[2][2] = ["in","level","med","high"];
     map.setFilter('putins', filter);
-    ;
+    hideGauges();
 });
 var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
@@ -48,9 +48,11 @@ function switchLayer(layer) {
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
 }
+// Flat water and dry river filters
 
 layerList = document.getElementById('river-hide-buttons');
 inputs = layerList.getElementsByTagName('input');
+
 
 function hideFeature(layer){
     let target = layer.target;
@@ -86,7 +88,29 @@ for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = hideFeature;
 }
 
+// filter gauges. todo - join this with the hideFeature function
+// function is attached in index.html
 
+
+function hideGauges(){
+    let target = document.getElementById('gauges');
+    let layerId = 'gauge';
+    if (map.getLayoutProperty(layerId, 'visibility') == 'none'){
+        // feature is invisible so show it
+        map.setLayoutProperty(layerId, 'visibility', 'visible');
+        target.classList.remove('btn-outline-secondary');
+        target.classList.add('btn-secondary');
+    }
+    else {
+        // feature is visible so hide it
+        map.setLayoutProperty(layerId, 'visibility', 'none');
+        target.classList.remove('btn-secondary');
+        target.classList.add('btn-outline-secondary');
+    }
+
+}
+
+// filter by difficulty ratings
 
 layerList = document.getElementById('difficulty-hide-buttons');
 inputs = layerList.getElementsByTagName('input');
@@ -101,15 +125,40 @@ function hideDifficulty(button){
         if (roman_numeral == roman_numeral_array[i]) {break;};
     }
     i = i * 3 + 1;
-    let difficult_arry = [i - 1, i , i +1]; // Includes +/- difficulties
-    let layers = ['rivers-dry','rivers-flowing','putins']
+    let difficult_arry = (i  !== 1 ?  [i - 1, i , i + 1]: [-1, i - 1, i , i + 1]); // Includes +/- difficulties
+    let layers = ['rivers-dry','rivers-running','putins','putins-heatmap']
     for (var i = 0; i < layers.length; i++) {
         var layer = layers[i];
-        filter = map.getFilter(layer);
+        var filter = map.getFilter(layer);
+        // make sure filter exists
+        if (filter[filter.length - 1][1] !== "difficulty_numeric"){
+            filter.push(["in", "difficulty_numeric",-1,1,2,3,4,5,6,7,8,9,10,11,12,13,14]); // consider eliminating minus difficulties since they don't exist in dataset
+        }
         // The toggle state is stored in the presence/absence of the difficult_arry in the filter
-        //filter[2][1][2] = 3+0.1;
-        //filter[2][2][2] = 3-0.1;
-        //map.setFilter(layer, filter);
+        let showFeature = filter[filter.length - 1].indexOf(difficult_arry[0]) == -1;
+        for (var j = 0; j < difficult_arry.length; j++){
+            if (showFeature){
+                filter[filter.length - 1].push(difficult_arry[j]);
+            }
+            else {
+                var index = filter[filter.length - 1].indexOf(difficult_arry[j]);
+                filter[filter.length - 1].splice(index, 1);
+            }
+        }
+        map.setFilter(layer, filter);
+        // change state of button
+        if (showFeature){
+            // change from outline to solid
+            button.currentTarget.classList.remove('btn-outline-secondary');
+            button.currentTarget.classList.add('btn-secondary');
+        }
+        else {
+            // change from solid to outline
+            button.currentTarget.classList.remove('btn-secondary');
+            button.currentTarget.classList.add('btn-outline-secondary');
+        }
+
+
     }
 }
 
