@@ -203,7 +203,7 @@ function helpvideo(){
 }
 
 
-// click on map and get information about feature
+// click on map and get information about feature.
 map.on('click', function(e) {
     var box = Math.max(2**(8-map.getZoom()),20);
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
