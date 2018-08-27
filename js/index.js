@@ -183,7 +183,7 @@ map.on('styledata', function(e) {
     // style is being loaded 3 times for some reason
     // When user switches between maps, the filters need to go along with change.
     // i.e. flatwater (show/hide), dry rivers (s/h) -- include put-ins, difficulty (s/h) -- include put-itns
-    if (styleCounter == 0) {
+    if (styleCounter == 0 && myLayerSettings.length > 0) {
         // map is loaded so apply visibility and filter properties
         for (var i = 0; i < myLayers.length; i++) {
             let visibility = myLayerSettings[i][0];
@@ -197,9 +197,9 @@ map.on('styledata', function(e) {
 
 // click on map and get information about feature
 map.on('click', function(e) {
-    var box = 20;
+    var box = 2**(13-map.getZoom());
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
-    layers: null // myLayers
+    layers: myLayers
     });
 
     if (!features.length) {
