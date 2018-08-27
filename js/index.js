@@ -194,10 +194,18 @@ map.on('styledata', function(e) {
         styleCounter++;
     }
 });
+// loads the help video.
+function helpvideo(){
+    var popup = new mapboxgl.Popup()
+        .setLngLat(map.getCenter());
+    popup.setHTML('<iframe width="'+Math.min(480,$(window).width())+'" height="'+Math.min(360,$(window).height())+'" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>');
+    popup.addTo(map);
+}
+
 
 // click on map and get information about feature
 map.on('click', function(e) {
-    var box = 2**(13-map.getZoom());
+    var box = 2**(12-map.getZoom());
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
     layers: myLayers
     });
