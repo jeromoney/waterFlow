@@ -198,14 +198,14 @@ map.on('styledata', function(e) {
 function helpvideo(){
     var popup = new mapboxgl.Popup()
         .setLngLat(map.getCenter());
-    popup.setHTML('<iframe width="'+Math.min(480,$(window).width())+'" height="'+Math.min(360,$(window).height())+'" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>');
+    popup.setHTML('<iframe width="'+Math.min(480,$(window).width())+'" height="'+Math.min(360,$(window).height())+'" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/2zFmzrRbW7E"></iframe>');
     popup.addTo(map);
 }
 
 
 // click on map and get information about feature
 map.on('click', function(e) {
-    var box = 2**(12-map.getZoom());
+    var box = Math.max(2**(8-map.getZoom()),20);
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
     layers: myLayers
     });
