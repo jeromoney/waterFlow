@@ -79,9 +79,10 @@ def main():
     global destination_line
     destination_line = get_head_nodes(cursor)
 
-    for bad_nodes in (270000242,10001099,270000782,270001836,90002185,270000256):
+    for bad_node in (270000242,10001099,270000782,270001836,90002185,270000256,270000269):
         # hackish solution. these nodes are causing the algo to run wild along coast lines.
-        destination_line.remove(bad_nodes)
+        if bad_node in destination_line:
+            destination_line.remove(bad_node)
 
 
     print "number of nodes to analyze: " + str(len(destination_line))

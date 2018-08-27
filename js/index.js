@@ -2,6 +2,10 @@ var minClass = 0;
 var maxClass = 14;
 var showDryRivers = false;
 var styleCounter = 0;
+var myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','putins','putins-heatmap'];
+var myLayerSettings = [];
+
+
 
 mapboxgl.accessToken = 'pk.eyJ1IjoiamltbXlqb2huIiwiYSI6IlhuU2gyUncifQ.Ofn8R_RfggGn_FPLtOvFhw';
 $("#ex2").slider({});
@@ -30,7 +34,7 @@ map.on('load', function () {
     map.setFilter('putins', filter);
     hideGauges();
 });
-/*var layerList = document.getElementById('menu');
+var layerList = document.getElementById('menu');
 var inputs = layerList.getElementsByTagName('input');
 // It's dumb to id the layer by this cryptic string. Should change it.
 var oldLayer = document.getElementById('cjjemazx490w12rryv15r5jao');
@@ -41,6 +45,12 @@ function switchLayer(layer) {
         layer.target.classList.add('btn-secondary');
         oldLayer.classList.remove('btn-secondary');
         oldLayer.classList.add('btn-outline-secondary');
+        // before switching styles, preserve visibility and filters
+        myLayerSettings = [];
+        for (var i = 0; i < myLayers.length; i++) {
+            myLayerSettings.push([map.getLayoutProperty(myLayers[i], 'visibility'),map.getFilter(myLayers[i])]);
+        }
+
         map.setStyle('mapbox://styles/jimmyjohn/' + layerId);
         oldLayer = layer.target;
         styleCounter = 0;
@@ -49,7 +59,7 @@ function switchLayer(layer) {
 
 for (var i = 0; i < inputs.length; i++) {
     inputs[i].onclick = switchLayer;
-}*/
+}
 // Flat water and dry river filters
 
 layerList = document.getElementById('river-hide-buttons');
@@ -174,9 +184,13 @@ map.on('styledata', function(e) {
     // When user switches between maps, the filters need to go along with change.
     // i.e. flatwater (show/hide), dry rivers (s/h) -- include put-ins, difficulty (s/h) -- include put-itns
     if (styleCounter == 0) {
-        // hideDiffRivers();
-        // hide flatwater
-        // hide dry rivers
+        // map is loaded so apply visibility and filter properties
+        for (var i = 0; i < myLayers.length; i++) {
+            let visibility = myLayerSettings[i][0];
+            let filter     = myLayerSettings[i][1];
+            map.setLayoutProperty(myLayers[i],'visibility', visibility);
+            map.setFilter(myLayers[i], filter);
+        }
         styleCounter++;
     }
 });
@@ -184,7 +198,6 @@ map.on('styledata', function(e) {
 // click on map and get information about feature
 map.on('click', function(e) {
     var box = 20;
-    let myLayers = ['rivers-running','rivers-dry','rivers-nonww','videos','gauge','putins'];
     var features = map.queryRenderedFeatures([[e.point.x - box, e.point.y - box], [e.point.x + box, e.point.y + box]], {
     layers: null // myLayers
     });
