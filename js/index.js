@@ -198,7 +198,7 @@ map.on('styledata', function(e) {
 function helpvideo(){
     var popup = new mapboxgl.Popup()
         .setLngLat(map.getCenter());
-    popup.setHTML('<iframe width="'+Math.min(480,$(window).width())+'" height="'+Math.min(360,$(window).height())+'" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/2zFmzrRbW7E"></iframe>');
+    popup.setHTML('<iframe width="'+Math.min(480,$(window).width())+'" height="'+Math.min(360,$(window).height())+'" allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/jEY1DO_Ziuw"></iframe>');
     popup.addTo(map);
 }
 
