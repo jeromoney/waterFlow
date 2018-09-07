@@ -21,8 +21,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="a025c8d3-1971-4dc5-894a-38b105c3f376"
-#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b,73fe0ab8-a796-4645-bfde-cd8bfac57f00,764486c8-6287-462c-8949-29b1e1b42046,29c3d635-42b8-4f3a-8efd-f177712fae3d,a8d9a5ab-6ad9-43eb-a027-6a6d66d0f42d,d8e35101-d6b6-4489-9aa1-b066c0244eae,9cc31ec5-93a2-4978-b284-57018de4cbe5,51f667aa-0ac0-4c28-bd04-b64c05ff870d,79fcd1e0-e1d5-4f07-8b96-6ecf8051b9d7,4e373daa-6121-4b7f-8fd1-c8ca1427a1cb,453373f9-48fe-4fb3-8183-425af459a292,5179630d-6ce0-4b94-8b65-7a4720c44783,b2f31981-23f9-4a94-aced-8c7b5e6ae88b,79dff156-f586-49ae-9a1a-fd19b8455892"
+#!   FME_DOCUMENT_GUID="42603949-eedb-4ea2-bffa-0766e7b941a0"
+#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b,73fe0ab8-a796-4645-bfde-cd8bfac57f00,764486c8-6287-462c-8949-29b1e1b42046,29c3d635-42b8-4f3a-8efd-f177712fae3d,a8d9a5ab-6ad9-43eb-a027-6a6d66d0f42d,d8e35101-d6b6-4489-9aa1-b066c0244eae,9cc31ec5-93a2-4978-b284-57018de4cbe5,51f667aa-0ac0-4c28-bd04-b64c05ff870d,79fcd1e0-e1d5-4f07-8b96-6ecf8051b9d7,4e373daa-6121-4b7f-8fd1-c8ca1427a1cb,453373f9-48fe-4fb3-8183-425af459a292,5179630d-6ce0-4b94-8b65-7a4720c44783,b2f31981-23f9-4a94-aced-8c7b5e6ae88b,79dff156-f586-49ae-9a1a-fd19b8455892,a025c8d3-1971-4dc5-894a-38b105c3f376,a00dce43-4474-4f05-abdd-6e0359ef97b9,3e458425-c001-4096-b4a5-f93ca1cb3601"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,7 +31,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-09-07T14:36:41"
+#!   LAST_SAVE_DATE="2018-09-07T15:34:19"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,7 +49,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="73.2565 2734.91"
+#!   VIEW_POSITION="-24.4188 498.842"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="86"
@@ -1460,7 +1460,7 @@
 #!   BOUNDING_RECT="8 2380 4464.1377446332599 998.59083707116156"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.79607843137254897,0.67450980392156867"
-#!   CONTENTS="62 63 7 8 60 57 56 "
+#!   CONTENTS="57 7 60 56 8 63 62 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1473,7 +1473,7 @@
 #!   BOUNDING_RECT="8 1265.4884069770928 5740 836"
 #!   STICKY="true"
 #!   COLOUR="0.81960784313725488,0.21568627450980393,0.10980392156862745"
-#!   CONTENTS="49 44 51 52 50 55 47 39 40 48 46 45 "
+#!   CONTENTS="40 49 48 45 44 47 52 51 55 46 39 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1486,7 +1486,7 @@
 #!   BOUNDING_RECT="8 2734 1480 346"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.61568627450980395,0.84705882352941175"
-#!   CONTENTS="20 19 21 "
+#!   CONTENTS="20 21 19 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1499,7 +1499,7 @@
 #!   BOUNDING_RECT="297.53777909872133 299.39416277883709 4990 410"
 #!   STICKY="true"
 #!   COLOUR="0.14509803921568629,0.47843137254901963,0.51764705882352946"
-#!   CONTENTS="59 36 37 58 34 42 28 38 30 35 25 33 43 "
+#!   CONTENTS="25 59 30 36 33 37 58 35 38 28 34 42 43 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1517,53 +1517,53 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flow" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gnis_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="difficulty" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_formatted" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flow" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="gnis_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="difficulty" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1862,43 +1862,6 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="2DForcer_2"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="48"
-#!   TYPE="JSONTemplater"
-#!   VERSION="0"
-#!   POSITION="3698 883.98840697709284"
-#!   BOUNDING_RECT="3698 883.98840697709284 -1 -1"
-#!   ORDER="500000000000186.25"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
-#! >
-#!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GEO_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="_result"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;gauge&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;timeSincePresent&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;timeSincePresent&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;url&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;url&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;value&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;value&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
-#!     <XFORM_PARM PARM_NAME="SUB_TEMPLATE_PARAMS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater_2"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="49"
 #!   TYPE="GeometryExtractor"
 #!   VERSION="14"
@@ -2061,7 +2024,7 @@
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="_result"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;putins&lt;apos&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;4&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;4&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;putins&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
@@ -2069,6 +2032,43 @@
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater_3"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="48"
+#!   TYPE="JSONTemplater"
+#!   VERSION="0"
+#!   POSITION="3698 883.98840697709284"
+#!   BOUNDING_RECT="3698 883.98840697709284 -1 -1"
+#!   ORDER="500000000000186.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="CONSECUTIVE_GROUPS" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="GEO_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="_result"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;gauge&lt;apos&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;timeSincePresent&lt;quote&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;timeSincePresent&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;url&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;url&lt;quote&gt;&lt;closeparen&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;value&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;value&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
+#!     <XFORM_PARM PARM_NAME="SUB_TEMPLATE_PARAMS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater_2"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -2960,9 +2960,9 @@ FACTORY_DEF * TestFactory    FACTORY_NAME GeometryExtractor_3_Rejector    INPUT 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME GeometryExtractor_3_<Rejected> INPUT FEATURE_TYPE GeometryExtractor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, GeometryExtractor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_3 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_3_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_3_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space><apos>putins<apos><comma><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>4<lf><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>name<quote><space>:<space>fme:get-attribute<openparen><quote>name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote><space>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_3_OUTPUT
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_3 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_3_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_3_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>4<comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space><apos>putins<apos><lf><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>name<quote><space>:<space>fme:get-attribute<openparen><quote>name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote><space>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_3_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter       INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_2_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_3_OUTPUT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_<REJECTED>
+FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter       INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_3_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_2_OUTPUT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFormatter_<Rejected> INPUT FEATURE_TYPE JSONFormatter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFormatter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
