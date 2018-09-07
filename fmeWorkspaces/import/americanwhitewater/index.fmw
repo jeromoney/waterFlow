@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /opt/fme-desktop-2018/fme /home/justin/Documents/waterFlow/fmeWorkspaces/import/americanwhitewater/index.fmw
+#        /opt/fme-desktop-2018/fme /home/justin/PycharmProjects/waterFlow/fmeWorkspaces/import/americanwhitewater/index.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -15,9 +15,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="724ffa0b-0a47-42e4-be17-7a776e2715ed"
-#!   FME_DOCUMENT_PRIORGUID="b74faa10-dbd0-45b3-aab7-77341f0933c9,80293aa6-a130-4e03-a629-2ec3f0c7dda2,34efeaf4-4021-4bab-a3db-23d37723302b,ab79ecc7-1c0a-403e-aaaf-073bff9843c6"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="771ac00a-4c8b-4507-89f7-f5f1fb5ae981"
+#!   FME_DOCUMENT_PRIORGUID="b74faa10-dbd0-45b3-aab7-77341f0933c9,80293aa6-a130-4e03-a629-2ec3f0c7dda2,34efeaf4-4021-4bab-a3db-23d37723302b,ab79ecc7-1c0a-403e-aaaf-073bff9843c6,724ffa0b-0a47-42e4-be17-7a776e2715ed"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -25,8 +25,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-07T12:16:58"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
+#!   LAST_SAVE_DATE="2018-09-07T13:01:29"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-42.0004 1128.01"
+#!   VIEW_POSITION="-99.001 918.009"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -63,7 +63,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_feature_type char(50) fme_rotation float8 fme_secondary_axis float8 postgres_oid int4 multi_reader_type char(50) fme_text_size float8 fme_basename char(50) fme_fill_color char(50) postgis_collection_part_id int4 multi_reader_keyword char(50) postgis_collection_id int4 multi_reader_full_id int4 fme_text_string char(50) fme_color char(50) fme_dataset char(50) fme_start_angle float8 postgis_type char(50) fme_type char(50) fme_geometry char(50) fme_primary_axis float8 fme_sweep_angle float8 multi_reader_id int4"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 fme_start_angle float8 multi_reader_keyword char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_text_string char(50) fme_dataset char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -478,9 +478,9 @@
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.cb_2017_us_state_500k"
+#!   NODE_NAME="cb_2017_us_state_500k"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="2"
 #!   FEAT_GEOMTYPE="postgis_multipolygon"
@@ -491,7 +491,7 @@
 #!   KEYWORD="POSTGIS_1"
 #!   PARMS_EDITED="false"
 #!   ENABLED="true"
-#!   HIDDEN_USER_ATTRS="geoid lsad statens statefp awater affgeoid ogc_fid name aland"
+#!   HIDDEN_USER_ATTRS="name aland statens lsad affgeoid geoid awater ogc_fid statefp"
 #!   READ_SELECT_ATTRS="true"
 #!   MERGE_FILTER="*"
 #!   MERGE_FILTER_TYPE="FILTER_TYPE_GLOB"
@@ -518,7 +518,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -646,9 +646,10 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
+
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1
-DEFAULT_MACRO SourceDataset_POSTGIS flowdb
+DEFAULT_MACRO SourceDataset_POSTGIS postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 #! START_HEADER
 #! START_WB_HEADER
@@ -656,12 +657,10 @@ READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} POSTGIS
 MULTI_READER_KEYWORD{0} POSTGIS_1
 MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_MAXX,0,CLIP_TO_ENVELOPE,NO,ADVANCED,,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_CLOSED,SCHEMAS_FOR_TABLE_LISTING,,DISABLE_COLLECTION_SPLITTING,yes,WHERE_CLAUSE,,TABLELIST,public.cb_2017_us_state_500k,END_SQL,,NAMED_CONNECTION,flowdb,POSTGIS_EXPOSE_FORMAT_ATTRS,,BEGIN_SQL,,USE_TRUE_POSTGIS_TYPES,yes,SEARCH_ENVELOPE_MAXY,0,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,FEATURES_PER_FETCH,10000,SEARCH_METHOD,MBR_OVERLAPS,SEARCH_ENVELOPE_MINX,0,SEARCH_ENVELOPE_MINY,0,USE_SEARCH_ENVELOPE,NO,_MERGE_SCHEMAS,YES,READ_TIME_WITH_TIMEZONE,Yes
-
 WRITER_TYPE NULL
 WRITER_KEYWORD NULL_DEST
 NULL_DEST_DATASET null
 #! END_WB_HEADER
-
 #! START_WB_HEADER
 MACRO WB_KEYWORD "POSTGIS_1"
 #! END_WB_HEADER
@@ -756,18 +755,17 @@ POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
-
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)index.log"
 LOG_APPEND NO
+LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
 # -------------------------------------------------------------------------
 
@@ -796,62 +794,50 @@ POSTGIS_1_MERGE_DEF POSTGIS_1::public.cb_2017_us_state_500k EXACT public.cb_2017
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.cb_2017_us_state_500k (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.cb_2017_us_state_500k    OUTPUT FEATURE_TYPE public.cb_2017_us_state_500k_POSTGIS_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-
 # ------------------------------------------------------------------------------
 # Determine the "NULL" device so we can ensure we don't get stray output
 # messing up our stdout if we are running workspaces in the background
 # See http://wiki.tcl.tk/1649 for a description of the tcl_platform
 # variable, the "platform" part seems to have valid values windows, unix, and
 # macintosh (the latter of which is actually pre-OS X)
-
 Tcl2 if { $tcl_platform(platform) == {windows} } {         set ::null_device {NUL:};         set ::__WR_ENV_HELPER__ {};      } else {         set ::null_device {/dev/null};         set ::__WR_ENV_HELPER__ {/usr/bin/env FME_SUBPROCESS_RUN_DETACHED=1};      };
 # ------------------------------------------------------------------------------
 # Escape existing double quotes and then wrap in double quotes
-
-Tcl2 proc quotifyForParameterFileV3 { sourceString } {   if {[string length $sourceString] == 0} {      return \"\";   };   set doQuote 0;   if {[string first { } $sourceString] != -1} {      set doQuote 1;   };   set sourceString [string map {{\"} {\\"}} $sourceString];   if {$doQuote == 1} {      set sourceString \\"$sourceString\\";   };   return $sourceString; };
+Tcl2 proc quotifyForParameterFileV3 { sourceString } {   if {[string length $sourceString] == 0} {      return {\"\"};   };   set doQuote 0;   if {[string first { } $sourceString] != -1} {      set doQuote 1;   };   set sourceString [string map {{\"} {\\"}} $sourceString];   if {$doQuote == 1} {      set sourceString \\"$sourceString\\";   };   return $sourceString; };
 # ------------------------------------------------------------------------------
 # Main runner procedure, takes in a parameter list as string which is delimited
 # by \x07 (BELL) character and the workspace to run
-
-Tcl2 proc WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_runner { parmListString workspaceFile } {    global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands;    global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count;    incr WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count 0;    if { [info exists WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands] == 0 } {       set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands {};    };    set workspaceFileUnix [regsub -all {\\} $workspaceFile {/}];    set parmListString [string range $parmListString 1 end-1];    set comment    {        Build up the command line in a list, which we'll write it out to a        parameter file.    };    set commandArguments {};    set commandArgumentsToLog {};    set workspaceToRun [quotifyForParameterFileV3 $workspaceFileUnix];    lappend commandArguments $workspaceToRun;    lappend commandArgumentsToLog $workspaceToRun;    set parameterList [split $parmListString \x07];    set parmTypes [split {TEXT} {,}];    foreach {parmName parmValue} $parameterList {parmType} $parmTypes {      set parmValue [quotifyForParameterFileV3 $parmValue];      lappend commandArguments --$parmName;      lappend commandArgumentsToLog --$parmName;      lappend commandArguments $parmValue;      if { [string first {PASSWORD} $parmType] != -1 } {           lappend commandArgumentsToLog {*********};      } else {           lappend commandArgumentsToLog $parmValue;      };    };    lappend WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands [join $commandArguments " "];    incr WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count;    if { {Yes} == {No} && {<Unused>} > 1  && $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count <= {<Unused>} } {       FME_LogMessage fme_inform 933450 WorkspaceRunner $commandArgumentsToLog;    } else {       FME_LogMessage fme_inform 933451 WorkspaceRunner $commandArgumentsToLog;    };    if { {Yes} != {No} || $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count == {<Unused>} } {       set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_batch_count 0;       set commandFile [WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_writeCommandFile $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands {};       lappend cmdArgs {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;    } else {       return SUCCESS;    };    return [WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_runCommand $cmdArgs $workspaceFileUnix]; }
+Tcl2 proc WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_runner { parmListString workspaceFile } {    global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands;    global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count;    incr WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count 0;    if { [info exists WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands] == 0 } {       set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands {};    };    set workspaceFileUnix [regsub -all {\\} $workspaceFile {/}];    set parmListString [string range $parmListString 1 end-1];    set comment    {        Build up the command line in a list, which we'll write it out to a        parameter file.    };    set commandArguments {};    set commandArgumentsToLog {};    set workspaceToRun [quotifyForParameterFileV3 $workspaceFileUnix];    lappend commandArguments $workspaceToRun;    lappend commandArgumentsToLog $workspaceToRun;    set parameterList [split $parmListString \x07];    set parmTypes [split {TEXT} {,}];    foreach {parmName parmValue} $parameterList {parmType} $parmTypes {      set parmValue [quotifyForParameterFileV3 $parmValue];      lappend commandArguments --$parmName;      lappend commandArgumentsToLog --$parmName;      lappend commandArguments $parmValue;      if { [string first {PASSWORD} $parmType] != -1 } {           lappend commandArgumentsToLog {*********};      } else {           lappend commandArgumentsToLog $parmValue;      };    };    lappend WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands [join $commandArguments " "];    incr WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count;    if { {Yes} == {No} && {<Unused>} > 1  && $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count <= {<Unused>} } {       FME_LogMessage fme_inform 933450 WorkspaceRunner $commandArgumentsToLog;    } else {       FME_LogMessage fme_inform 933451 WorkspaceRunner $commandArgumentsToLog;    };    if { {Yes} != {No} || $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count == {<Unused>} } {       set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_batch_count 0;       set commandFile [WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_writeCommandFile $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands {};       lappend cmdArgs {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;    } else {       return SUCCESS;    };    return [WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_runCommand $cmdArgs $workspaceFileUnix]; }
 # ------------------------------------------------------------------------------
 # When batching commands, any overflow commands will be run at the end. Say you
 # batch by 2 and there are 5 incoming features. Then we will have 2 batches with
 # 2 commands each and 1 overflow batch with 1 command
-
-Tcl2 proc WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_flushPending { } {    global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands;    if { [info exists WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands] == 1 && [llength $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands] > 0 } {       set workspaceToRun [lindex $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands 0];       set commandFile [WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_writeCommandFile $WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_commands {};       lappend commandArguments {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;       return [WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_runCommand $commandArguments $workspaceToRun];    };    return SUCCESS; }
+Tcl2 proc WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_flushPending { } {    global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands;    if { [info exists WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands] == 1 && [llength $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands] > 0 } {       set workspaceToRun [lindex $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands 0];       set commandFile [WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_writeCommandFile $WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands];       if { $commandFile == {} } {          return FAILURE;       };       set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_commands {};       lappend commandArguments {*}$::__WR_ENV_HELPER__ {$(FME_HOME_UNIX)/fme} COMMAND_FILE $commandFile;       return [WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_runCommand $commandArguments $workspaceToRun];    };    return SUCCESS; }
 # ------------------------------------------------------------------------------
 # Build and run the command
-
-Tcl2 proc WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_runCommand {commandArguments workspaceFileUnix} {    if { {Yes} == {No} } {        lappend commandArguments \">$::null_device\";        lappend commandArguments \"<$::null_device\";    };    set comment    {        The below 2>@1 forces any standard error output to go into the msg variable        or to NULL if we're running in the background.    };    lappend commandArguments {2>@1};    if { {Yes} == {No} } {        lappend commandArguments {&};    };    if { {Yes} == {No} } {       after 1000;       while { [FME_CanSpawnFme <Unused>] == {0} } {             after 2000;       };    };    if { Yes == {No} && {<Unused>} > 1 } {       FME_LogMessage fme_inform 933452 WorkspaceRunner $commandArguments;    } else {       FME_LogMessage fme_inform 933453 WorkspaceRunner $commandArguments;    };    if {[catch {eval [concat exec $commandArguments] } msg ]} {       set msg [regsub {\015*\012child[^\012]*$} $msg {}];       FME_LogMessage fme_warn 933454 WorkspaceRunner $workspaceFileUnix "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return FAILURE;    } else {       global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_process_count;       incr WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_process_count;       if { {Yes} == {No} } {           FME_LogMessage fme_inform 933455 WorkspaceRunner $workspaceFileUnix;           global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_all_processes;           lappend WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_all_processes $msg;       } else {           FME_LogMessage fme_inform 933456 WorkspaceRunner $workspaceFileUnix;       };       return SUCCESS;    }; }
+Tcl2 proc WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_runCommand {commandArguments workspaceFileUnix} {    if { {Yes} == {No} } {        lappend commandArguments \">$::null_device\";        lappend commandArguments \"<$::null_device\";    };    set comment    {        The below 2>@1 forces any standard error output to go into the msg variable        or to NULL if we're running in the background.    };    lappend commandArguments {2>@1};    if { {Yes} == {No} } {        lappend commandArguments {&};    };    if { {Yes} == {No} } {       after 1000;       while { [FME_CanSpawnFme <Unused>] == {0} } {             after 2000;       };    };    if { Yes == {No} && {<Unused>} > 1 } {       FME_LogMessage fme_inform 933452 WorkspaceRunner $commandArguments;    } else {       FME_LogMessage fme_inform 933453 WorkspaceRunner $commandArguments;    };    if {[catch {eval [concat exec $commandArguments] } msg ]} {       set msg [regsub {\015*\012child[^\012]*$} $msg {}];       FME_LogMessage fme_warn 933454 WorkspaceRunner $workspaceFileUnix "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return FAILURE;    } else {       global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_process_count;       incr WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_process_count;       if { {Yes} == {No} } {           FME_LogMessage fme_inform 933455 WorkspaceRunner $workspaceFileUnix;           global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_all_processes;           lappend WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_all_processes $msg;       } else {           FME_LogMessage fme_inform 933456 WorkspaceRunner $workspaceFileUnix;       };       return SUCCESS;    }; }
 # ------------------------------------------------------------------------------
 # Create and write commands to command file
-
-Tcl2 proc WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_writeCommandFile { commands } {    set commandFile [FME_TempFilename wsr_cm_];    if { [catch { set cmdFileId [open $commandFile "w"] } msg ] } {       FME_LogMessage fme_warn 933457 WorkspaceRunner $commandFile "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return {};    };    fconfigure $cmdFileId -encoding utf-8;    puts $cmdFileId {#! encoding=\"utf-8\"};    puts $cmdFileId DELETE_FILE_AFTER_LOAD;    foreach {command} $commands {       puts $cmdFileId $command;    };    close $cmdFileId;    return $commandFile; }
+Tcl2 proc WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_writeCommandFile { commands } {    set commandFile [FME_TempFilename wsr_cm_];    if { [catch { set cmdFileId [open $commandFile "w"] } msg ] } {       FME_LogMessage fme_warn 933457 WorkspaceRunner $commandFile "\n\n$msg\n";       FME_SetAttribute _failure_message $msg;       return {};    };    fconfigure $cmdFileId -encoding utf-8;    puts $cmdFileId {#! encoding=\"utf-8\"};    puts $cmdFileId DELETE_FILE_AFTER_LOAD;    foreach {command} $commands {       puts $cmdFileId $command;    };    close $cmdFileId;    return $commandFile; }
 # ------------------------------------------------------------------------------
 # Use \x07 (BELL) character as the delimiter when writing WORKSPACE_PARAMETERS
 # to mapping file
-FACTORY_DEF * TestFactory    FACTORY_NAME WorkspaceRunner_ExecutorAndRouter    INPUT  FEATURE_TYPE public.cb_2017_us_state_500k_POSTGIS_1    TEST @Tcl2("WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_runner {(stateAbbrev@EvaluateExpression(FDIV,STRING,<at>Value<openparen>stusps<closeparen>,WorkspaceRunner))} {@EvaluateExpression(FDIV,STRING,$(FME_MF_DIR$encode)americanwhitewaterReader.fmw,WorkspaceRunner)}") == SUCCESS    OUTPUT PASSED FEATURE_TYPE WorkspaceRunner_SUCCEEDED    OUTPUT FAILED FEATURE_TYPE WorkspaceRunner_FAILED
-Tcl2 proc WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_summarizer { } {     global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_process_count;     set comment { incr 0 creates the variable if it wasn't present };     incr WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_process_count 0;     FME_SetAttribute _proc_count [set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_process_count];     global WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_all_processes;     if {[info exists WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_all_processes]} {         set index 0;         foreach pid [set WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_all_processes] {             FME_SetAttribute \"_processes{$index}\" $pid;             incr index;         }     } }
-FACTORY_DEF * CreationFactory    FACTORY_NAME WorkspaceRunner_SummaryMaker    CREATE_AT_END yes    OUTPUT FEATURE_TYPE WorkspaceRunner_SUMMARY        @Tcl2(WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_flushPending)        @Tcl2(WorkspaceRunner_4ee41d07_27f1_4fb4_a5db_3be3be226c4d1_summarizer)
-
+FACTORY_DEF * TestFactory    FACTORY_NAME WorkspaceRunner_ExecutorAndRouter    INPUT  FEATURE_TYPE public.cb_2017_us_state_500k_POSTGIS_1    TEST @Tcl2("WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_runner {(stateAbbrev@EvaluateExpression(FDIV,STRING,<at>Value<openparen>stusps<closeparen>,WorkspaceRunner))} {@EvaluateExpression(FDIV,STRING,$(FME_MF_DIR$encode)americanwhitewaterReader.fmw,WorkspaceRunner)}") == SUCCESS    OUTPUT PASSED FEATURE_TYPE WorkspaceRunner_SUCCEEDED    OUTPUT FAILED FEATURE_TYPE WorkspaceRunner_FAILED
+Tcl2 proc WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_summarizer { } {     global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_process_count;     set comment { incr 0 creates the variable if it wasn't present };     incr WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_process_count 0;     FME_SetAttribute _proc_count [set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_process_count];     global WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_all_processes;     if {[info exists WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_all_processes]} {         set index 0;         foreach pid [set WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_all_processes] {             FME_SetAttribute \"_processes{$index}\" $pid;             incr index;         }     } }
+FACTORY_DEF * CreationFactory    FACTORY_NAME WorkspaceRunner_SummaryMaker    CREATE_AT_END yes    OUTPUT FEATURE_TYPE WorkspaceRunner_SUMMARY        @Tcl2(WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_flushPending)        @Tcl2(WorkspaceRunner_6519ea98_5a47_45ef_807b_ceca0d20cd4d0_summarizer)
 # -------------------------------------------------------------------------
-
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
 DEFAULT_MACRO WORKSPACE_TEMP_DIR
 INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
 FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Inspector_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE WorkspaceRunner_SUCCEEDED    INPUT  FEATURE_TYPE WorkspaceRunner_FAILED    INPUT  FEATURE_TYPE WorkspaceRunner_SUMMARY    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Inspector }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-
 FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA _proc_count,varchar<openparen>255<closeparen>,stusps,varchar<openparen>255<closeparen>,_failure_message,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -861,5 +847,5 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
+FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__

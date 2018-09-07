@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /opt/fme-desktop-2018/fme /home/justin/Documents/waterFlow/fmeWorkspaces/import/americanwhitewater/americanwhitewaterReader.fmw
+#        /opt/fme-desktop-2018/fme /home/justin/PycharmProjects/waterFlow/fmeWorkspaces/import/americanwhitewater/americanwhitewaterReader.fmw
 #              --stateAbbrev "CA"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="431a5dc6-9cce-4d08-b6e1-f64bb88932cf"
-#!   FME_DOCUMENT_PRIORGUID="2fc50aab-f5bb-43a1-9647-cf869c2d16fb,e83d7022-a6d8-4712-bbc9-301b0b3ec7bc,d89115a6-82cd-45df-8169-4a04af4235ad,ad5720ee-5bc2-49fd-8d3a-d6b7514d0ce6,7c23df64-2b16-4282-b77b-99c4241a6ab1,9d0ad5a0-62a7-4f8c-8435-8c33dac708a9,6b2e4b01-91f7-46a4-84eb-4f8bfdc92d6e,decabf29-d1f5-4ee8-a185-2f185143d6ae,6b6f9133-8dbf-4907-8b3b-a3ba091073ba"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="80883210-4cc9-4116-ba5c-5b54519f5b16"
+#!   FME_DOCUMENT_PRIORGUID="2fc50aab-f5bb-43a1-9647-cf869c2d16fb,e83d7022-a6d8-4712-bbc9-301b0b3ec7bc,d89115a6-82cd-45df-8169-4a04af4235ad,ad5720ee-5bc2-49fd-8d3a-d6b7514d0ce6,7c23df64-2b16-4282-b77b-99c4241a6ab1,9d0ad5a0-62a7-4f8c-8435-8c33dac708a9,6b2e4b01-91f7-46a4-84eb-4f8bfdc92d6e,decabf29-d1f5-4ee8-a185-2f185143d6ae,6b6f9133-8dbf-4907-8b3b-a3ba091073ba,431a5dc6-9cce-4d08-b6e1-f64bb88932cf"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-08T14:01:52"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
+#!   LAST_SAVE_DATE="2018-09-07T13:00:37"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-144.001 1314.01"
+#!   VIEW_POSITION="-141.001 933.009"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE=""
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="kml_lookat_heading kml_real64 kml_hotspot_xunits kml_char(20) kml_overlayxy_y kml_real64 kml_liststyle_list_item_type kml_char(50) kml_target_style_normal kml_buffer kml_link_http_query kml_buffer kml_visibility kml_int16 kml_atom_link_href kml_buffer kml_message kml_buffer kml_tour_stop_tour_name kml_buffer kml_linestyle_physical_width kml_real64 fme_geometry kml_char(50) kml_extended_data_xmlns_prefix kml_buffer kml_open kml_int16 kml_scale_y kml_real64 kml_refresh_visibility kml_int16 kml_polystyle_outline kml_int16 fme_fill_color kml_char(50) kml_linestyle_color_mode kml_char(20) kml_balloonstyle_text kml_buffer kml_camera_gx_timespan_end kml_datetime kml_viewvolume_topfov kml_int16 kml_phone_number kml_buffer kml_icon_view_refresh_time kml_int16 kml_lookat_range kml_real64 kml_target_href kml_buffer kml_expires kml_datetime kml_linestyle_color kml_char(10) kml_rotationxy_y kml_real64 kml_tour_stop_delay_duration kml_int16 kml_gx_play_mode kml_char(20) kml_hotspot_x kml_int16 kml_screenxy_yunits kml_char(20) kml_description_text kml_buffer kml_icon_href kml_buffer kml_extended_data_xmlns_url kml_buffer kml_icon kml_buffer kml_balloon_text_color kml_char(10) kml_tour_stop_delay_type kml_char(10) kml_altitude_mode kml_char(50) kml_link_view_refresh_mode kml_char(50) kml_tessellate kml_int16 kml_lookat_latitude kml_real64 kml_lookat_longitude kml_real64 kml_create_info_point kml_char(3) kml_imagepyramid_tilesize kml_real64 kml_balloonstyle_text_color kml_char(10) kml_lookat_gx_timespan_begin kml_datetime kml_raw_text kml_buffer kml_viewvolume_rightfov kml_int16 kml_atom_link_rel kml_buffer kml_link_view_bound_scale kml_real64 kml_icon_refresh_mode kml_char(50) kml_liststyle_item_icon kml_buffer kml_size_yunits kml_char(20) kml_color kml_char(8) kml_data{}.value kml_buffer kml_iconstyle_color kml_char(10) kml_tour_stop_flyto_duration kml_int16 kml_fly_to_view kml_int16 kml_lookat_altitude_mode kml_char(20) kml_extended_data_xml kml_buffer kml_labelstyle_color kml_char(10) kml_tour_stop_flyto_mode kml_char(20) kml_link_href kml_buffer kml_latlonbox_west kml_real64 kml_scale_x kml_real64 kml_polystyle_fill kml_real64 fme_rotation kml_real64 kml_timespan_end kml_datetime kml_style_url kml_buffer kml_gx_timestamp_when kml_datetime kml_iconstyle_color_mode kml_char(20) kml_lookat_gx_timespan_end kml_datetime kml_href kml_buffer kml_camera_altitude kml_real64 kml_camera_latitude kml_real64 fme_sweep_angle kml_real64 kml_parent kml_buffer kml_name kml_buffer kml_tour_stop_tour_duration kml_int16 kml_orientation_roll kml_real64 fme_basename kml_char(50) kml_imagepyramid_maxwidth kml_int16 kml_style_id kml_buffer kml_gx_lookat_altitude_mode kml_char(50) fme_text_size kml_real64 kml_data{}.name kml_buffer kml_polystyle_color kml_char(10) kml_data{}.display_name kml_buffer kml_label_color kml_char(50) multi_reader_keyword kml_char(50) kml_lod_min_lod_pixels kml_real64 kml_target_style kml_buffer kml_hotspot_yunits kml_char(20) kml_camera_roll kml_real64 kml_altitude kml_real64 kml_cookie kml_buffer kml_camera_heading kml_real64 kml_link_snippet kml_buffer kml_liststyle_item_icon{}.state kml_char(50) fme_start_angle kml_real64 kml_snippet_raw_text kml_buffer kml_id kml_buffer kml_overlayxy_x kml_real64 kml_linestyle_label_visibility kml_boolean kml_balloon_text_opacity kml_real64 fme_pen_opacity kml_real64 multi_reader_type kml_char(50) kml_link_description kml_buffer kml_latlonaltbox_west kml_real64 kml_rotation kml_real64 kml_imagepyramid_maxheight kml_int16 kml_overlayxy_xunits kml_char(20) kml_lod_max_lod_pixels kml_real64 kml_gx_duration kml_int16 kml_camera_tilt kml_real64 kml_common_style kml_buffer kml_link_view_format kml_buffer kml_gx_timespan_end kml_datetime kml_camera_gx_timestamp_when kml_datetime multi_reader_full_id kml_int32 fme_feature_type kml_char(50) kml_gx_balloon_visibility kml_int16 kml_screenxy_x kml_real64 kml_rotationxy_yunits kml_char(20) kml_timestamp_when kml_datetime kml_document kml_buffer kml_link_snippet_max_lines kml_int16 kml_orientation_tilt kml_real64 kml_icon_view_refresh_mode kml_char(50) kml_target_style_highlight kml_buffer kml_min_refresh_period kml_real64 kml_tour_stop_view_heading kml_char(25) kml_size_y kml_real64 fme_primary_axis kml_real64 kml_attribute_table_title kml_buffer kml_latlonbox_north kml_real64 kml_document_path kml_buffer kml_hotspot_y kml_int16 kml_labelstyle_scale kml_real64 kml_icon_view_bound_scale kml_real64 kml_tour kml_buffer kml_gx_flyto_mode kml_char(10) kml_tour_stop_view_perspective kml_char(15) kml_camera_longitude kml_real64 kml_draw_order kml_int16 kml_icon_refresh_interval kml_int16 kml_tour_stop_display_balloon kml_char(3) kml_lod_min_fade_extent kml_real64 kml_iconstyle_heading kml_real64 kml_lod_max_fade_extent kml_real64 kml_schema_url kml_buffer kml_viewvolume_near kml_int16 kml_viewvolume_leftfov kml_int16 kml_screenxy_xunits kml_char(20) kml_viewvolume_bottomfov kml_int16 kml_sort_value kml_buffer kml_gx_camera_altitude_mode kml_char(50) kml_balloonstyle_raw_text kml_buffer kml_balloon_opacity kml_real64 kml_link_view_refresh_time kml_int16 fme_opacity kml_real64 kml_gx_timespan_begin kml_datetime kml_animated_update kml_buffer kml_camera_altitude_mode kml_char(50) kml_latlonaltbox_south kml_real64 kml_extrude kml_int16 kml_liststyle_item_icon{}.href kml_buffer kml_liststyle_bgcolor kml_char(50) fme_secondary_axis kml_real64 kml_atom_author_name kml_buffer kml_balloonstyle_bgcolor kml_char(10) kml_description kml_buffer kml_gx_altitude_mode kml_char(50) multi_reader_id kml_int32 fme_dataset kml_char(50) kml_balloon_color kml_char(10) kml_label_opacity kml_real64 kml_iconstyle_scale kml_real64 kml_linestyle_width kml_real64 kml_lookat_altitude kml_real64 fme_color kml_char(50) kml_latlonaltbox_altitude_mode kml_char(50) kml_schema_data{}.value kml_buffer kml_polystyle_color_mode kml_char(20) kml_atom_author_email kml_buffer kml_location_altitude kml_real64 fme_text_string kml_char(50) fme_type kml_char(50) kml_latlonaltbox_max_altitude kml_real64 kml_link_refresh_mode kml_char(50) kml_icon_opacity kml_real64 kml_tour_stop_view_range kml_char(25) kml_document_href kml_buffer kml_icon_view_format kml_buffer kml_location_longitude kml_real64 kml_size_xunits kml_char(20) kml_latlonbox_east kml_real64 kml_size_x kml_real64 kml_tour_stop_view_tilt kml_char(25) kml_roll kml_real64 kml_imagepyramid_gridorigin kml_buffer kml_shape kml_buffer kml_latlonaltbox_east kml_char(255) kml_scale_z kml_real64 fme_fill_opacity kml_real64 kml_rotationxy_xunits kml_char(20) kml_lookat_gx_timestamp_when kml_datetime kml_style_url_highlight kml_buffer kml_location_latitude kml_real64 kml_orientation_heading kml_real64 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_latlonaltbox_min_altitude kml_real64 kml_labelstyle_color_mode kml_char(20) kml_icon_temp_file_location kml_buffer kml_lookat_tilt kml_real64 kml_link_refresh_interval kml_real64 kml_update_mode kml_char(10) kml_screenxy_y kml_real64 kml_max_session_length kml_real64 kml_description_raw_text kml_buffer kml_icon_color kml_char(50) kml_latlonbox_rotation kml_real64 kml_latlonbox_south kml_real64 kml_rotationxy_x kml_real64 kml_link_name kml_buffer kml_icon_http_query kml_buffer kml_data{}.display_name_raw_text kml_buffer kml_overlayxy_yunits kml_char(20) kml_schema_data{}.name kml_buffer kml_latlonaltbox_north kml_real64 kml_snippet kml_buffer kml_address kml_buffer kml_style_url_normal kml_buffer kml_timespan_begin kml_datetime kml_camera_gx_timespan_begin kml_datetime"
+#!   EXPOSABLE_ATTRS="kml_polystyle_outline kml_int16 kml_draw_order kml_int16 kml_document kml_buffer kml_common_style kml_buffer kml_data{}.value kml_buffer kml_data{}.display_name_raw_text kml_buffer kml_link_view_refresh_time kml_int16 kml_imagepyramid_tilesize kml_real64 kml_icon_view_refresh_time kml_int16 kml_extrude kml_int16 kml_style_url_normal kml_buffer kml_latlonaltbox_south kml_real64 kml_update_mode kml_char(10) multi_reader_full_id kml_int32 kml_expires kml_datetime kml_camera_longitude kml_real64 kml_linestyle_label_visibility kml_boolean kml_linestyle_color kml_char(10) kml_snippet_raw_text kml_buffer kml_overlayxy_y kml_real64 kml_latlonbox_north kml_real64 kml_balloonstyle_raw_text kml_buffer kml_latlonaltbox_east kml_char(255) kml_href kml_buffer kml_extended_data_xmlns_prefix kml_buffer kml_imagepyramid_maxheight kml_int16 kml_imagepyramid_maxwidth kml_int16 kml_refresh_visibility kml_int16 kml_iconstyle_color kml_char(10) kml_lookat_altitude_mode kml_char(20) kml_icon_view_bound_scale kml_real64 kml_min_refresh_period kml_real64 kml_target_style kml_buffer kml_label_opacity kml_real64 kml_gx_latlonaltbox_altitude_mode kml_char(50) kml_icon kml_buffer kml_lookat_altitude kml_real64 kml_snippet kml_buffer kml_gx_flyto_mode kml_char(10) kml_latlonbox_east kml_real64 kml_extended_data_xml kml_buffer kml_data{}.display_name kml_buffer kml_rotation kml_real64 kml_tessellate kml_int16 kml_latlonaltbox_altitude_mode kml_char(50) fme_sweep_angle kml_real64 kml_gx_timespan_end kml_datetime fme_color kml_char(50) kml_liststyle_item_icon{}.state kml_char(50) kml_lod_min_fade_extent kml_real64 kml_link_href kml_buffer fme_geometry kml_char(50) fme_secondary_axis kml_real64 kml_size_yunits kml_char(20) kml_hotspot_y kml_int16 kml_description kml_buffer kml_imagepyramid_gridorigin kml_buffer kml_link_view_format kml_buffer kml_timespan_end kml_datetime kml_location_altitude kml_real64 kml_icon_view_format kml_buffer kml_size_x kml_real64 kml_rotationxy_x kml_real64 kml_tour_stop_flyto_duration kml_int16 kml_link_snippet_max_lines kml_int16 kml_polystyle_color kml_char(10) multi_reader_id kml_int32 kml_viewvolume_near kml_int16 kml_gx_timespan_begin kml_datetime kml_camera_gx_timespan_end kml_datetime kml_lookat_gx_timespan_begin kml_datetime kml_open kml_int16 fme_rotation kml_real64 kml_lod_max_lod_pixels kml_real64 fme_start_angle kml_real64 kml_tour_stop_view_perspective kml_char(15) kml_linestyle_color_mode kml_char(20) kml_screenxy_y kml_real64 kml_atom_link_href kml_buffer kml_camera_gx_timestamp_when kml_datetime kml_liststyle_list_item_type kml_char(50) kml_atom_link_rel kml_buffer kml_tour_stop_flyto_mode kml_char(20) kml_viewvolume_rightfov kml_int16 kml_hotspot_x kml_int16 kml_phone_number kml_buffer kml_animated_update kml_buffer kml_tour_stop_view_tilt kml_char(25) kml_linestyle_width kml_real64 fme_basename kml_char(50) kml_camera_roll kml_real64 kml_link_view_refresh_mode kml_char(50) kml_sort_value kml_buffer kml_lod_max_fade_extent kml_real64 fme_fill_opacity kml_real64 kml_screenxy_x kml_real64 kml_location_latitude kml_real64 kml_lod_min_lod_pixels kml_real64 kml_message kml_buffer kml_icon_temp_file_location kml_buffer kml_size_xunits kml_char(20) kml_color kml_char(8) kml_liststyle_item_icon kml_buffer kml_balloon_text_color kml_char(10) kml_shape kml_buffer kml_linestyle_physical_width kml_real64 kml_target_style_normal kml_buffer kml_iconstyle_heading kml_real64 kml_orientation_heading kml_real64 kml_icon_http_query kml_buffer kml_name kml_buffer kml_address kml_buffer kml_gx_play_mode kml_char(20) fme_opacity kml_real64 kml_latlonbox_south kml_real64 kml_camera_latitude kml_real64 fme_text_string kml_char(50) kml_lookat_latitude kml_real64 kml_gx_lookat_altitude_mode kml_char(50) kml_balloon_opacity kml_real64 kml_target_href kml_buffer kml_max_session_length kml_real64 kml_schema_url kml_buffer kml_target_style_highlight kml_buffer kml_overlayxy_xunits kml_char(20) kml_style_id kml_buffer kml_balloon_text_opacity kml_real64 kml_timestamp_when kml_datetime kml_scale_y kml_real64 kml_fly_to_view kml_int16 kml_link_refresh_interval kml_real64 kml_balloon_color kml_char(10) kml_extended_data_xmlns_url kml_buffer kml_atom_author_name kml_buffer kml_hotspot_yunits kml_char(20) fme_text_size kml_real64 kml_icon_view_refresh_mode kml_char(50) kml_location_longitude kml_real64 kml_camera_tilt kml_real64 kml_balloonstyle_text_color kml_char(10) kml_latlonaltbox_max_altitude kml_real64 kml_icon_href kml_buffer kml_description_text kml_buffer kml_labelstyle_scale kml_real64 kml_viewvolume_leftfov kml_int16 kml_style_url_highlight kml_buffer kml_lookat_range kml_real64 kml_latlonaltbox_west kml_real64 kml_lookat_longitude kml_real64 fme_dataset kml_char(50) kml_parent kml_buffer kml_link_http_query kml_buffer kml_gx_altitude_mode kml_char(50) kml_link_name kml_buffer kml_camera_heading kml_real64 kml_gx_duration kml_int16 fme_fill_color kml_char(50) kml_iconstyle_color_mode kml_char(20) kml_labelstyle_color kml_char(10) kml_lookat_gx_timespan_end kml_datetime kml_icon_refresh_interval kml_int16 kml_rotationxy_yunits kml_char(20) kml_scale_x kml_real64 kml_orientation_roll kml_real64 kml_description_raw_text kml_buffer kml_label_color kml_char(50) kml_screenxy_xunits kml_char(20) kml_overlayxy_yunits kml_char(20) kml_screenxy_yunits kml_char(20) fme_primary_axis kml_real64 kml_camera_altitude_mode kml_char(50) kml_latlonaltbox_min_altitude kml_real64 kml_tour_stop_view_range kml_char(25) kml_liststyle_item_icon{}.href kml_buffer kml_tour_stop_delay_type kml_char(10) multi_reader_type kml_char(50) kml_tour_stop_delay_duration kml_int16 kml_altitude kml_real64 kml_schema_data{}.value kml_buffer kml_polystyle_color_mode kml_char(20) kml_style_url kml_buffer kml_liststyle_bgcolor kml_char(50) kml_camera_gx_timespan_begin kml_datetime kml_gx_camera_altitude_mode kml_char(50) kml_link_view_bound_scale kml_real64 kml_document_href kml_buffer kml_overlayxy_x kml_real64 kml_icon_refresh_mode kml_char(50) kml_rotationxy_y kml_real64 kml_roll kml_real64 kml_tour_stop_display_balloon kml_char(3) fme_feature_type kml_char(50) kml_gx_timestamp_when kml_datetime kml_create_info_point kml_char(3) kml_polystyle_fill kml_real64 kml_altitude_mode kml_char(50) kml_link_snippet kml_buffer kml_camera_altitude kml_real64 kml_data{}.name kml_buffer kml_labelstyle_color_mode kml_char(20) kml_id kml_buffer kml_attribute_table_title kml_buffer kml_raw_text kml_buffer kml_icon_color kml_char(50) kml_link_refresh_mode kml_char(50) kml_lookat_gx_timestamp_when kml_datetime kml_orientation_tilt kml_real64 kml_tour_stop_tour_name kml_buffer kml_lookat_heading kml_real64 kml_tour kml_buffer kml_icon_opacity kml_real64 kml_gx_balloon_visibility kml_int16 kml_iconstyle_scale kml_real64 kml_scale_z kml_real64 kml_cookie kml_buffer kml_latlonbox_west kml_real64 kml_visibility kml_int16 kml_latlonbox_rotation kml_real64 kml_tour_stop_view_heading kml_char(25) kml_tour_stop_tour_duration kml_int16 kml_rotationxy_xunits kml_char(20) kml_schema_data{}.name kml_buffer kml_hotspot_xunits kml_char(20) fme_type kml_char(50) kml_link_description kml_buffer multi_reader_keyword kml_char(50) kml_latlonaltbox_north kml_real64 kml_timespan_begin kml_datetime kml_balloonstyle_text kml_buffer fme_pen_opacity kml_real64 kml_lookat_tilt kml_real64 kml_viewvolume_bottomfov kml_int16 kml_viewvolume_topfov kml_int16 kml_atom_author_email kml_buffer kml_document_path kml_buffer kml_size_y kml_real64 kml_balloonstyle_bgcolor kml_char(10)"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES=""
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -126,7 +126,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle float8 multi_reader_full_id int4 fme_rotation float8 fme_text_string char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_primary_axis float8 fme_color char(50) multi_reader_id int4 multi_reader_type char(50) fme_sweep_angle float8 fme_basename char(50) fme_geometry char(50) fme_dataset char(50) fme_feature_type char(50) postgres_type char(50) postgres_oid int4 fme_type char(50) fme_text_size float8 multi_reader_keyword char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgres_type char(50) fme_secondary_axis float8 fme_start_angle float8 multi_reader_keyword char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_text_string char(50) fme_dataset char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE;FORMAT,POSTGRES WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL;FORMAT,POSTGRES SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -196,7 +196,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle float8 multi_reader_full_id int4 fme_rotation float8 postgis_collection_id int4 fme_text_string char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_primary_axis float8 fme_color char(50) multi_reader_id int4 multi_reader_type char(50) postgis_collection_part_id int4 fme_sweep_angle float8 fme_basename char(50) fme_geometry char(50) fme_dataset char(50) fme_feature_type char(50) postgis_type char(50) postgres_oid int4 fme_type char(50) fme_text_size float8 multi_reader_keyword char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 fme_start_angle float8 multi_reader_keyword char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_text_string char(50) fme_dataset char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -262,7 +262,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_start_angle float8 fme_rotation float8 postgis_collection_id int4 fme_text_string char(50) fme_fill_color char(50) fme_secondary_axis float8 fme_primary_axis float8 fme_color char(50) postgis_collection_part_id int4 fme_sweep_angle float8 fme_basename char(50) fme_geometry char(50) fme_db_operation char(8) fme_dataset char(50) fme_feature_type char(50) postgis_type char(50) fme_type char(50) fme_text_size float8"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 fme_start_angle float8 fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) fme_color char(50) fme_rotation float8 fme_text_string char(50) fme_dataset char(50) fme_db_operation char(8) fme_basename char(50) fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -323,7 +323,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_secondary_axis float8 fme_primary_axis float8 fme_sweep_angle float8 fme_dataset char(50) fme_start_angle float8 fme_fill_color char(50) fme_color char(50) fme_db_operation char(8) fme_basename char(50) fme_type char(50) fme_geometry char(50) postgres_type char(50) fme_rotation float8 fme_text_size float8 fme_feature_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_feature_type char(50) fme_start_angle float8 fme_sweep_angle float8 fme_fill_color char(50) postgres_type char(50) fme_basename char(50) fme_type char(50) fme_dataset char(50) fme_db_operation char(8) fme_secondary_axis float8 fme_geometry char(50) fme_color char(50) fme_primary_axis float8 fme_rotation float8 fme_text_size float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -1907,8 +1907,8 @@
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="3"
 #!   FEAT_GEOMTYPE="kml_no_geom kml_point kml_line kml_area kml_aggregate kml_surface kml_solid"
-#!   POSITION="-103.00320434570312 913.74993896484375"
-#!   BOUNDING_RECT="-103.00320434570312 913.74993896484375 -1 -1"
+#!   POSITION="-103.00320434570313 913.74993896484375"
+#!   BOUNDING_RECT="-103.00320434570313 913.74993896484375 -1 -1"
 #!   ORDER="500000000000004"
 #!   COLLAPSED="false"
 #!   KEYWORD="OGCKML_1"
@@ -1926,9 +1926,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.riverlevels_data"
+#!   NODE_NAME="riverlevels_data"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="24"
 #!   FEAT_GEOMTYPE="postgres_none"
@@ -1955,9 +1955,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.riverlevels_data"
+#!   NODE_NAME="riverlevels_data"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="31"
 #!   FEAT_GEOMTYPE="All"
@@ -2030,9 +2030,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.riverlevels"
+#!   NODE_NAME="riverlevels"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="36"
 #!   FEAT_GEOMTYPE="postgis_none postgis_point postgis_multipoint postgis_linestring postgis_multilinestring postgis_circularstring postgis_compoundcurve postgis_multicurve postgis_polygon postgis_multipolygon postgis_curvepolygon postgis_multisurface postgis_triangle postgis_polyhedralsurface postgis_tin postgis_geometrycollection"
@@ -2063,6 +2063,13 @@
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET 
+#!   NAME="OGCKML_1"
+#!   OVERRIDE="-OGCKML_1_DATASET"
+#!   DATASET="OGCKML_1/.kml"
+#! />
+#! </READER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
@@ -2072,17 +2079,17 @@
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -2091,8 +2098,8 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
-#!   GUI_LINE="GUI IGNORE NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_2 FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_2 FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -2195,13 +2202,13 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
 #!   TYPE="SubDocumentTransformer"
-#!   VERSION="0"
+#!   VERSION="1"
 #!   POSITION="1001.9852160557739 276.49561892164343"
 #!   BOUNDING_RECT="1001.9852160557739 276.49561892164343 -1 -1"
 #!   ORDER="500000000000170.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="Updated"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2324,13 +2331,13 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="25"
 #!   TYPE="SubDocumentTransformer"
-#!   VERSION="0"
+#!   VERSION="1"
 #!   POSITION="1305.0065100651007 -248.2589111236573"
 #!   BOUNDING_RECT="1305.0065100651007 -248.2589111236573 -1 -1"
 #!   ORDER="500000000000175.25"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="Updated"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2707,7 +2714,7 @@
 #!   BOUNDING_RECT="1820 -14 563 1573"
 #!   STICKY="true"
 #!   COLOUR="0.87450980392156863,0.63137254901960782,0.53725490196078429"
-#!   CONTENTS="19 18 "
+#!   CONTENTS="18 19 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2733,7 +2740,7 @@
 #!   BOUNDING_RECT="3064 -16 538 1567"
 #!   STICKY="true"
 #!   COLOUR="1,0.50196078431372548,0.24705882352941178"
-#!   CONTENTS="14 13 16 15 "
+#!   CONTENTS="16 13 15 14 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2746,7 +2753,7 @@
 #!   BOUNDING_RECT="3653 -34 570 1510"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.35686274509803922,0.80392156862745101"
-#!   CONTENTS="22 21 20 "
+#!   CONTENTS="20 21 22 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -3459,22 +3466,22 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
+
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_OGCKML_1,OGCKML_IN_FME_GROUP_NAMED1_OGCKML_1,OGCKML_IN_KML21_LOG_VERBOSE_OGCKML_1,OGCKML_IN_KML21_RASTER_READ_MODE_OGCKML_1,OGCKML_IN_KML21_SCAN_SCHEMA_OGCKML_1,OGCKML_IN_KML21_FAIL_ON_NETWORK_ERROR_OGCKML_1,OGCKML_IN_KML21_DELETE_DOWNLOADED_FILES_OGCKML_1,OGCKML_IN_KML21_TRAVERSE_NETWORKLINKS_OGCKML_1,OGCKML_IN_KML21_MAX_NETWORKLINK_TRAVERSAL_DEPTH_OGCKML_1,OGCKML_IN_KML21_DATASET_ENCODING_OGCKML_1,OGCKML_IN_KML21_MOVE_TO_KML_WORLD_COORDSYS_OGCKML_1,OGCKML_IN_KML21_APPLY_MODEL_TRANSFORMS_OGCKML_1,OGCKML_IN_USE_SEARCH_ENVELOPE_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MINY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXX_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_MAXY_OGCKML_1,OGCKML_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_OGCKML_1,OGCKML_IN_CLIP_TO_ENVELOPE_OGCKML_1,OGCKML_IN_NETWORK_AUTHENTICATION_OGCKML_1,SourceDataset_POSTGRES_1,POSTGRES_IN_FME_CONNECTION_GROUP_POSTGRES_1,POSTGRES_IN_FME_GROUP_NAMED1_POSTGRES_1,POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1,POSTGRES_IN_ADVANCED_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1,SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1,DestDataset_POSTGIS_2,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_OUT_ADVANCED_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2,DestDataset_POSTGRES_2,POSTGRES_OUT_FME_CONNECTION_GROUP_POSTGRES_2,POSTGRES_OUT_ADVANCED_POSTGRES_2,POSTGRES_OUT_BULK_COPY_POSTGRES_2,POSTGRES_OUT_START_TRANSACTION_POSTGRES_2,POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2,POSTGRES_OUT_BEGIN_SQL_POSTGRES_2,POSTGRES_OUT_END_SQL_POSTGRES_2
 DEFAULT_MACRO stateAbbrev CA
 GUI TEXT stateAbbrev State abbreviation:
-DEFAULT_MACRO DestDataset_POSTGIS flowdb
+DEFAULT_MACRO DestDataset_POSTGIS postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO DestDataset_POSTGRES flowdb
+DEFAULT_MACRO DestDataset_POSTGRES postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO SourceDataset_POSTGRES flowdb
+DEFAULT_MACRO SourceDataset_POSTGRES postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO SourceDataset_OGCKML http://www.americanwhitewater.org/content/River/state-summary/state/$(stateAbbrev)/.kml
 GUI IGNORE OPTIONAL FILE_OR_URL SourceDataset_OGCKML KML_Files(*.kml;*.kmz)|*.kml;*.kmz|All_Files(*)|* Source Google KML File or URL:
-DEFAULT_MACRO SourceDataset_POSTGIS_2 flowdb
-GUI IGNORE NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_2 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
+DEFAULT_MACRO SourceDataset_POSTGIS_2 postgres
+GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_2 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 INCLUDE [ if {{$(stateAbbrev)} == {}} { puts_real {Parameter 'stateAbbrev' must be given a value.}; exit 1; }; ]
-INCLUDE [ if {{$(SourceDataset_POSTGIS_2)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_2' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -3487,7 +3494,6 @@ MULTI_READER_GEN_DIRECTIVES{1} SCHEMAS_FOR_TABLE_LISTING,,FEATURES_PER_FETCH,100
 MULTI_READER_TYPE{2} POSTGIS
 MULTI_READER_KEYWORD{2} POSTGIS_1
 MULTI_READER_GEN_DIRECTIVES{2} CLIP_TO_ENVELOPE,NO,USE_TRUE_POSTGIS_TYPES,yes,BEGIN_SQL,,EXPOSE_ATTRS_GROUP,,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,ADVANCED,,SEARCH_ENVELOPE_MINY,0,SCHEMAS_FOR_TABLE_LISTING,,SEARCH_ENVELOPE_MAXY,0,_MERGE_SCHEMAS,YES,READ_TIME_WITH_TIMEZONE,Yes,END_SQL,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,SEARCH_METHOD,MBR_OVERLAPS,SEARCH_ENVELOPE_MINX,0,NAMED_CONNECTION,flowdb,FEATURES_PER_FETCH,10000,WHERE_CLAUSE,state<lt>space<gt>=<lt>space<gt><lt>apos<gt>CA<lt>apos<gt>,SEARCH_ENVELOPE_MAXX,0,TABLELIST,public.riverlevels,USE_SEARCH_ENVELOPE,NO,POSTGIS_EXPOSE_FORMAT_ATTRS,,DISABLE_COLLECTION_SPLITTING,yes
-
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
@@ -3496,7 +3502,6 @@ MULTI_WRITER_KEYWORD{0} POSTGIS_2
 MULTI_WRITER_TYPE{1} POSTGRES
 MULTI_WRITER_KEYWORD{1} POSTGRES_2
 #! END_WB_HEADER
-
 #! START_WB_HEADER
 MACRO WB_KEYWORD "OGCKML_1"
 #! END_WB_HEADER
@@ -3834,18 +3839,17 @@ POSTGRES_2_DATASET "$(DestDataset_POSTGRES_2)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
-
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)americanwhitewaterReader.log"
 LOG_APPEND NO
+LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_OGCKML_1 OGCKML_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGRES_1 POSTGRES_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
@@ -3884,30 +3888,23 @@ POSTGIS_1_MERGE_DEF POSTGIS_1::public.riverlevels EXACT public.riverlevels DEFLI
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.riverlevels_data (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE public.riverlevels_data    OUTPUT FEATURE_TYPE public.riverlevels_data_POSTGRES_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "Placemark (OGCKML_1) Splitter"    INPUT FEATURE_TYPE Placemark    OUTPUT FEATURE_TYPE Placemark_OGCKML_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "public.riverlevels (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.riverlevels    OUTPUT FEATURE_TYPE public.riverlevels_POSTGIS_1
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * TeeFactory    FACTORY_NAME "public.riverlevels (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.riverlevels    OUTPUT FEATURE_TYPE public.riverlevels_POSTGIS_1
+FACTORY_DEF * TeeFactory    FACTORY_NAME "Placemark (OGCKML_1) Splitter"    INPUT FEATURE_TYPE Placemark    OUTPUT FEATURE_TYPE Placemark_OGCKML_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE Placemark_OGCKML_1    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "kml_name" "name" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "kml_style_url" "level" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "kml_description" "awid" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "" "state" "$(stateAbbrev$encode)" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
-
 # -------------------------------------------------------------------------
-
 MACRO casemac
 INCLUDE [ if { {NO} == {NO} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringReplacer_6fa9579e_832f_415f_991f_e2beeaa973bb1_replacer { findText replaceText invalidValue} {     set attrs [split \"level\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
-FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_6fa9579e_832f_415f_991f_e2beeaa973bb1_replacer {#style_} {} {_FME_NO_OP_}")
-
+Tcl2 proc StringReplacer_0d8e5459_24c8_4a6b_82bf_114c433249d06_replacer { findText replaceText invalidValue} {     set attrs [split \"level\" {,}];     set findValue [FME_DecodeText $findText];     set replaceValue [FME_DecodeText $replaceText];     foreach attr $attrs {       set attrVal [FME_GetAttribute $attr];       set noMatch true;       if {{NO} == {YES}} {         set newAttrVal [FME_ReplaceRegex $(casemac) $findValue $attrVal $replaceValue];       } else {         set newAttrVal [string map $(casemac) [list $findValue $replaceValue] $attrVal];       };       if { $newAttrVal ne $attrVal } {         set noMatch false;         FME_SetAttribute $attr $newAttrVal;       };       if {$noMatch} {          if { $invalidValue == {FME_NULL_VALUE} } {             FME_SetAttributeNull $attr;          } elseif { $invalidValue != {_FME_NO_OP_} }  {             FME_SetAttribute $attr [FME_DecodeText $invalidValue];          };       };     }; }
+FACTORY_DEF * TeeFactory    FACTORY_NAME StringReplacer    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE StringReplacer_OUTPUT         @Tcl2("StringReplacer_0d8e5459_24c8_4a6b_82bf_114c433249d06_replacer {#style_} {} {_FME_NO_OP_}")
 # -------------------------------------------------------------------------
-
 MACRO casemac
 INCLUDE [ if { {no} == {no} } { puts {MACRO casemac -nocase}} ]
-Tcl2 proc StringSearcher_67db4719_c46f_44d0_815b_c94db7c267c41_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
-FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    TEST @Tcl2("StringSearcher_67db4719_c46f_44d0_815b_c94db7c267c41_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>awid<closeparen>,StringSearcher)} {<openparen>?<lt>=detail<solidus>id<solidus><closeparen><backslash>d+} {awid} {} {}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
-
+Tcl2 proc StringSearcher_7f5c6704_9d08_49aa_8647_9135b6e0f0b76_doGrep { stringToSearch regExp matchedChars matches matchedParts } {   set subMatches 1;   set matches [FME_DecodeText $matches];   set matchedParts [FME_DecodeText $matchedParts];   set results [FME_GetRegex $(casemac) [FME_DecodeText $regExp] [FME_DecodeText $stringToSearch]];   if {[llength [lindex $results 0]] > 0} {      set attrName [FME_DecodeText $matchedChars];      FME_SetAttribute $attrName [lindex [lindex [lindex $results 0] 0] 0];      set index 0;      set parts [lindex $results 1];      foreach part $parts {         if {[llength $matchedParts] > 0} {             set attrName "$matchedParts{$index}.part";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matchedParts{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         incr index;      };      set index 0;      set regexMatches [lindex $results 0];      foreach part $regexMatches {         if {[llength $matches] > 0} {             set attrName "$matches{$index}.match";             FME_SetAttribute $attrName [lindex $part 0];             set attrName "$matches{$index}.startIndex";             FME_SetAttribute $attrName [lindex $part 1];         };         set isFirstMatch 0;         incr index;      };      return $index;   };   return -1; }
+FACTORY_DEF * TestFactory    FACTORY_NAME StringSearcher    INPUT  FEATURE_TYPE StringReplacer_OUTPUT    TEST @Tcl2("StringSearcher_7f5c6704_9d08_49aa_8647_9135b6e0f0b76_doGrep {@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>awid<closeparen>,StringSearcher)} {<openparen>?<lt>=detail<solidus>id<solidus><closeparen><backslash>d+} {awid} {} {}") > 0    OUTPUT PASSED FEATURE_TYPE StringSearcher_MATCHED
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Original Input Collector"   INPUT FEATURE_TYPE public.riverlevels_POSTGIS_1   OUTPUT FEATURE_TYPE UpdateDetector_Original
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Revised Input Collector"   INPUT FEATURE_TYPE StringSearcher_MATCHED   OUTPUT FEATURE_TYPE UpdateDetector_Revised
@@ -3924,87 +3921,55 @@ MACRO $(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER No
 MACRO $(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE 0
 DEFAULT_MACRO UpdateDetector_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(UpdateDetector_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1533758512 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1533758512 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1536346837 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1536346837 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "Y" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "N" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2 OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ATTRIBUTES { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Original    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ yes
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Revised    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ no
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Matcher    INPUT FEATURE_TYPE ___TOMATCH___    MATCH_GEOMETRY $($(UpdateDetector_WORKSPACE_NAME)_MATCH)    $($(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH)    BLANK_AND_MISSING_DIFFER $($(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER)    EXTRA_VERTEX_TOLERANCE $($(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE)    LENIENT_GEOMETRY_MATCH $($(UpdateDetector_WORKSPACE_NAME)_LENIENT_MATCH)    DIFFERING_ATTRIBUTES ___orig___    OUTPUT MATCHED FEATURE_TYPE ___matched___    OUTPUT NOT_MATCHED FEATURE_TYPE ___not_matched___
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_MatchedWeeder    INPUT FEATURE_TYPE ___matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"        @RemoveAttributes(___orig___)
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UnMatchedWeeder    INPUT FEATURE_TYPE ___not_matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"        @RemoveAttributes(___orig___)    OUTPUT FAILED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"        @RemoveAttributes(___orig___)
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher)    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_3) = Y ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "DELETE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher_2)    OUTPUT MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_2) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "INSERT" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "UPDATE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"        @RemoveAttributes(fme_encoded,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP)")         }
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Updated Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Updated   OUTPUT FEATURE_TYPE UpdateDetector_Updated
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Inserted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Inserted   OUTPUT FEATURE_TYPE UpdateDetector_Inserted
@@ -4014,16 +3979,11 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Deleted Output Renamer/N
 FACTORY_DEF * TeeFactory    FACTORY_NAME Junction    INPUT  FEATURE_TYPE UpdateDetector_Updated    INPUT  FEATURE_TYPE UpdateDetector_Inserted    OUTPUT FEATURE_TYPE Junction_Output
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Junction Output Splitter"   INPUT FEATURE_TYPE Junction_Output   OUTPUT FEATURE_TYPE Junction_Output_0_sH9l3UTsGrw=   OUTPUT FEATURE_TYPE Junction_Output_1_/QQSbUuR6ZI=
 # -------------------------------------------------------------------------
-
 DEFAULT_MACRO DateTimeStamper_EXPRESSION
 INCLUDE [    set expression {<at>DateTimeCast<openparen><at>DateTimeNow<openparen>utc<closeparen><comma>datetime<closeparen>};    if { "NO" eq "NO" } {        set expression <at>TimeZoneRemove<openparen>$expression<closeparen>;    };    puts "MACRO DateTimeStamper_EXPRESSION $expression"; ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeStamper    INPUT  FEATURE_TYPE Junction_Output_1_/QQSbUuR6ZI=    INPUT  FEATURE_TYPE UpdateDetector_Unchanged    OUTPUT FEATURE_TYPE DateTimeStamper_OUTPUT       @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, recorddate, $(DateTimeStamper_EXPRESSION), DateTimeStamper)
-
 # -------------------------------------------------------------------------
-
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE DateTimeStamper_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "name" "name" "" "REMOVE" }      ATTR_ACTION { "id" "id" "" "REMOVE" }      ATTR_ACTION { "hydroseq" "hydroseq" "" "REMOVE" }      ATTR_ACTION { "recorddate" "recorddate" "<at>TimeZoneSet<openparen><at>Value<openparen>recorddate<closeparen><comma>utc<closeparen>" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
-
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Original Input Collector"   INPUT FEATURE_TYPE public.riverlevels_data_POSTGRES_1   OUTPUT FEATURE_TYPE UpdateDetector_2_Original
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Revised Input Collector"   INPUT FEATURE_TYPE AttributeManager_2_OUTPUT   OUTPUT FEATURE_TYPE UpdateDetector_2_Revised
@@ -4040,87 +4000,55 @@ MACRO $(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER No
 MACRO $(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE 0
 DEFAULT_MACRO UpdateDetector_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(UpdateDetector_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1533758512 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1533758512 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1536346837 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1536346837 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "Y" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "N" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2 OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ATTRIBUTES { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Original    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ yes
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Revised    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ no
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Matcher    INPUT FEATURE_TYPE ___TOMATCH___    MATCH_GEOMETRY $($(UpdateDetector_WORKSPACE_NAME)_MATCH)    $($(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH)    BLANK_AND_MISSING_DIFFER $($(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER)    EXTRA_VERTEX_TOLERANCE $($(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE)    LENIENT_GEOMETRY_MATCH $($(UpdateDetector_WORKSPACE_NAME)_LENIENT_MATCH)    DIFFERING_ATTRIBUTES ___orig___    OUTPUT MATCHED FEATURE_TYPE ___matched___    OUTPUT NOT_MATCHED FEATURE_TYPE ___not_matched___
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_MatchedWeeder    INPUT FEATURE_TYPE ___matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"        @RemoveAttributes(___orig___)
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UnMatchedWeeder    INPUT FEATURE_TYPE ___not_matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"        @RemoveAttributes(___orig___)    OUTPUT FAILED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"        @RemoveAttributes(___orig___)
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher)    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_3) = Y ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "DELETE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher_2)    OUTPUT MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_2) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "INSERT" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "UPDATE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"        @RemoveAttributes(fme_encoded,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP)")         }
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1533758512 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1536346837 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Updated Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Updated   OUTPUT FEATURE_TYPE UpdateDetector_2_Updated
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Inserted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Inserted   OUTPUT FEATURE_TYPE UpdateDetector_2_Inserted
@@ -4128,7 +4056,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Unchanged Output Renam
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Deleted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Deleted
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC Junction_Output_0_sH9l3UTsGrw= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>riverlevels<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Updated TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.riverlevels_data<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Inserted TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.riverlevels_data<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC UpdateDetector_2_Updated TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.riverlevels_data<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Inserted TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.riverlevels_data<closeparen> GEOMETRY    ROUTE FME_GENERIC Junction_Output_0_sH9l3UTsGrw= TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>riverlevels<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__

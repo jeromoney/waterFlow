@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /opt/fme-desktop-2018/fme /home/justin/Documents/waterFlow/fmeWorkspaces/caDWR/caDWRgaugereader.fmw
-#              --SourceDataset_POSTGIS "flowdb"
+#        /opt/fme-desktop-2018/fme /home/justin/PycharmProjects/waterFlow/fmeWorkspaces/import/caDWR/caDWRgaugereader.fmw
+#              --SourceDataset_POSTGIS "postgres"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="9a750a9f-9e02-450b-9cc5-6ee671946b63"
-#!   FME_DOCUMENT_PRIORGUID="63f7d9c7-5d63-4ef7-8fe8-514e8ce52374,a3db4054-2bda-4b5e-9a84-4587704354f9,b1c937c9-9844-4c5e-aebc-24a0d4fd313e,b3a35a1a-9946-4a61-bfdb-a6f4709aae8d,d0940649-f01f-4c00-847e-a980bc7c3004,f827b187-2190-4a7d-90af-7d97649c5165"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="2230cd1f-bfcb-4aac-b3bc-36ec6fecc83d"
+#!   FME_DOCUMENT_PRIORGUID="63f7d9c7-5d63-4ef7-8fe8-514e8ce52374,a3db4054-2bda-4b5e-9a84-4587704354f9,b1c937c9-9844-4c5e-aebc-24a0d4fd313e,b3a35a1a-9946-4a61-bfdb-a6f4709aae8d,d0940649-f01f-4c00-847e-a980bc7c3004,f827b187-2190-4a7d-90af-7d97649c5165,9a750a9f-9e02-450b-9cc5-6ee671946b63"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-01T14:18:18"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
+#!   LAST_SAVE_DATE="2018-09-07T13:05:54"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -45,7 +45,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-336.003 99.001"
+#!   VIEW_POSITION="-393.004 96.001"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -64,7 +64,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_color char(50) multi_reader_full_id int4 postgis_collection_part_id int4 fme_text_size float8 fme_basename char(50) multi_reader_type char(50) fme_feature_type char(50) postgis_collection_id int4 fme_primary_axis float8 postgis_type char(50) fme_rotation float8 postgres_oid int4 fme_sweep_angle float8 fme_dataset char(50) fme_secondary_axis float8 fme_fill_color char(50) multi_reader_keyword char(50) fme_start_angle float8 fme_type char(50) fme_geometry char(50) multi_reader_id int4 fme_text_string char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 multi_reader_keyword char(50) fme_start_angle float8 fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_dataset char(50) fme_text_string char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -479,9 +479,9 @@
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.gauge"
+#!   NODE_NAME="gauge"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="13"
 #!   FEAT_GEOMTYPE="postgis_point"
@@ -516,7 +516,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -577,7 +577,7 @@
 #!     <XFORM_ATTR ATTR_NAME="watershed" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <OUTPUT_FEAT NAME="&lt;Rejected&gt;"/>
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
 #!     <XFORM_ATTR ATTR_NAME="watersource" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -587,6 +587,7 @@
 #!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="watershed" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_error" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response_body" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_http_status_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="ADDITIONAL_PARAMETERS_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
@@ -1091,9 +1092,10 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
+
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1
-DEFAULT_MACRO SourceDataset_POSTGIS flowdb
+DEFAULT_MACRO SourceDataset_POSTGIS postgres
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 INCLUDE [ if {{$(SourceDataset_POSTGIS)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS' must be given a value.}; exit 1; }; ]
 #! START_HEADER
@@ -1102,12 +1104,10 @@ READER_TYPE MULTI_READER
 MULTI_READER_TYPE{0} POSTGIS
 MULTI_READER_KEYWORD{0} POSTGIS_1
 MULTI_READER_GEN_DIRECTIVES{0} SEARCH_ENVELOPE_MAXY,0,END_SQL,,READ_TIME_WITH_TIMEZONE,Yes,CLIP_TO_ENVELOPE,NO,FEATURES_PER_FETCH,10000,_MERGE_SCHEMAS,YES,BEGIN_SQL,,USE_TRUE_POSTGIS_TYPES,yes,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,EXPOSE_ATTRS_GROUP,,USE_SEARCH_ENVELOPE,NO,DISABLE_COLLECTION_SPLITTING,yes,SEARCH_ENVELOPE_COORDINATE_SYSTEM,,ADVANCED,,SEARCH_ENVELOPE_MINY,0,SCHEMAS_FOR_TABLE_LISTING,,POSTGIS_EXPOSE_FORMAT_ATTRS,,NAMED_CONNECTION,flowdb,WHERE_CLAUSE,daatsource<lt>space<gt>=<lt>space<gt><lt>apos<gt>CADWR<lt>apos<gt>,SEARCH_ENVELOPE_MINX,0,TABLELIST,public.gauge,SEARCH_ENVELOPE_MAXX,0,SEARCH_METHOD,MBR_OVERLAPS
-
 WRITER_TYPE NULL
 WRITER_KEYWORD NULL_DEST
 NULL_DEST_DATASET null
 #! END_WB_HEADER
-
 #! START_WB_HEADER
 MACRO WB_KEYWORD "POSTGIS_1"
 #! END_WB_HEADER
@@ -1202,18 +1202,17 @@ POSTGIS_1_DATASET "$(SourceDataset_POSTGIS_1)"
 #! END_SOURCE_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
-
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)caDWRgaugereader.log"
 LOG_APPEND NO
+LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
 # -------------------------------------------------------------------------
 
@@ -1242,92 +1241,67 @@ POSTGIS_1_MERGE_DEF POSTGIS_1::public.gauge EXACT public.gauge DEFLINE postgis_s
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.gauge (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.gauge    OUTPUT FEATURE_TYPE public.gauge_POSTGIS_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-
-FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE public.gauge_POSTGIS_1    TARGET_URL "https:<solidus><solidus>cdec.water.ca.gov<solidus>dynamicapp<solidus>QueryF"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS s;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,HTTPCaller)    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<Rejected>
-
+FACTORY_DEF * HTTPFactory    FACTORY_NAME HTTPCaller       INPUT  FEATURE_TYPE public.gauge_POSTGIS_1    TARGET_URL "https:<solidus><solidus>cdec.water.ca.gov<solidus>dynamicapp<solidus>QueryF"    HTTP_METHOD GET    SAVE_FILE NO    OUTPUT_FILENAME "<Unused>"    OUTPUT_DIRECTORY "<Unused>"    FILE_EXTENSION "<Unused>"    TARGET_ATTR "_response_body"    FILE_PATH_ATTR "<Unused>"    UPLOAD_FILE "<Unused>"    UPLOAD_BODY "<Unused>"    MULTIPART_UPLOAD <Unused>    UPLOAD_CONTENT_TYPE "<Unused>"    COMBINED_MULTIPART_TABLE    REQUEST_HEADER_TABLE    ADDITIONAL_URL_PARAMETERS s;@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>id<closeparen>,HTTPCaller)    AUTH_USERNAME "<Unused>"    AUTH_PASSWORD "<Unused>"    AUTH_METHOD "<Unused>"    TARGET_ATTRIBUTE_ENCODING auto-detect    RESPONSE_HEADER_LIST_ATTR ""    STATUS_CODE_ATTR "_http_status_code"    ERROR_ATTR "_error"    CONNECTION_TIMEOUT_LENGTH 60    TRANSFER_TIMEOUT_LENGTH 90    FOLLOW_REDIRECTS Yes    VERIFY_SSL_CERTIFICATES Yes    NAMED_CONNECTION "<Unused>"    USE_COOKIES No    OUTPUT OUTPUT FEATURE_TYPE HTTPCaller_Output    OUTPUT REJECTED FEATURE_TYPE HTTPCaller_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
-FACTORY_DEF * TeeFactory FACTORY_NAME HTTPCaller_<Rejected> INPUT FEATURE_TYPE HTTPCaller_<Rejected>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTTPCaller<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+FACTORY_DEF * TeeFactory FACTORY_NAME HTTPCaller_<Rejected> INPUT FEATURE_TYPE HTTPCaller_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTTPCaller<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
 # CATCHER --> READY --> PROCESSED
-
 FACTORY_DEF * TeeFactory    FACTORY_NAME HTMLExtractor_CATCHER    INPUT  FEATURE_TYPE HTTPCaller_Output    OUTPUT FEATURE_TYPE HTMLExtractor_READY       ___fme_htmlex_xformer_name "HTMLExtractor"       ___fme_htmlex_html_specification "Content"       ___fme_htmlex_html_field "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response_body<closeparen>,HTMLExtractor)"       ___fme_htmlex_html_file "<Unused>"       ___fme_htmlex_search_table "table table Whole"       ___fme_htmlex_result_type_name "LIST_ATTR"
 FACTORY_DEF * PythonFactory    FACTORY_NAME HTMLExtractor_CALLER    INPUT FEATURE_TYPE HTMLExtractor_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME htmlextractor.HTMLExtractor    OUTPUT PYOUTPUT FEATURE_TYPE HTMLExtractor_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME HTMLExtractor_ROUTER    INPUT FEATURE_TYPE HTMLExtractor_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE HTMLExtractor_Results    OUTPUT FAILED FEATURE_TYPE HTMLExtractor_<REJECTED>
-
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME HTMLExtractor_<Rejected> INPUT FEATURE_TYPE HTMLExtractor_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTMLExtractor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder    INPUT  FEATURE_TYPE HTMLExtractor_Results    LIST_NAME "table{}"    ELEMENT_NUMBER_FIELD "_table_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)    OUTPUT NOLIST FEATURE_TYPE ListExploder_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_<Rejected> INPUT FEATURE_TYPE ListExploder_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester    INPUT  FEATURE_TYPE ListExploder_ELEMENTS    CASE_INSENSITIVE_TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>table<closeparen>,Tester) CONTAINS CFS ENCODED    BOOLEAN_OPERATOR AND    OUTPUT PASSED FEATURE_TYPE Tester_PASSED
 # -------------------------------------------------------------------------
-
 # CATCHER --> READY --> PROCESSED
-
 FACTORY_DEF * TeeFactory    FACTORY_NAME HTMLExtractor_2_CATCHER    INPUT  FEATURE_TYPE Tester_PASSED    OUTPUT FEATURE_TYPE HTMLExtractor_2_READY       ___fme_htmlex_xformer_name "HTMLExtractor_2"       ___fme_htmlex_html_specification "Content"       ___fme_htmlex_html_field "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>table<closeparen>,HTMLExtractor_2)"       ___fme_htmlex_html_file "<Unused>"       ___fme_htmlex_search_table "record tr Value"       ___fme_htmlex_result_type_name "LIST_ATTR"
 FACTORY_DEF * PythonFactory    FACTORY_NAME HTMLExtractor_2_CALLER    INPUT FEATURE_TYPE HTMLExtractor_2_READY    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME htmlextractor.HTMLExtractor    OUTPUT PYOUTPUT FEATURE_TYPE HTMLExtractor_2_PROCESSED
 FACTORY_DEF * TestFactory    FACTORY_NAME HTMLExtractor_2_ROUTER    INPUT FEATURE_TYPE HTMLExtractor_2_PROCESSED    TEST &fme_rejection_code == ""    OUTPUT PASSED FEATURE_TYPE HTMLExtractor_2_Results    OUTPUT FAILED FEATURE_TYPE HTMLExtractor_2_<REJECTED>
-
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME HTMLExtractor_2_<Rejected> INPUT FEATURE_TYPE HTMLExtractor_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, HTMLExtractor_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * ElementFactory    FACTORY_NAME ListExploder_2    INPUT  FEATURE_TYPE HTMLExtractor_2_Results    LIST_NAME "record{}"    ELEMENT_NUMBER_FIELD "_record_index"    CLONE_GEOMETRY    ATTR_ACCUM_MODE "HANDLE_CONFLICT"    ATTR_CONFLICT_RES "INCOMING_IF_CONFLICT"    INCOMING_PREFIX "<Unused>"    OUTPUT ELEMENT FEATURE_TYPE ListExploder_2_ELEMENTS         @RemoveAttributes(ElementFactory.baseCloned)    OUTPUT NOLIST FEATURE_TYPE ListExploder_2_<REJECTED>         @RemoveAttributes(ElementFactory.baseCloned)         fme_rejection_code MISSING_PARAMETER_LIST
 FACTORY_DEF * TeeFactory   FACTORY_NAME "ListExploder_2 ELEMENTS Splitter"   INPUT FEATURE_TYPE ListExploder_2_ELEMENTS   OUTPUT FEATURE_TYPE ListExploder_2_ELEMENTS_0_GpaZbiOeW5U=   OUTPUT FEATURE_TYPE ListExploder_2_ELEMENTS_1_lQo0Kx5x4hk=
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME ListExploder_2_<Rejected> INPUT FEATURE_TYPE ListExploder_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, ListExploder_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
 # For RANDOM, we need to treat LAST N as if it was first N (i.e. have a -1)
 # That is what the ? : does in the rate multiplier.
-
 INCLUDE [ if { {0} == {0} && {ORIGINAL} == {ORIGINAL} } {              puts "MACRO REAL_MODE LAST"; 	         puts "MACRO REAL_RATE 1"; 	      } else {              puts "MACRO REAL_MODE ORIGINAL";              puts "MACRO REAL_RATE [expr 1 * ( 0 ? 0 : -1 ) ]"; 	      } ]
 FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler_2    COMMAND_PARM_EVALUATION SINGLE_PASS    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER $(REAL_MODE)    GROUP_BY { id _table_index }    INPUT  FEATURE_TYPE ListExploder_2_ELEMENTS_1_lQo0Kx5x4hk=    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
 # This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
-
 FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_2_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_2_SAMPLED
-
-
 # -------------------------------------------------------------------------
-
 # If we're doing LAST N features, then the multiplier comes in as 0.
 # If we're doing First N, multiplier is -1.
 # For RANDOM, we need to treat LAST N as if it was first N (i.e. have a -1)
 # That is what the ? : does in the rate multiplier.
-
 INCLUDE [ if { {-1} == {0} && {ORIGINAL} == {ORIGINAL} } {              puts "MACRO REAL_MODE LAST"; 	         puts "MACRO REAL_RATE 1"; 	      } else {              puts "MACRO REAL_MODE ORIGINAL";              puts "MACRO REAL_RATE [expr 1 * ( -1 ? -1 : -1 ) ]"; 	      } ]
 FACTORY_DEF {*} SamplingFactory    FACTORY_NAME Sampler    COMMAND_PARM_EVALUATION SINGLE_PASS    SAMPLE_RATE $(REAL_RATE)    SAMPLE_ORDER $(REAL_MODE)    GROUP_BY { id _table_index }    INPUT  FEATURE_TYPE ListExploder_2_ELEMENTS_0_GpaZbiOeW5U=    OUTPUT SAMPLED FEATURE_TYPE ___SAMPLED___
 # This TeeFactory is needed because Sampler will still output features if it has no OUTPUT clauses specified.
 # This way we behave nicely even if there are no output connections on the transformer. See PR#28886.
-
 FACTORY_DEF * TeeFactory    FACTORY_NAME Sampler_Sampled    INPUT FEATURE_TYPE ___SAMPLED___    OUTPUT FEATURE_TYPE Sampler_SAMPLED
-
-
 # -------------------------------------------------------------------------
-
 # Assumption is that the workspace temp dir has been already set and created.  See controldefs.cpp - ControlDefs::writeVisualizerTempDir
 DEFAULT_MACRO WORKSPACE_TEMP_DIR
 INCLUDE [    set safeName "[regsub -all {[^a-zA-Z0-9]} {Inspector} _]_[expr round(rand() * 1000000)]_[clock clicks  -milliseconds]";    puts "MACRO SAFE_FFS_NAME $safeName"; ]
 FACTORY_DEF {*} InspectorFactory    FACTORY_NAME Inspector_Prepper    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT  FEATURE_TYPE Sampler_SAMPLED    INPUT  FEATURE_TYPE Sampler_2_SAMPLED    GROUP_ATTRIBUTE __inspector_feature_type_attr__    GROUP_BY {  }    GROUP_ATTRIBUTE_PREFIX { Inspector }    RASTER_REDUCTION NoReduction    POINT_CLOUD_REDUCTION NO_THINNING    OUTPUT RESULT FEATURE_TYPE __viewme__
 # Now route all the features into the recorder, changing their
 # feature type to the transformer name so that they view nicely
-
 DEFAULT_MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/$(SAFE_FFS_NAME).ffs
 DEFAULT_MACRO VISUALIZER_CREATE_SPATIAL_INDEX NO
 # [PR#45549] The Data Inspector will limit the maximum number of features
 # it reads on WIN32, so we will correspondingly limit the number of
 # features we record here using the MAX_FEATURES_TO_RECORD directive.
-
 FACTORY_DEF * RecorderFactory    FACTORY_NAME Inspector_Recorder    COMMAND_PARM_EVALUATION SINGLE_PASS    INPUT FEATURE_TYPE __viewme__       _wb_termination_feature Yes       @FeatureType(TERMINATOR_@Value(_wb_termination_xformer))    INPUT FEATURE_TYPE __viewme__       @FeatureType(@Value(__inspector_feature_type_attr__))       @RemoveAttributes(__inspector_feature_type_attr__)    FEATURE_FILE "$(VISUALIZER_FEATURE_FILE)"    STORE_SCANNED_SCHEMA YES    CREATE_SPATIAL_INDEX "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    INSPECTOR "$(VISUALIZER_CREATE_SPATIAL_INDEX)"    FSC_SCHEMA watersource,varchar<openparen>255<closeparen>,datasource,varchar<openparen>255<closeparen>,name,varchar<openparen>255<closeparen>,url,varchar<openparen>255<closeparen>,watersourcename,varchar<openparen>255<closeparen>,id,varchar<openparen>255<closeparen>,watershed,varchar<openparen>255<closeparen>,_response_body,varchar<openparen>255<closeparen>,_http_status_code,varchar<openparen>255<closeparen>,table,varchar<openparen>255<closeparen>,_table_index,varchar<openparen>255<closeparen>,record,varchar<openparen>255<closeparen>,_record_index,varchar<openparen>255<closeparen>    MODE RECORD    STORE_SCANNED_METADATA    RECORD_DIRECTLY_TO_DISK YES    MAX_FEATURES_TO_RECORD WIN32 2000000
-
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -1337,5 +1311,5 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYP
 
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * CreationFactory   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
-FACTORY_DEF * TeeFactory   INPUT FEATURE_TYPE __NUKEME__
+FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; ")
+FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__

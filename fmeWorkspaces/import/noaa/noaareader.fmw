@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /opt/fme-desktop-2018/fme /home/justin/Documents/waterFlow/fmeWorkspaces/import/noaa/noaareader.fmw
+#        /opt/fme-desktop-2018/fme /home/justin/PycharmProjects/waterFlow/fmeWorkspaces/import/noaa/noaareader.fmw
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -15,9 +15,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="18295"
-#!   FME_DOCUMENT_GUID="1682cfd0-c2ba-456b-8486-84d3e1eb3019"
-#!   FME_DOCUMENT_PRIORGUID="56740316-7e76-4de4-b855-252ce7964a6c,42066139-6dc0-4555-ab7f-8cbed635c7a2,9d7d6832-1b4d-4e3f-aa5d-293b2ab0f1d4,44e4d5ef-cf1b-4b0a-899a-87d7d01196ae,8f36ca54-819c-47ae-bbc2-27aeb3ba549e,cd3114cb-6d2f-4de3-9f0c-67198018a9ab,799c29d8-a6f4-4b26-aba9-0648654d40e8,8be37946-3495-4919-ae14-62bff5de4cbf,52d4affa-be3f-45f6-86c4-2093b56f963b,2916b692-814e-4c73-90e9-717a830a9898"
+#!   FME_BUILD_NUM="18547"
+#!   FME_DOCUMENT_GUID="8693f281-196e-4db4-8c83-04f0e72234e8"
+#!   FME_DOCUMENT_PRIORGUID="56740316-7e76-4de4-b855-252ce7964a6c,42066139-6dc0-4555-ab7f-8cbed635c7a2,9d7d6832-1b4d-4e3f-aa5d-293b2ab0f1d4,44e4d5ef-cf1b-4b0a-899a-87d7d01196ae,8f36ca54-819c-47ae-bbc2-27aeb3ba549e,cd3114cb-6d2f-4de3-9f0c-67198018a9ab,799c29d8-a6f4-4b26-aba9-0648654d40e8,8be37946-3495-4919-ae14-62bff5de4cbf,52d4affa-be3f-45f6-86c4-2093b56f963b,2916b692-814e-4c73-90e9-717a830a9898,1682cfd0-c2ba-456b-8486-84d3e1eb3019"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -25,8 +25,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2018.0.0.1 (20180328 - Build 18295 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-08-27T11:09:25"
+#!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
+#!   LAST_SAVE_DATE="2018-09-07T13:13:16"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -44,7 +44,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="6.00006 120.001"
+#!   VIEW_POSITION="6.00006 -357.004"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -63,7 +63,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="SHAPE_GEOMETRY {FME_GEN_GEOMETRY}"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_basename char(50) fme_geometry char(50) fme_secondary_axis double fme_text_size double multi_reader_type char(50) fme_feature_type char(50) fme_dataset char(50) multi_reader_id long fme_rotation double fme_primary_axis double fme_start_angle double shape_geometry_error{} char(254) fme_color char(50) fme_sweep_angle double shape_measures char(254) multi_reader_full_id long fme_type char(50) SHAPE_GEOMETRY char(50) fme_text_string char(50) multi_reader_keyword char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle double multi_reader_type char(50) fme_text_size double fme_secondary_axis double fme_start_angle double multi_reader_keyword char(50) fme_feature_type char(50) SHAPE_GEOMETRY char(50) fme_fill_color char(50) fme_geometry char(50) shape_geometry_error{} char(254) multi_reader_full_id long fme_type char(50) fme_color char(50) fme_rotation double fme_dataset char(50) fme_text_string char(50) fme_basename char(50) shape_measures char(254) multi_reader_id long fme_primary_axis double"
 #!   DEFLINE_PARMS=""
 #!   ATTR_INDEX_TYPES="Indexed"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -121,7 +121,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_sql_where_clause &quot;&quot; postgis_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_basename char(50) postgis_collection_part_id int4 fme_geometry char(50) fme_secondary_axis float8 fme_text_size float8 multi_reader_type char(50) fme_feature_type char(50) fme_dataset char(50) multi_reader_id int4 postgis_type char(50) fme_rotation float8 postgres_oid int4 fme_primary_axis float8 fme_start_angle float8 fme_color char(50) fme_sweep_angle float8 multi_reader_full_id int4 fme_type char(50) multi_reader_keyword char(50) fme_text_string char(50) postgis_collection_id int4"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 fme_start_angle float8 multi_reader_keyword char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_dataset char(50) fme_text_string char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgis_query_settings_group postgis_sql_where_clause%postgis_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_where_clause MODE,WHERE;FORMAT,POSTGIS WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgis_sql_statement MODE,SQL;FORMAT,POSTGIS SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -187,7 +187,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_where_clause &quot;&quot; postgres_sql_statement &quot;&quot;"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) postgres_type char(50) fme_basename char(50) fme_geometry char(50) fme_secondary_axis float8 fme_text_size float8 multi_reader_type char(50) fme_feature_type char(50) fme_dataset char(50) multi_reader_id int4 fme_rotation float8 postgres_oid int4 fme_start_angle float8 fme_primary_axis float8 fme_color char(50) fme_sweep_angle float8 multi_reader_full_id int4 fme_type char(50) fme_text_string char(50) multi_reader_keyword char(50)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 multi_reader_type char(50) fme_text_size float8 postgres_type char(50) fme_secondary_axis float8 fme_start_angle float8 multi_reader_keyword char(50) fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) multi_reader_full_id int4 fme_type char(50) postgres_oid int4 fme_color char(50) fme_rotation float8 fme_dataset char(50) fme_text_string char(50) fme_basename char(50) multi_reader_id int4 fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP postgres_query_settings_group postgres_sql_where_clause%postgres_sql_statement Table&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_where_clause MODE,WHERE;FORMAT,POSTGRES WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL TEXT_EDIT_SQL_CFG postgres_sql_statement MODE,SQL;FORMAT,POSTGRES SELECT Statement&quot; &quot;&quot; "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=""
@@ -257,7 +257,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgis_type postgis_geometry postgis_mode &quot;&quot; postgis_sql_key_columns &quot;&quot; postgis_drop_table &quot;&quot; postgis_truncate_table &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; fme_update_geometry YES postgis_create_with_oids NO postgis_create_gist_index YES postgis_spatial_column_type geometry postgis_spatial_column geom postgis_srid &quot;&quot; postgis_vacuum_analyze no postgis_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_fill_color char(50) fme_basename char(50) postgis_collection_part_id int4 fme_geometry char(50) fme_secondary_axis float8 fme_text_size float8 fme_feature_type char(50) fme_dataset char(50) postgis_type char(50) fme_rotation float8 fme_start_angle float8 fme_primary_axis float8 fme_color char(50) fme_sweep_angle float8 fme_type char(50) fme_text_string char(50) postgis_collection_id int4 fme_db_operation char(8)"
+#!   EXPOSABLE_ATTRS="fme_sweep_angle float8 fme_text_size float8 postgis_collection_id int4 fme_secondary_axis float8 fme_start_angle float8 fme_feature_type char(50) fme_fill_color char(50) fme_geometry char(50) postgis_collection_part_id int4 postgis_type char(50) fme_type char(50) fme_color char(50) fme_rotation float8 fme_text_string char(50) fme_dataset char(50) fme_db_operation char(8) fme_basename char(50) fme_primary_axis float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI WHOLE_LINE LOOKUP_CHOICE fme_update_geometry Yes,YES%No,NO Update Spatial Column(s)&quot; YES &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgis_create_with_oids%postgis_create_gist_index Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgis_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI CHOICE postgis_create_gist_index YES%NO Create GiST Index&quot; YES &quot;GUI OPTIONAL NAMEDGROUP fme_spatial_group postgis_spatial_column_type%postgis_spatial_column%postgis_srid Spatial&quot; &quot;&quot; &quot;GUI LOOKUP_CHOICE postgis_spatial_column_type Geometry,geometry%Geography,geography Spatial Type&quot; geometry &quot;GUI OPTIONAL WHOLE_LINE TEXT postgis_spatial_column Spatial Column&quot; geom &quot;GUI OPTIONAL FLOAT postgis_srid Spatial Column SRID&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgis_vacuum_analyze%postgis_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgis_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgis_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -318,7 +318,7 @@
 #!   WRITE_DEFS="true"
 #!   DEFLINE_TEMPLATE="postgres_type {FME_GEN_GEOMETRY} postgres_sql_key_columns &quot;&quot; postgres_drop_table &quot;&quot; postgres_truncate_table &quot;&quot; postgres_mode &quot;&quot; fme_feature_operation INSERT fme_table_handling CREATE_IF_MISSING fme_selection_method MATCH_COLUMNS fme_match_columns &quot;&quot; fme_where_builder_clause &quot;&quot; postgres_create_with_oids NO postgres_vacuum_analyze NO postgres_allow_serial_writing NO"
 #!   DEFLINE_ATTRS="true"
-#!   EXPOSABLE_ATTRS="fme_dataset char(50) fme_basename char(50) fme_color char(50) fme_rotation float8 fme_start_angle float8 fme_fill_color char(50) fme_primary_axis float8 fme_secondary_axis float8 fme_text_size float8 fme_text_string char(50) fme_type char(50) fme_sweep_angle float8 fme_feature_type char(50) fme_geometry char(50) fme_db_operation char(8) postgres_type char(50)"
+#!   EXPOSABLE_ATTRS="fme_text_string char(50) fme_feature_type char(50) fme_start_angle float8 fme_fill_color char(50) fme_sweep_angle float8 postgres_type char(50) fme_basename char(50) fme_type char(50) fme_dataset char(50) fme_db_operation char(8) fme_secondary_axis float8 fme_geometry char(50) fme_color char(50) fme_rotation float8 fme_primary_axis float8 fme_text_size float8"
 #!   DEFLINE_PARMS="&quot;GUI OPTIONAL NAMEDGROUP fme_configuration_group fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group Table&quot; &quot;&quot; &quot;GUI OPTIONAL NAMEDGROUP fme_configuration_common_group fme_feature_operation%fme_table_handling%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group General&quot; &quot;&quot; &quot;GUI ACTIVECHOICE_LOOKUP fme_feature_operation Insert,INSERT,fme_update_geometry,fme_selection_group%Update,UPDATE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN%Delete,DELETE,++fme_table_handling+USE_EXISTING,fme_update_geometry,++fme_selection_group+FME_DISCLOSURE_OPEN,fme_spatial_group,fme_advanced_group,oracle_sequenced_cols%&lt;at&gt;Value&lt;openparen&gt;fme_db_operation&lt;closeparen&gt;,MULTIPLE,++fme_table_handling+USE_EXISTING,++fme_selection_group+FME_DISCLOSURE_OPEN Feature Operation&quot; INSERT &quot;GUI ACTIVECHOICE_LOOKUP fme_table_handling Use&lt;space&gt;Existing,USE_EXISTING,fme_table_creation_group%Create&lt;space&gt;If&lt;space&gt;Needed,CREATE_IF_MISSING%Drop&lt;space&gt;and&lt;space&gt;Create,DROP_CREATE%Truncate&lt;space&gt;Existing,TRUNCATE_EXISTING,fme_table_creation_group Table Handling&quot; CREATE_IF_MISSING &quot;GUI OPTIONAL DISCLOSUREGROUP fme_selection_group fme_selection_method Row Selection&quot; &quot;&quot; &quot;GUI OPTIONAL WHOLE_LINE RADIOPARAMETERGROUP fme_selection_method fme_match_columns,MATCH_COLUMNS%fme_where_builder_clause,BUILDER Row Selection Method&quot; MATCH_COLUMNS &quot;GUI WHOLE_LINE ATTRLIST_COMMAS fme_match_columns \&quot; \&quot; Match Columns&quot; &quot;&quot; &quot;GUI WHOLE_LINE TEXT_EDIT_SQL_CFG_OR_ATTR fme_where_builder_clause MODE,WHERE WHERE Clause&quot; &quot;&quot; &quot;GUI OPTIONAL DISCLOSUREGROUP fme_table_creation_group postgres_create_with_oids Table Creation Parameters&quot; &quot;&quot; &quot;GUI CHOICE postgres_create_with_oids YES%NO Create With OIDs&quot; NO &quot;GUI OPTIONAL DISCLOSUREGROUP fme_advanced_group postgres_vacuum_analyze%postgres_allow_serial_writing Advanced&quot; &quot;&quot; &quot;GUI CHOICE postgres_vacuum_analyze YES%NO Vacuum Analyze Table&quot; NO &quot;GUI CHOICE postgres_allow_serial_writing YES%NO Allow Serial Column Writing&quot; NO "
 #!   ATTR_INDEX_TYPES="BTree RTree Hash PrimaryKey"
 #!   ATTR_NAME_INVALID_CHARS=". %-#[]&quot;()!?*&apos;&amp;+\/"
@@ -372,402 +372,6 @@
 #! </DATASET>
 #! </DATASETS>
 #! <DATA_TYPES>
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bool"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varchar(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="xml"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="json"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="jsonb"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="numeric(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="numeric(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="oid"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="serial"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float4"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="money"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float8"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="time"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timetz"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timestamp"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timestamptz"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="uuid"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bit(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varbit"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varbit(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGRES"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bool"
-#!   FME_TYPE="fme_boolean"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="char(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varchar(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="text"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="xml"
-#!   FME_TYPE="fme_xml"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="json"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="jsonb"
-#!   FME_TYPE="fme_json"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binarybuffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_varbinary(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bytea"
-#!   FME_TYPE="fme_binary(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int16"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_int8"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int2"
-#!   FME_TYPE="fme_uint8"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int4"
-#!   FME_TYPE="fme_uint16"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_int64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="int8"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="numeric(width,decimal)"
-#!   FME_TYPE="fme_decimal(width,decimal)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="numeric(20,0)"
-#!   FME_TYPE="fme_uint64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="oid"
-#!   FME_TYPE="fme_uint32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="serial"
-#!   FME_TYPE="fme_int32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float4"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="money"
-#!   FME_TYPE="fme_real32"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="float8"
-#!   FME_TYPE="fme_real64"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="date"
-#!   FME_TYPE="fme_date"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="time"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timetz"
-#!   FME_TYPE="fme_time"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timestamp"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="timestamptz"
-#!   FME_TYPE="fme_datetime"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="uuid"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="bit(width)"
-#!   FME_TYPE="fme_char(width)"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varbit"
-#!   FME_TYPE="fme_buffer"
-#!   FORMAT="POSTGIS"
-#! />
-#! <DATA_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="varbit(width)"
-#!   FME_TYPE="fme_varchar(width)"
-#!   FORMAT="POSTGIS"
-#! />
 #! <DATA_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="char(width)"
@@ -955,199 +559,397 @@
 #!   FORMAT="ESRISHAPE"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bool"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="jsonb"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="numeric(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="oid"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="serial"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float4"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="money"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="float8"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timetz"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="uuid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="bit(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varbit"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="varbit(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bool"
 #!   FME_TYPE="fme_boolean"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="char(width)"
 #!   FME_TYPE="fme_char(width)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varchar(width)"
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="text"
 #!   FME_TYPE="fme_buffer"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="xml"
 #!   FME_TYPE="fme_xml"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="json"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="jsonb"
 #!   FME_TYPE="fme_json"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binarybuffer"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_varbinary(width)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bytea"
 #!   FME_TYPE="fme_binary(width)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int16"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_int8"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int2"
 #!   FME_TYPE="fme_uint8"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_int32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int4"
 #!   FME_TYPE="fme_uint16"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_int64"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="int8"
 #!   FME_TYPE="fme_uint32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(width,decimal)"
 #!   FME_TYPE="fme_decimal(width,decimal)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="numeric(20,0)"
 #!   FME_TYPE="fme_uint64"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="oid"
 #!   FME_TYPE="fme_uint32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="serial"
 #!   FME_TYPE="fme_int32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float4"
 #!   FME_TYPE="fme_real32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="money"
 #!   FME_TYPE="fme_real32"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="float8"
 #!   FME_TYPE="fme_real64"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="date"
 #!   FME_TYPE="fme_date"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="time"
 #!   FME_TYPE="fme_time"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timetz"
 #!   FME_TYPE="fme_time"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamp"
 #!   FME_TYPE="fme_datetime"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="timestamptz"
 #!   FME_TYPE="fme_datetime"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="uuid"
 #!   FME_TYPE="fme_buffer"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="bit(width)"
 #!   FME_TYPE="fme_char(width)"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit"
 #!   FME_TYPE="fme_buffer"
 #!   FORMAT="POSTGRES"
 #! />
 #! <DATA_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="POSTGRES"
@@ -1349,255 +1151,207 @@
 #!   FORMAT_TYPE="varbit(width)"
 #!   FME_TYPE="fme_varchar(width)"
 #!   FORMAT="POSTGIS"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bool"
+#!   FME_TYPE="fme_boolean"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="char(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varchar(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="text"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="xml"
+#!   FME_TYPE="fme_xml"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="json"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="jsonb"
+#!   FME_TYPE="fme_json"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binarybuffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_varbinary(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bytea"
+#!   FME_TYPE="fme_binary(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int16"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_int8"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int2"
+#!   FME_TYPE="fme_uint8"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int4"
+#!   FME_TYPE="fme_uint16"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_int64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="int8"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="numeric(width,decimal)"
+#!   FME_TYPE="fme_decimal(width,decimal)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="numeric(20,0)"
+#!   FME_TYPE="fme_uint64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="oid"
+#!   FME_TYPE="fme_uint32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="serial"
+#!   FME_TYPE="fme_int32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float4"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="money"
+#!   FME_TYPE="fme_real32"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="float8"
+#!   FME_TYPE="fme_real64"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="date"
+#!   FME_TYPE="fme_date"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="time"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timetz"
+#!   FME_TYPE="fme_time"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamp"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="timestamptz"
+#!   FME_TYPE="fme_datetime"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="uuid"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="bit(width)"
+#!   FME_TYPE="fme_char(width)"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varbit"
+#!   FME_TYPE="fme_buffer"
+#!   FORMAT="POSTGRES"
+#! />
+#! <DATA_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="varbit(width)"
+#!   FME_TYPE="fme_varchar(width)"
+#!   FORMAT="POSTGRES"
 #! />
 #! </DATA_TYPES>
 #! <GEOM_TYPES>
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgres_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POSTGRES"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipoint"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_point"
-#!   FME_TYPE="fme_point"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multilinestring"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multicurve"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_linestring"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_circularstring"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_compoundcurve"
-#!   FME_TYPE="fme_line"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multisurface"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_polygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_curvepolygon"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_rectangle"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_rounded_rectangle"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipoint"
-#!   FME_TYPE="fme_text"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_ellipse"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multilinestring"
-#!   FME_TYPE="fme_arc"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_triangle"
-#!   FME_TYPE="fme_area"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_polyhedralsurface"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_polyhedralsurface"
-#!   FME_TYPE="fme_solid"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_tin"
-#!   FME_TYPE="fme_surface"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_none"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_geometry"
-#!   FME_TYPE="fme_no_geom"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_geometrycollection"
-#!   FME_TYPE="fme_collection"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_raster"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_multipolygon"
-#!   FME_TYPE="fme_point_cloud"
-#!   FORMAT="POSTGIS"
-#! />
-#! <GEOM_TYPE
-#!   IS_SOURCE="true"
-#!   FORMAT_TYPE="postgis_none"
-#!   FME_TYPE="fme_feature_table"
-#!   FORMAT="POSTGIS"
-#! />
 #! <GEOM_TYPE
 #!   IS_SOURCE="true"
 #!   FORMAT_TYPE="shape_point"
@@ -1701,91 +1455,247 @@
 #!   FORMAT="ESRISHAPE"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipoint"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_point"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multilinestring"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multicurve"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_linestring"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_circularstring"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_compoundcurve"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multisurface"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_polygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_curvepolygon"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipoint"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multilinestring"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_triangle"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_polyhedralsurface"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_polyhedralsurface"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_tin"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_geometry"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_geometrycollection"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_multipolygon"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
+#!   FORMAT_TYPE="postgis_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POSTGIS"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_no_geom"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_point"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_line"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_area"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_rectangle"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_rounded_rectangle"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_text"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_ellipse"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_arc"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_collection"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_raster"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_surface"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_solid"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_point_cloud"
 #!   FORMAT="POSTGRES"
 #! />
 #! <GEOM_TYPE
-#!   IS_SOURCE="false"
+#!   IS_SOURCE="true"
 #!   FORMAT_TYPE="postgres_none"
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="POSTGRES"
@@ -1946,6 +1856,96 @@
 #!   FME_TYPE="fme_feature_table"
 #!   FORMAT="POSTGIS"
 #! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_no_geom"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_line"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_area"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_rounded_rectangle"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_text"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_ellipse"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_arc"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_collection"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_raster"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_surface"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_solid"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_point_cloud"
+#!   FORMAT="POSTGRES"
+#! />
+#! <GEOM_TYPE
+#!   IS_SOURCE="false"
+#!   FORMAT_TYPE="postgres_none"
+#!   FME_TYPE="fme_feature_table"
+#!   FORMAT="POSTGRES"
+#! />
 #! </GEOM_TYPES>
 #! <FEATURE_TYPES>
 #! <FEATURE_TYPE
@@ -1994,9 +1994,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.gauge"
+#!   NODE_NAME="gauge"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="10"
 #!   FEAT_GEOMTYPE="postgis_point"
@@ -2027,9 +2027,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.gauge"
+#!   NODE_NAME="gauge"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="17"
 #!   FEAT_GEOMTYPE="All"
@@ -2069,9 +2069,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="true"
-#!   NODE_NAME="public.data"
+#!   NODE_NAME="data"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="false"
 #!   IDENTIFIER="19"
 #!   FEAT_GEOMTYPE="postgres_none"
@@ -2099,9 +2099,9 @@
 #! </FEATURE_TYPE>
 #! <FEATURE_TYPE
 #!   IS_SOURCE="false"
-#!   NODE_NAME="public.data"
+#!   NODE_NAME="data"
 #!   FEATURE_TYPE_NAME=""
-#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   FEATURE_TYPE_NAME_QUALIFIER="public"
 #!   IS_EDITABLE="true"
 #!   IDENTIFIER="27"
 #!   FEAT_GEOMTYPE="All"
@@ -2133,26 +2133,33 @@
 #! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
+#! <READER_DATASETS>
+#! <DATASET 
+#!   NAME="ESRISHAPE_1"
+#!   OVERRIDE="-ESRISHAPE_1_DATASET"
+#!   DATASET="ESRISHAPE_1/national_shapefile_obs.shp"
+#! />
+#! </READER_DATASETS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:"
-#!   DEFAULT_VALUE="flowdb"
+#!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
@@ -2183,7 +2190,7 @@
 #! <BOOKMARK
 #!   IDENTIFIER="28"
 #!   NAME="Lakes are not multiplied by 1000"
-#!   DESCRIPTION=""
+#!   DESCRIPTION="&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;"
 #!   TOP_LEFT="922.00318003180109 -994.50852008520042"
 #!   ORDER="500000000000224.25"
 #!   BOTTOM_RIGHT="1755.0175501755018 -1463.5085200852004"
@@ -2265,13 +2272,13 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="11"
 #!   TYPE="SubDocumentTransformer"
-#!   VERSION="0"
+#!   VERSION="1"
 #!   POSITION="1114.0111401114011 -504.00087000870002"
 #!   BOUNDING_RECT="1114.0111401114011 -504.00087000870002 -1 -1"
 #!   ORDER="500000000000123"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="Updated"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2361,13 +2368,13 @@
 #! <TRANSFORMER
 #!   IDENTIFIER="22"
 #!   TYPE="SubDocumentTransformer"
-#!   VERSION="0"
+#!   VERSION="1"
 #!   POSITION="1829.0062100621012 -1030.0079500795002"
 #!   BOUNDING_RECT="1829.0062100621012 -1030.0079500795002 -1 -1"
 #!   ORDER="500000000000128"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="Updated"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2709,7 +2716,7 @@
 #!   BOUNDING_RECT="553 -9 647 1566"
 #!   STICKY="true"
 #!   COLOUR="1,1,0"
-#!   CONTENTS="9 8 "
+#!   CONTENTS="8 9 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2735,7 +2742,7 @@
 #!   BOUNDING_RECT="2446 -17 567 1574"
 #!   STICKY="true"
 #!   COLOUR="0.55686274509803924,0.95686274509803926,0.8666666666666667"
-#!   CONTENTS="10 12 11 "
+#!   CONTENTS="10 11 12 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2748,7 +2755,7 @@
 #!   BOUNDING_RECT="3064 -16 538 1567"
 #!   STICKY="true"
 #!   COLOUR="1,0.50196078431372548,0.24705882352941178"
-#!   CONTENTS="14 16 15 13 "
+#!   CONTENTS="14 15 13 16 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -2761,7 +2768,7 @@
 #!   BOUNDING_RECT="3653 -34 570 1510"
 #!   STICKY="true"
 #!   COLOUR="0.81176470588235294,0.35686274509803922,0.80392156862745101"
-#!   CONTENTS="22 21 20 "
+#!   CONTENTS="21 22 20 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -3474,15 +3481,16 @@
 #! <LOOKUP_TABLES>
 #! </LOOKUP_TABLES>
 #! </WORKSPACE>
+
 FME_PYTHON_VERSION 27
 GUI IGNORE SourceDataset_ESRISHAPE_1,ESRISHAPE_IN_READER_PARAMETERS_ESRISHAPE_1,ESRISHAPE_IN_ENCODING_ESRISHAPE_1,ESRISHAPE_IN_USE_SEARCH_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MINY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXX_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_MAXY_ESRISHAPE_1,ESRISHAPE_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_ESRISHAPE_1,ESRISHAPE_IN_CLIP_TO_ENVELOPE_ESRISHAPE_1,ESRISHAPE_IN_ADVANCED_ESRISHAPE_1,ESRISHAPE_IN_TRIM_PRECEDING_SPACES_ESRISHAPE_1,ESRISHAPE_IN_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_SIMPLE_DONUT_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_MEASURES_AS_Z_ESRISHAPE_1,ESRISHAPE_IN_DISSOLVE_HOLES_ESRISHAPE_1,ESRISHAPE_IN_REPORT_BAD_GEOMETRY_ESRISHAPE_1,ESRISHAPE_IN_NETWORK_AUTHENTICATION_ESRISHAPE_1,SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1,SourceDataset_POSTGRES_1,POSTGRES_IN_FME_CONNECTION_GROUP_POSTGRES_1,POSTGRES_IN_FME_GROUP_NAMED1_POSTGRES_1,POSTGRES_IN_WHERE_CLAUSE_POSTGRES_1,POSTGRES_IN_ADVANCED_POSTGRES_1,POSTGRES_IN_FEATURES_PER_FETCH_POSTGRES_1,POSTGRES_IN_BEGIN_SQL_POSTGRES_1,POSTGRES_IN_END_SQL_POSTGRES_1,POSTGRES_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGRES_1,DestDataset_POSTGIS_2,POSTGIS_OUT_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_OUT_ADVANCED_POSTGIS_2,POSTGIS_OUT_BULK_COPY_POSTGIS_2,POSTGIS_OUT_START_TRANSACTION_POSTGIS_2,POSTGIS_OUT_TRANSACTION_INTERVAL_POSTGIS_2,POSTGIS_OUT_INSERT_TEXT_GEOMETRY_POSTGIS_2,POSTGIS_OUT_BEGIN_SQL_POSTGIS_2,POSTGIS_OUT_END_SQL_POSTGIS_2,DestDataset_POSTGRES_2,POSTGRES_OUT_FME_CONNECTION_GROUP_POSTGRES_2,POSTGRES_OUT_ADVANCED_POSTGRES_2,POSTGRES_OUT_BULK_COPY_POSTGRES_2,POSTGRES_OUT_START_TRANSACTION_POSTGRES_2,POSTGRES_OUT_TRANSACTION_INTERVAL_POSTGRES_2,POSTGRES_OUT_BEGIN_SQL_POSTGRES_2,POSTGRES_OUT_END_SQL_POSTGRES_2
-DEFAULT_MACRO SourceDataset_POSTGIS flowdb
+DEFAULT_MACRO SourceDataset_POSTGIS postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO DestDataset_POSTGIS flowdb
+DEFAULT_MACRO DestDataset_POSTGIS postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO SourceDataset_POSTGRES flowdb
+DEFAULT_MACRO SourceDataset_POSTGRES postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:
-DEFAULT_MACRO DestDataset_POSTGRES flowdb
+DEFAULT_MACRO DestDataset_POSTGRES postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED DestDataset_POSTGRES FMT:POSTGRES%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO SourceDataset_ESRISHAPE /tmp/noaa/national_shapefile_obs.shp
 GUI IGNORE OPTIONAL MULTIFILE SourceDataset_ESRISHAPE Shapefiles(*.shp)|*.shp|Compressed_Shapefiles(*.shz)|*.shz|All_Files(*)|* Source Esri Shapefile(s):
@@ -3498,7 +3506,6 @@ MULTI_READER_GEN_DIRECTIVES{1} BEGIN_SQL,,SEARCH_ENVELOPE_MAXX,0,_MERGE_SCHEMAS,
 MULTI_READER_TYPE{2} POSTGRES
 MULTI_READER_KEYWORD{2} POSTGRES_1
 MULTI_READER_GEN_DIRECTIVES{2} NAMED_CONNECTION,flowdb,FEATURES_PER_FETCH,10000,END_SQL,,WHERE_CLAUSE,,EXPOSE_ATTRS_GROUP,FME_DISCLOSURE_OPEN,BEGIN_SQL,,READ_TIME_WITH_TIMEZONE,Yes,SCHEMAS_FOR_TABLE_LISTING,,TABLELIST,public.data,POSTGRES_EXPOSE_FORMAT_ATTRS,,QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS,Yes,_MERGE_SCHEMAS,YES,ADVANCED,FME_DISCLOSURE_CLOSED
-
 WRITER_TYPE MULTI_WRITER
 MULTI_WRITER_DATASET_ORDER BY_ID
 MULTI_WRITER_FIRST_WRITER_ID 0
@@ -3507,7 +3514,6 @@ MULTI_WRITER_KEYWORD{0} POSTGIS_2
 MULTI_WRITER_TYPE{1} POSTGRES
 MULTI_WRITER_KEYWORD{1} POSTGRES_2
 #! END_WB_HEADER
-
 #! START_WB_HEADER
 MACRO WB_KEYWORD "ESRISHAPE_1"
 #! END_WB_HEADER
@@ -3874,18 +3880,17 @@ POSTGRES_2_DATASET "$(DestDataset_POSTGRES_2)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
 #! END_WB_HEADER
-
 #! END_HEADER
 
 LOG_FILENAME "$(FME_MF_DIR)noaareader.log"
 LOG_APPEND NO
+LOG_FILTER_MASK -1
 LOG_MAX_FEATURES 200
 LOG_MAX_RECORDED_FEATURES 200
 FME_REPROJECTION_ENGINE FME
 FME_IMPLICIT_CSMAP_REPROJECTION_MODE Auto
 FME_GEOMETRY_HANDLING Enhanced
 FME_STROKE_MAX_DEVIATION 0
-LOG_FILTER_MASK -1
 DEFAULT_MACRO DATASET_KEYWORD_ESRISHAPE_1 ESRISHAPE_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_1 POSTGIS_1
 DEFAULT_MACRO DATASET_KEYWORD_POSTGRES_1 POSTGRES_1
@@ -3921,24 +3926,19 @@ POSTGIS_1_MERGE_DEF POSTGIS_1::public.gauge EXACT public.gauge DEFLINE postgis_s
 POSTGRES_1_MERGE_DEF POSTGRES_1::public.data EXACT public.data DEFLINE postgres_type,postgres_none,postgres_sql_where_clause,,postgres_sql_statement,,value,int4,measure_time,timestamptz,gauge,varchar<openparen>100<closeparen>
 # -------------------------------------------------------------------------
 
+FACTORY_DEF * TeeFactory    FACTORY_NAME "national_shapefile_obs (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE national_shapefile_obs    OUTPUT FEATURE_TYPE national_shapefile_obs_ESRISHAPE_1
+# -------------------------------------------------------------------------
+
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.data (POSTGRES_1) Splitter"    INPUT FEATURE_TYPE public.data    OUTPUT FEATURE_TYPE public.data_POSTGRES_1
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory    FACTORY_NAME "public.gauge (POSTGIS_1) Splitter"    INPUT FEATURE_TYPE public.gauge    OUTPUT FEATURE_TYPE public.gauge_POSTGIS_1
-# -------------------------------------------------------------------------
-
-FACTORY_DEF * TeeFactory    FACTORY_NAME "national_shapefile_obs (ESRISHAPE_1) Splitter"    INPUT FEATURE_TYPE national_shapefile_obs    OUTPUT FEATURE_TYPE national_shapefile_obs_ESRISHAPE_1
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
-
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager    INPUT  FEATURE_TYPE national_shapefile_obs_ESRISHAPE_1    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "GaugeLID" "id" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "Status" "Status" "" "REMOVE" }      ATTR_ACTION { "Location" "name" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "Latitude" "Latitude" "" "REMOVE" }      ATTR_ACTION { "Longitude" "Longitude" "" "REMOVE" }      ATTR_ACTION { "Waterbody" "watersourcename" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "State" "State" "" "REMOVE" }      ATTR_ACTION { "Observed" "Observed" "" "REMOVE" }      ATTR_ACTION { "ObsTime" "measure_time" "<at>Value<openparen>measure_time<closeparen>-05:00" "RENAME_SET_VALUE" }      ATTR_ACTION { "Units" "Units" "" "REMOVE" }      ATTR_ACTION { "Action" "Action" "" "REMOVE" }      ATTR_ACTION { "Flood" "Flood" "" "REMOVE" }      ATTR_ACTION { "Moderate" "Moderate" "" "REMOVE" }      ATTR_ACTION { "Major" "Major" "" "REMOVE" }      ATTR_ACTION { "LowThresh" "LowThresh" "" "REMOVE" }      ATTR_ACTION { "LowThreshU" "LowThreshU" "" "REMOVE" }      ATTR_ACTION { "WFO" "WFO" "" "REMOVE" }      ATTR_ACTION { "HDatum" "HDatum" "" "REMOVE" }      ATTR_ACTION { "PEDTS" "PEDTS" "" "REMOVE" }      ATTR_ACTION { "SecValue" "value" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "SecUnit" "SecUnit" "" "REMOVE" }      ATTR_ACTION { "URL" "url" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "" "datasource" "NOAA" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_OUTPUT
-
 # -------------------------------------------------------------------------
 Lookup AttributeRangeFilter_LOOKUP_TABLE             0.01: positive   :               <UNFILTERED>   ENCODED|RANGE_MAP
-
 FACTORY_DEF * TeeFactory    FACTORY_NAME AttributeRangeFilter    INPUT  FEATURE_TYPE AttributeManager_OUTPUT    OUTPUT FEATURE_TYPE *       @FeatureType(AttributeRangeFilter_@Lookup(AttributeRangeFilter_LOOKUP_TABLE,value,RANGE_MAP|ENCODED_ATTR))
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRangeFilter positive Splitter"   INPUT FEATURE_TYPE AttributeRangeFilter_positive   OUTPUT FEATURE_TYPE AttributeRangeFilter_positive_0_iFs42sh/Is4=   OUTPUT FEATURE_TYPE AttributeRangeFilter_positive_1_YzRPC9sLOsk=
 FACTORY_DEF * TeeFactory   FACTORY_NAME "AttributeRangeFilter <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE AttributeRangeFilter_<UNFILTERED>
 # -------------------------------------------------------------------------
@@ -3957,107 +3957,70 @@ MACRO $(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER No
 MACRO $(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE 0
 DEFAULT_MACRO UpdateDetector_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(UpdateDetector_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1535389765 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1535389765 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1536347596 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1536347596 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "Y" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "N" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2 OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ATTRIBUTES { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Original    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ yes
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Revised    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ no
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Matcher    INPUT FEATURE_TYPE ___TOMATCH___    MATCH_GEOMETRY $($(UpdateDetector_WORKSPACE_NAME)_MATCH)    $($(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH)    BLANK_AND_MISSING_DIFFER $($(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER)    EXTRA_VERTEX_TOLERANCE $($(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE)    LENIENT_GEOMETRY_MATCH $($(UpdateDetector_WORKSPACE_NAME)_LENIENT_MATCH)    DIFFERING_ATTRIBUTES ___orig___    OUTPUT MATCHED FEATURE_TYPE ___matched___    OUTPUT NOT_MATCHED FEATURE_TYPE ___not_matched___
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_MatchedWeeder    INPUT FEATURE_TYPE ___matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"        @RemoveAttributes(___orig___)
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UnMatchedWeeder    INPUT FEATURE_TYPE ___not_matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"        @RemoveAttributes(___orig___)    OUTPUT FAILED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"        @RemoveAttributes(___orig___)
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher)    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_3) = Y ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "DELETE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher_2)    OUTPUT MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_2) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "INSERT" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "UPDATE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"        @RemoveAttributes(fme_encoded,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP)")         }
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Updated Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Updated   OUTPUT FEATURE_TYPE UpdateDetector_Updated
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Inserted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Inserted   OUTPUT FEATURE_TYPE UpdateDetector_Inserted
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Unchanged Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Unchanged
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector Deleted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_Deleted
 # -------------------------------------------------------------------------
-
 DEFAULT_MACRO DateTimeConverter_EXPRESSION_LIST
 DEFAULT_MACRO DateTimeConverter_TEST_CLAUSE_LIST
 INCLUDE [    set repairInput {};    if {{NO} eq {YES}} {       set repairInput "<comma>repair";    };    set inFormat {FME|ISO};    if { {%Y-%m-%d<space>%T%z} ne {} } {       set inFormat {%Y-%m-%d<space>%T%z};       if { [string first "<quote>" $inFormat] != -1 } {          set inFormat [string map {"<quote>" "<backslash><quote>"} $inFormat];       };    };    set outFormat {FME};    if { [string first "<quote>" $outFormat] != -1 } {       set outFormat [string map {"<quote>" "<backslash><quote>"} $outFormat];    };    set parmList {};    set testList {};    set attrs [split {measure_time} { }];    foreach attr $attrs {       lappend parmList $attr;       set funcAttr $attr;       if { [string first "<quote>" $attr] != -1 }       {          set funcAttr [string map {"<quote>" "<backslash><quote>"} $attr];          append funcAttr "<quote>";          set funcAttr "<quote>$funcAttr";       };       lappend parmList <at>DateTimeFormat<openparen><at>DateTimeParse<openparen><at>Value<openparen>$funcAttr<closeparen><comma><quote>$inFormat<quote>$repairInput<closeparen><comma><quote>$outFormat<quote><closeparen>;       lappend testList "TEST $attr ATTRIBUTE_VALUE_NULL \"\" ENCODED"    };    puts "MACRO DateTimeConverter_EXPRESSION_LIST [join $parmList {,}]";    puts "MACRO DateTimeConverter_TEST_CLAUSE_LIST [join $testList { }]"; ]
 FACTORY_DEF * TeeFactory    FACTORY_NAME DateTimeConverter_1    INPUT  FEATURE_TYPE AttributeRangeFilter_positive_0_iFs42sh/Is4=    OUTPUT FEATURE_TYPE DateTimeConverter__TEST_NULL__         @EvaluateExpression(ATTR_CREATE_EXPR_PROPAGATE_MISSING_FDIV, $(DateTimeConverter_EXPRESSION_LIST), DateTimeConverter)
 FACTORY_DEF * TestFactory    FACTORY_NAME DateTimeConverter_2    INPUT FEATURE_TYPE DateTimeConverter__TEST_NULL__    $(DateTimeConverter_TEST_CLAUSE_LIST)    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE DateTimeConverter_<REJECTED>       fme_rejection_code "INVALID_INPUT"    OUTPUT FAILED FEATURE_TYPE DateTimeConverter_OUTPUT
-
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME DateTimeConverter_<Rejected> INPUT FEATURE_TYPE DateTimeConverter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, DateTimeConverter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE DateTimeConverter_OUTPUT    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "id" "gauge" "" "RENAME_SET_VALUE" }      ATTR_ACTION { "watersourcename" "watersourcename" "" "REMOVE" }      ATTR_ACTION { "value" "value" "FME_CONDITIONAL:DEFAULT_VALUE'<at>int<openparen><at>mult<openparen><at>Value<openparen>value<closeparen><comma>1000<closeparen><closeparen>'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;CASE_INSENSITIVE_TEST <at>Value<openparen>name<closeparen> BEGINS_WITH Lake'<at>int<openparen><at>Value<openparen>value<closeparen><closeparen>'FME_NUM_CONDITIONS2___" "SET_TO" }      ATTR_ACTION { "url" "url" "" "REMOVE" }      ATTR_ACTION { "datasource" "datasource" "" "REMOVE" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
-
 # -------------------------------------------------------------------------
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Original Input Collector"   INPUT FEATURE_TYPE public.data_POSTGRES_1   OUTPUT FEATURE_TYPE UpdateDetector_2_Original
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Revised Input Collector"   INPUT FEATURE_TYPE AttributeManager_2_OUTPUT   OUTPUT FEATURE_TYPE UpdateDetector_2_Revised
@@ -4074,87 +4037,55 @@ MACRO $(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER No
 MACRO $(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE 0
 DEFAULT_MACRO UpdateDetector_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(UpdateDetector_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1535389765 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1535389765 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Revised1536347596 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Original1536347596 Input Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Original"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "Y" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Revised"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "OrigFlag" "SET_TO" "N" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"
-
-
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2 OUTPUT Splitter"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ATTRIBUTES { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT { $($(UpdateDetector_WORKSPACE_NAME)_MATCHATTRS) }};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Original    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_0_Hob0ouA0A+U="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ yes
 FACTORY_DEF * TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Revised    INPUT FEATURE_TYPE ___nothing_will_match_this_to_handle_when_below_inputs_are_not_specified___    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_0_ZQqUeU6+hoY="    OUTPUT FEATURE_TYPE ___TOMATCH___ ___orig___ no
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_Matcher    INPUT FEATURE_TYPE ___TOMATCH___    MATCH_GEOMETRY $($(UpdateDetector_WORKSPACE_NAME)_MATCH)    $($(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ATTRMATCH)    BLANK_AND_MISSING_DIFFER $($(UpdateDetector_WORKSPACE_NAME)_BLANK_AND_MISSING_DIFFER)    EXTRA_VERTEX_TOLERANCE $($(UpdateDetector_WORKSPACE_NAME)_EXTRA_VERTEX_TOLERANCE)    LENIENT_GEOMETRY_MATCH $($(UpdateDetector_WORKSPACE_NAME)_LENIENT_MATCH)    DIFFERING_ATTRIBUTES ___orig___    OUTPUT MATCHED FEATURE_TYPE ___matched___    OUTPUT NOT_MATCHED FEATURE_TYPE ___not_matched___
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_MatchedWeeder    INPUT FEATURE_TYPE ___matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"        @RemoveAttributes(___orig___)
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UnMatchedWeeder    INPUT FEATURE_TYPE ___not_matched___    TEST &___orig___ == "yes"    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"        @RemoveAttributes(___orig___)    OUTPUT FAILED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"        @RemoveAttributes(___orig___)
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_2_OUTPUT_1_CvrRm79qsQ0="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_DELETED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher)    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_3) = Y ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_3_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_4_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "DELETE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    if { {MATCH} == {MATCH} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ATTRIBUTES $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    elseif { {MATCH} == {EXCEPT} } {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRS_EXCEPT $($(UpdateDetector_WORKSPACE_NAME)_KEYATTR)};    }    else {       puts {MACRO $(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH MATCH_ALL_ATTRIBUTES};    }
 FACTORY_DEF {*} MatchingFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_Matcher_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTECREATOR_OUTPUT_1_Tp4LNcCb3Tw="    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_ADDED"    MATCH_GEOMETRY NONE    $($(UpdateDetector_WORKSPACE_NAME)_Matcher_2_ATTRMATCH)    DIFFERING_ATTRIBUTES { OrigFlag }    BLANK_AND_MISSING_DIFFER No    LENIENT_GEOMETRY_MATCH No    ADD_TO_MATCHED _match_id @Count($(UpdateDetector_WORKSPACE_NAME)_Matcher_2)    OUTPUT MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    OUTPUT NOT_MATCHED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_NOT_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER_2) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_2_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_2_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "INSERT" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF * TestFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_TESTER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Matcher_2_MATCHED"    TEST @EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>OrigFlag<closeparen>,$(UpdateDetector_WORKSPACE_NAME)_TESTER) = N ENCODED    BOOLEAN_OPERATOR OR    OUTPUT PASSED FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_TESTER_PASSED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"        @RemoveAttributes(fme_encoded,_match_id,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_LIST_EXP)")         }
-
 # -------------------------------------------------------------------------
-
 FACTORY_DEF {*} AttrSetFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_AttributeCreator    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_OUTPUT"    MULTI_FEATURE_MODE NO    NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV     ATTR_ACTION { "" "fme_db_operation" "SET_TO" "UPDATE" }    OUTPUT OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"
-
-
 # -------------------------------------------------------------------------
-
 INCLUDE [    set macroLine "MACRO $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP ";    foreach attr [split ""] {       set attr [FME_DecodeText $attr];       set attr [regsub "{}$" $attr "{}.*"];       set attr [regsub -all "{}" $attr "\\{\[0-9\]+\\}"];       append macroLine ",^$attr$";    };    puts $macroLine; ]
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME $(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3    INPUT  FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ChangeDetector_UNCHANGED"    OUTPUT { FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"        @RemoveAttributes(fme_encoded,OrigFlag)        @RemoveAttributes(fme_pcre_match"$($(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_LIST_EXP)")         }
-
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1535389765 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Inserted1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_2_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Inserted"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Updated1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Updated"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Unchanged1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_ATTRIBUTEREMOVER_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Unchanged"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(UpdateDetector_WORKSPACE_NAME)_Deleted1536347596 Output Collector"   INPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_AttributeCreator_3_OUTPUT"   OUTPUT FEATURE_TYPE "$(UpdateDetector_WORKSPACE_NAME)_Deleted"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(UpdateDetector_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Updated Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Updated   OUTPUT FEATURE_TYPE UpdateDetector_2_Updated
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Inserted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Inserted   OUTPUT FEATURE_TYPE UpdateDetector_2_Inserted
@@ -4162,7 +4093,7 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Unchanged Output Renam
 FACTORY_DEF * TeeFactory   FACTORY_NAME "UpdateDetector_2 Deleted Output Renamer/Nuker"   INPUT FEATURE_TYPE UpdateDetector_2_Deleted
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC UpdateDetector_Updated TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.gauge<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_Inserted TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.gauge<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Updated TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.data<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Inserted TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.data<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC UpdateDetector_2_Updated TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.data<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_2_Inserted TO POSTGRES __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.data<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_Updated TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.gauge<closeparen> GEOMETRY    ROUTE FME_GENERIC UpdateDetector_Inserted TO POSTGIS __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.gauge<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
