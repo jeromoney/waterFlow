@@ -7,6 +7,7 @@
 #              --DestDataset_TEXTLINE "/tmp/json/alldata.json"
 #              --SourceDataset_POSTGIS_6 "postgres"
 #              --SourceDataset_POSTGIS_9 "postgres"
+#              --DestDataset_TEXTLINE_3 "/tmp/json/putins.json"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -21,8 +22,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="42603949-eedb-4ea2-bffa-0766e7b941a0"
-#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b,73fe0ab8-a796-4645-bfde-cd8bfac57f00,764486c8-6287-462c-8949-29b1e1b42046,29c3d635-42b8-4f3a-8efd-f177712fae3d,a8d9a5ab-6ad9-43eb-a027-6a6d66d0f42d,d8e35101-d6b6-4489-9aa1-b066c0244eae,9cc31ec5-93a2-4978-b284-57018de4cbe5,51f667aa-0ac0-4c28-bd04-b64c05ff870d,79fcd1e0-e1d5-4f07-8b96-6ecf8051b9d7,4e373daa-6121-4b7f-8fd1-c8ca1427a1cb,453373f9-48fe-4fb3-8183-425af459a292,5179630d-6ce0-4b94-8b65-7a4720c44783,b2f31981-23f9-4a94-aced-8c7b5e6ae88b,79dff156-f586-49ae-9a1a-fd19b8455892,a025c8d3-1971-4dc5-894a-38b105c3f376,a00dce43-4474-4f05-abdd-6e0359ef97b9,3e458425-c001-4096-b4a5-f93ca1cb3601"
+#!   FME_DOCUMENT_GUID="05bbb575-7cf1-462d-8792-f919928fe19c"
+#!   FME_DOCUMENT_PRIORGUID="b1988253-2be6-4830-8acd-3ab0c2dd970b,a60663ec-91e2-4ca4-a95c-38047e2727f8,23462a03-c916-48ef-b522-14b74087dddb,8e9e43c5-7948-42d0-a52d-db438fca9a58,8712352f-6079-440f-a59f-41a9ee10fd3e,8defad90-2701-4545-b46e-dc8631c0ad3d,093f0cd7-1b74-44e8-884d-c50539d1a549,ce74f769-b51d-4936-889e-d0230d9ca89b,ef6a80e2-3b2e-4399-aa8a-b9d79b013bc6,204b3990-bdfa-47b6-89d5-b90900924e31,fb017148-ea46-4696-9033-0d53e875889b,399dd060-2b51-46e7-bf14-29ae76abba52,3d4b8e6f-7be7-450c-8a86-065f09f61b6a,9e0b16a3-0565-4a86-ac99-1efb33791fdb,b462a696-2b3b-434d-be0d-f4dfb6dd9686,6e80ae3d-822c-4f9e-b4cf-736200ae3b33,a13a5d9a-36ab-4a97-9274-43c990b430a8,1e71c91d-d144-4cf1-8e85-7f26ee46d7f9,91d08c70-1bd5-4774-b12d-ae27fa53a363,f1666173-d3b2-40ea-a248-705253fe69b2,07317e43-df8f-453e-a73a-f0c47cd836d5,a780613c-5db2-403c-8747-5cee4965d786,020e363f-e720-4cce-a903-8257dbb7e8cf,886f8e8b-3f3a-44bd-9956-66d1d3121d9b,73fe0ab8-a796-4645-bfde-cd8bfac57f00,764486c8-6287-462c-8949-29b1e1b42046,29c3d635-42b8-4f3a-8efd-f177712fae3d,a8d9a5ab-6ad9-43eb-a027-6a6d66d0f42d,d8e35101-d6b6-4489-9aa1-b066c0244eae,9cc31ec5-93a2-4978-b284-57018de4cbe5,51f667aa-0ac0-4c28-bd04-b64c05ff870d,79fcd1e0-e1d5-4f07-8b96-6ecf8051b9d7,4e373daa-6121-4b7f-8fd1-c8ca1427a1cb,453373f9-48fe-4fb3-8183-425af459a292,5179630d-6ce0-4b94-8b65-7a4720c44783,b2f31981-23f9-4a94-aced-8c7b5e6ae88b,79dff156-f586-49ae-9a1a-fd19b8455892,a025c8d3-1971-4dc5-894a-38b105c3f376,a00dce43-4474-4f05-abdd-6e0359ef97b9,3e458425-c001-4096-b4a5-f93ca1cb3601,42603949-eedb-4ea2-bffa-0766e7b941a0,c7c000e6-ec82-4f99-9406-0a6b0cbe0445"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -31,7 +32,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-09-07T15:34:19"
+#!   LAST_SAVE_DATE="2018-09-07T16:18:35"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -49,7 +50,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-24.4188 498.842"
+#!   VIEW_POSITION="6.97681 1133.73"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="86"
@@ -384,6 +385,61 @@
 #!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
 #!   DATASET_TYPE="FILE"
 #!   GENERATE_FME_BUILD_NUM="18295"
+#!   COORDSYS=""
+#!   FANOUT_EXPRESSION="&lt;Unused&gt;"
+#!   FANOUT_GROUP="NO"
+#! >
+#! <METAFILE_PARAMETER
+#!   NAME="DATASET_NAME"
+#!   VALUE="txt file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="FEATURE_TYPE_DEFAULT_NAME"
+#!   VALUE="text_line"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="MIME_TYPE"
+#!   VALUE="text/plain"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_DATASET_HINT"
+#!   VALUE="Select the Text file(s)"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="READER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_DATASET_HINT"
+#!   VALUE="Specify a name for the Text file"
+#! />
+#! <METAFILE_PARAMETER
+#!   NAME="WRITER_FEATURE_TYPE_EDITING"
+#!   VALUE="NO"
+#! />
+#! </DATASET>
+#! <DATASET
+#!   IS_SOURCE="false"
+#!   ROLE="WRITER"
+#!   FORMAT="TEXTLINE"
+#!   DATASET="$(DestDataset_TEXTLINE_3)"
+#!   KEYWORD="TEXTLINE_2"
+#!   MULTI_GEOM_ALLOWED="true"
+#!   ATTR_MAX_LENGTH="60"
+#!   ATTR_CASE="ANY"
+#!   ALLOWED_FEAT_TYPES="text_line"
+#!   WRITE_DEFS="false"
+#!   DEFLINE_TEMPLATE=""
+#!   DEFLINE_ATTRS="true"
+#!   EXPOSABLE_ATTRS="fme_text_size number(31,15) fme_dataset char(50) fme_text_string char(50) fme_sweep_angle number(31,15) fme_start_angle number(31,15) text_line_eol char(10) fme_basename char(50) fme_fill_color char(50) fme_rotation number(31,15) fme_primary_axis number(31,15) fme_geometry char(50) fme_secondary_axis number(31,15) fme_color char(50) fme_feature_type char(50) fme_type char(50)"
+#!   DEFLINE_PARMS=""
+#!   ATTR_INDEX_TYPES=""
+#!   ATTR_NAME_INVALID_CHARS=""
+#!   SUPPORTS_FEATURE_TYPE_FANOUT="false"
+#!   ENABLED="true"
+#!   DYNAMIC_FEATURE_TYPES_LIST_ON_MERGE="true"
+#!   DATASET_TYPE="FILE"
+#!   GENERATE_FME_BUILD_NUM="18547"
 #!   COORDSYS=""
 #!   FANOUT_EXPRESSION="&lt;Unused&gt;"
 #!   FANOUT_GROUP="NO"
@@ -1398,6 +1454,25 @@
 #!     <DEFLINE_PARM PARM_NAME="postgis_sql_statement" PARM_VALUE=""/>
 #!     <DEFLINE_PARM PARM_NAME="postgis_sql_where_clause" PARM_VALUE=""/>
 #! </FEATURE_TYPE>
+#! <FEATURE_TYPE
+#!   IS_SOURCE="false"
+#!   NODE_NAME="text_line"
+#!   FEATURE_TYPE_NAME=""
+#!   FEATURE_TYPE_NAME_QUALIFIER=""
+#!   IS_EDITABLE="false"
+#!   IDENTIFIER="54"
+#!   FEAT_GEOMTYPE="text_line_none"
+#!   POSITION="3965.0725581674419 1917.3471048663971"
+#!   BOUNDING_RECT="3965.0725581674419 1917.3471048663971 -1 -1"
+#!   ORDER="500000000000000"
+#!   COLLAPSED="false"
+#!   KEYWORD="TEXTLINE_2"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   SCHEMA_ATTRIBUTE_SOURCE="1"
+#! >
+#!     <FEAT_ATTRIBUTE ATTR_NAME="text_line_data" ATTR_TYPE="buffer" ATTR_HAS_PORT="true" ATTR_VALUE=""/>
+#! </FEATURE_TYPE>
 #! </FEATURE_TYPES>
 #! <FMESERVER>
 #! <WRITER_DATASETS>
@@ -1405,6 +1480,11 @@
 #!   NAME="TEXTLINE_1"
 #!   OVERRIDE="-TEXTLINE_1_DATASET"
 #!   DATASET="TEXTLINE_1/alldata.json"
+#! />
+#! <DATASET 
+#!   NAME="TEXTLINE_2"
+#!   OVERRIDE="-TEXTLINE_2_DATASET"
+#!   DATASET="TEXTLINE_2/putins.json"
 #! />
 #! <DATASET 
 #!   NAME="GEOJSON_1"
@@ -1440,6 +1520,11 @@
 #!   IS_STAND_ALONE="false"
 #! />
 #! <GLOBAL_PARAMETER
+#!   GUI_LINE="GUI FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:"
+#!   DEFAULT_VALUE="/tmp/json/putins.json"
+#!   IS_STAND_ALONE="false"
+#! />
+#! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:"
 #!   DEFAULT_VALUE="postgres"
 #!   IS_STAND_ALONE="false"
@@ -1460,7 +1545,7 @@
 #!   BOUNDING_RECT="8 2380 4464.1377446332599 998.59083707116156"
 #!   STICKY="true"
 #!   COLOUR="0.59215686274509804,0.79607843137254897,0.67450980392156867"
-#!   CONTENTS="57 7 60 56 8 63 62 "
+#!   CONTENTS="61 62 54 64 63 66 41 57 65 7 60 53 56 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1473,7 +1558,7 @@
 #!   BOUNDING_RECT="8 1265.4884069770928 5740 836"
 #!   STICKY="true"
 #!   COLOUR="0.81960784313725488,0.21568627450980393,0.10980392156862745"
-#!   CONTENTS="40 49 48 45 44 47 52 51 55 46 39 "
+#!   CONTENTS="39 47 49 51 48 52 40 44 46 45 55 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1486,7 +1571,7 @@
 #!   BOUNDING_RECT="8 2734 1480 346"
 #!   STICKY="true"
 #!   COLOUR="0.32549019607843138,0.61568627450980395,0.84705882352941175"
-#!   CONTENTS="20 21 19 "
+#!   CONTENTS="20 19 21 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -1499,7 +1584,7 @@
 #!   BOUNDING_RECT="297.53777909872133 299.39416277883709 4990 410"
 #!   STICKY="true"
 #!   COLOUR="0.14509803921568629,0.47843137254901963,0.51764705882352946"
-#!   CONTENTS="25 59 30 36 33 37 58 35 38 28 34 42 43 "
+#!   CONTENTS="34 25 30 33 36 37 58 28 59 43 42 38 35 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -1517,53 +1602,53 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flow" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="gnis_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="difficulty" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="slope" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_formatted" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="datasource" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="url" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="watersourcename" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="value" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="measure_time" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="minzoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="timeSincePresent" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flow" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="gnis_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="difficulty" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="slope" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="rivertype" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="hydroseq" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="zoom" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="totdasqkm" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2024,7 +2109,7 @@
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="RESULT_ATTRIBUTE" PARM_VALUE="_result"/>
-#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;4&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;putins&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
+#!     <XFORM_PARM PARM_NAME="ROOT_QUERY_EXPR" PARM_VALUE="&lt;space&gt;&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;type&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;quote&gt;Feature&lt;quote&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;tippecanoe&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;minzoom&lt;quote&gt;&lt;space&gt;:&lt;space&gt;4&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;layer&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;apos&gt;putins&lt;apos&gt;&lt;lf&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;properties&lt;quote&gt;&lt;space&gt;:&lt;space&gt;&lt;opencurly&gt;&lt;space&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;name&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;name&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;level&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;level&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;awid&lt;quote&gt;&lt;closeparen&gt;&lt;space&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;space&gt;:&lt;space&gt;xs:int&lt;openparen&gt;fme:get-attribute&lt;openparen&gt;&lt;quote&gt;difficulty_numeric&lt;quote&gt;&lt;closeparen&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;closecurly&gt;&lt;comma&gt;&lt;lf&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;space&gt;&lt;quote&gt;geometry&lt;quote&gt;&lt;space&gt;:&lt;space&gt;fme:get-json-attribute&lt;openparen&gt;&lt;quote&gt;_geometry&lt;quote&gt;&lt;closeparen&gt;&lt;lf&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_QUERY_FILE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="ROOT_TABLE_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="SUB_TABLE_GROUP" PARM_VALUE="FME_DISCLOSURE_CLOSED"/>
@@ -2070,12 +2155,89 @@
 #!     <XFORM_PARM PARM_NAME="VISIBLE_QUERY_VALIDATE" PARM_VALUE="Yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONTemplater_2"/>
 #! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="41"
+#!   TYPE="JSONFormatter"
+#!   VERSION="2"
+#!   POSITION="3233.755757073302 1970.9496946293239"
+#!   BOUNDING_RECT="3233.755757073302 1970.9496946293239 -1 -1"
+#!   ORDER="500000000000187.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18295"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="_formatted" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_geometry" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_result" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.column" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="_json_error{}.severity" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ERROR_LIST_ATTR" PARM_VALUE="_json_error"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="Pretty Print"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_SETTINGS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDENT_STYLE" PARM_VALUE="3 spaces"/>
+#!     <XFORM_PARM PARM_NAME="INPUT_SETTINGS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="JSON_DOCUMENT" PARM_VALUE="&lt;at&gt;Value&lt;openparen&gt;_result&lt;closeparen&gt;"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ATTR" PARM_VALUE="_formatted"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_ENCODING" PARM_VALUE="UTF-8"/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_SETTINGS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_EMPTY_OBJECTS_AND_ARRAYS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_EMPTY_STRINGS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="REMOVE_NULLS" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="JSONFormatter_2"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="64"
+#!   TYPE="AttributeManager"
+#!   VERSION="2"
+#!   POSITION="369.11442971406916 1773.5781511303485"
+#!   BOUNDING_RECT="369.11442971406916 1773.5781511303485 -1 -1"
+#!   ORDER="500000000000229.25"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="18547"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="difficulty_numeric" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="name" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="level" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="awid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_GRP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTE_HANDLING" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="ATTR_TABLE" PARM_VALUE="difficulty_numeric difficulty_numeric &quot;FME_CONDITIONAL:DEFAULT_VALUE&apos;_FME_NO_OP_&apos;BOOL_OP;OR;COMPOSITE_TEST;&lt;Unused&gt;;TEST difficulty_numeric ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_&apos;-1&apos;FME_NUM_CONDITIONS2___&quot; SET_TO name name  NO_OP level level  NO_OP id id  NO_OP awid awid  NO_OP"/>
+#!     <XFORM_PARM PARM_NAME="MULTI_FEATURE_MODE" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_MODE_DISPLAY" PARM_VALUE="No Substitution"/>
+#!     <XFORM_PARM PARM_NAME="NULL_ATTR_VALUE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_PRIOR_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="NUM_SUBSEQUENT_FEATURES" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="AttributeManager_2"/>
+#! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
 #! <FEAT_LINK
-#!   IDENTIFIER="8"
+#!   IDENTIFIER="65"
 #!   SOURCE_NODE="7"
-#!   TARGET_NODE="56"
+#!   TARGET_NODE="64"
 #!   SOURCE_PORT_DESC="-1"
 #!   TARGET_PORT_DESC="fi 0 "
 #!   ENABLED="true"
@@ -2172,6 +2334,17 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
+#!   IDENTIFIER="61"
+#!   SOURCE_NODE="41"
+#!   TARGET_NODE="54"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="-1"
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
 #!   IDENTIFIER="35"
 #!   SOURCE_NODE="42"
 #!   TARGET_NODE="36"
@@ -2259,6 +2432,28 @@
 #!   HIDDEN="false"
 #!   EXTRA_POINTS=""
 #! />
+#! <FEAT_LINK
+#!   IDENTIFIER="53"
+#!   SOURCE_NODE="62"
+#!   TARGET_NODE="41"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="1"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="66"
+#!   SOURCE_NODE="64"
+#!   TARGET_NODE="56"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   EXTRA_POINTS=""
+#! />
 #! </FEAT_LINKS>
 #! <BREAKPOINTS>
 #! </BREAKPOINTS>
@@ -2270,6 +2465,13 @@
 #!   SOURCE_PORT_DESC="ao 0 22 OUTPUT"
 #!   TARGET_PORT_DESC="0"
 #! />
+#! <ATTR_LINK
+#!   IDENTIFIER="65597"
+#!   SOURCE_NODE="41"
+#!   TARGET_NODE="54"
+#!   SOURCE_PORT_DESC="ao 0 7 OUTPUT"
+#!   TARGET_PORT_DESC="0"
+#! />
 #! </ATTR_LINKS>
 #! <SUBDOCUMENTS>
 #! </SUBDOCUMENTS>
@@ -2278,7 +2480,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 27
-GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1,SourceDataset_POSTGIS_2,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_2,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_2,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_2,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_2,POSTGIS_IN_SEARCH_METHOD_POSTGIS_2,POSTGIS_IN_ADVANCED_POSTGIS_2,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_2,POSTGIS_IN_BEGIN_SQL_POSTGIS_2,POSTGIS_IN_END_SQL_POSTGIS_2,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_2,SourceDataset_POSTGIS_3,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_3,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_3,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_3,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_3,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_3,POSTGIS_IN_SEARCH_METHOD_POSTGIS_3,POSTGIS_IN_ADVANCED_POSTGIS_3,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_3,POSTGIS_IN_BEGIN_SQL_POSTGIS_3,POSTGIS_IN_END_SQL_POSTGIS_3,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_3,SourceDataset_POSTGIS_4,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_4,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_4,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_4,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_4,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_4,POSTGIS_IN_SEARCH_METHOD_POSTGIS_4,POSTGIS_IN_ADVANCED_POSTGIS_4,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_4,POSTGIS_IN_BEGIN_SQL_POSTGIS_4,POSTGIS_IN_END_SQL_POSTGIS_4,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_4,DestDataset_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED1_GEOJSON_1,GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1,GEOJSON_OUT_WRITE_BOM_GEOJSON_1,GEOJSON_OUT_STRICT_SPEC_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED2_GEOJSON_1,GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1,GEOJSON_OUT_INDENT_SIZE_GEOJSON_1,GEOJSON_OUT_MAX_COORDINATE_PRECISION_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED3_GEOJSON_1,GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1,GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED4_GEOJSON_1,GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1
+GUI IGNORE SourceDataset_POSTGIS_1,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_1,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_1,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_1,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_1,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_1,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_1,POSTGIS_IN_SEARCH_METHOD_POSTGIS_1,POSTGIS_IN_ADVANCED_POSTGIS_1,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_1,POSTGIS_IN_BEGIN_SQL_POSTGIS_1,POSTGIS_IN_END_SQL_POSTGIS_1,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_1,SourceDataset_POSTGIS_2,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_2,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_2,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_2,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_2,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_2,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_2,POSTGIS_IN_SEARCH_METHOD_POSTGIS_2,POSTGIS_IN_ADVANCED_POSTGIS_2,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_2,POSTGIS_IN_BEGIN_SQL_POSTGIS_2,POSTGIS_IN_END_SQL_POSTGIS_2,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_2,SourceDataset_POSTGIS_3,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_3,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_3,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_3,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_3,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_3,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_3,POSTGIS_IN_SEARCH_METHOD_POSTGIS_3,POSTGIS_IN_ADVANCED_POSTGIS_3,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_3,POSTGIS_IN_BEGIN_SQL_POSTGIS_3,POSTGIS_IN_END_SQL_POSTGIS_3,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_3,SourceDataset_POSTGIS_4,POSTGIS_IN_FME_CONNECTION_GROUP_POSTGIS_4,POSTGIS_IN_FME_GROUP_NAMED1_POSTGIS_4,POSTGIS_IN_WHERE_CLAUSE_POSTGIS_4,POSTGIS_IN_USE_SEARCH_ENVELOPE_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MINX_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MINY_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MAXX_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_MAXY_POSTGIS_4,POSTGIS_IN_SEARCH_ENVELOPE_COORDINATE_SYSTEM_POSTGIS_4,POSTGIS_IN_CLIP_TO_ENVELOPE_POSTGIS_4,POSTGIS_IN_SEARCH_METHOD_POSTGIS_4,POSTGIS_IN_ADVANCED_POSTGIS_4,POSTGIS_IN_FEATURES_PER_FETCH_POSTGIS_4,POSTGIS_IN_BEGIN_SQL_POSTGIS_4,POSTGIS_IN_END_SQL_POSTGIS_4,POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING_POSTGIS_4,DestDataset_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED1_GEOJSON_1,GEOJSON_OUT_WRITER_CHARSET_GEOJSON_1,GEOJSON_OUT_WRITE_BOM_GEOJSON_1,GEOJSON_OUT_STRICT_SPEC_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED2_GEOJSON_1,GEOJSON_OUT_PRETTY_PRINT_GEOJSON_1,GEOJSON_OUT_INDENT_SIZE_GEOJSON_1,GEOJSON_OUT_MAX_COORDINATE_PRECISION_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED3_GEOJSON_1,GEOJSON_OUT_COUNTER_CLOCKWISE_AREAS_GEOJSON_1,GEOJSON_OUT_WGS84_REPROJECTION_GEOJSON_1,GEOJSON_OUT_FME_GROUP_NAMED4_GEOJSON_1,GEOJSON_OUT_JSONP_FUNC_NAME_GEOJSON_1,DestDataset_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_1,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_1,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_1,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_1,TEXTLINE_OUT_ENCODING_TEXTLINE_1,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_1,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_1,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_1,DestDataset_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_2,TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_2,TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2,TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2,TEXTLINE_OUT_ENCODING_TEXTLINE_2,TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2,TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_2,TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2
 DEFAULT_MACRO SourceDataset_POSTGIS_7 postgres
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_7 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO DestDataset_GEOJSON_8 /tmp/json/videos.json
@@ -2289,6 +2491,8 @@ DEFAULT_MACRO SourceDataset_POSTGIS_6 postgres
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_6 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 DEFAULT_MACRO SourceDataset_POSTGIS_9 postgres
 GUI NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS_9 FMT:POSTGIS%FAMILY:PostgreSQL Connection:
+DEFAULT_MACRO DestDataset_TEXTLINE_3 /tmp/json/putins.json
+GUI FILENAME DestDataset_TEXTLINE_3 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
 DEFAULT_MACRO SourceDataset_POSTGIS postgres
 GUI IGNORE OPTIONAL NAMED_DB_CONNECTION_ENCODED SourceDataset_POSTGIS FMT:POSTGIS%FAMILY:PostgreSQL Connection:
 INCLUDE [ if {{$(SourceDataset_POSTGIS_7)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_7' must be given a value.}; exit 1; }; ]
@@ -2296,6 +2500,7 @@ INCLUDE [ if {{$(DestDataset_GEOJSON_8)} == {}} { puts_real {Parameter 'DestData
 INCLUDE [ if {{$(DestDataset_TEXTLINE)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_POSTGIS_6)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_6' must be given a value.}; exit 1; }; ]
 INCLUDE [ if {{$(SourceDataset_POSTGIS_9)} == {}} { puts_real {Parameter 'SourceDataset_POSTGIS_9' must be given a value.}; exit 1; }; ]
+INCLUDE [ if {{$(DestDataset_TEXTLINE_3)} == {}} { puts_real {Parameter 'DestDataset_TEXTLINE_3' must be given a value.}; exit 1; }; ]
 #! START_HEADER
 #! START_WB_HEADER
 READER_TYPE MULTI_READER
@@ -2318,6 +2523,8 @@ MULTI_WRITER_TYPE{0} GEOJSON
 MULTI_WRITER_KEYWORD{0} GEOJSON_1
 MULTI_WRITER_TYPE{1} TEXTLINE
 MULTI_WRITER_KEYWORD{1} TEXTLINE_1
+MULTI_WRITER_TYPE{2} TEXTLINE
+MULTI_WRITER_KEYWORD{2} TEXTLINE_2
 #! END_WB_HEADER
 #! START_WB_HEADER
 MACRO WB_KEYWORD "POSTGIS_1"
@@ -2815,6 +3022,76 @@ TEXTLINE_1_GENERATE_FME_BUILD_NUM 18295
 TEXTLINE_1_DATASET "$(DestDataset_TEXTLINE_1)"
 #! END_DEST_HEADER
 #! START_WB_HEADER
+MACRO WB_KEYWORD "TEXTLINE_2"
+#! END_WB_HEADER
+#! START_DEST_HEADER TEXTLINE TEXTLINE_2
+# =====================================================================
+# The following GUI line prompts for a folder to be used as the
+# the destination for the TextLine files. The user input is stored in
+# a macro, which is then used to define the dataset to be written.
+#! END_DEST_HEADER
+#! START_WB_HEADER
+DEFAULT_MACRO DestDataset
+INCLUDE [ if {"$(DestDataset)" != ""} {                          \
+ puts {DEFAULT_MACRO DestDataset_TEXTLINE_2 $(DestDataset)}         \
+ } ]
+#! END_WB_HEADER
+#! START_DEST_HEADER TEXTLINE TEXTLINE_2
+DEFAULT_MACRO DestDataset_TEXTLINE_2 $(DestDataset_TEXTLINE_3)
+GUI FILENAME DestDataset_TEXTLINE_2 Text/Compressed_Text_Files(*.txt;*.txt.gz)|*.txt;*.txt.gz|Text_Files(*.txt)|*.txt|Compressed_Text_Files(*.txt.gz)|*.txt.gz|All_files(*)|* Destination Text File:
+DEFAULT_MACRO TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_2 
+GUI OPTIONAL DISCLOSUREGROUP TEXTLINE_OUT_FME_GROUP_NAMED1_TEXTLINE_2 TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2 Writer Parameters
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2 YES
+TEXTLINE_2_OVERWRITE_FILE "$(TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2)"
+GUI CHOICE TEXTLINE_OUT_OVERWRITE_FILE_TEXTLINE_2 YES%NO Overwrite Existing File:
+DEFAULT_MACRO TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_2 
+GUI OPTIONAL DISCLOSUREGROUP TEXTLINE_OUT_FME_GROUP_NAMED2_TEXTLINE_2 TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2%TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2%TEXTLINE_OUT_ENCODING_TEXTLINE_2%TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2 File Contents
+# =====================================================================
+# Set the type of encoding for the output file
+# =====================================================================
+# Set line termination character
+DEFAULT_MACRO TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2 System
+TEXTLINE_2_END_OF_LINE "$(TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2)"
+GUI CHOICE TEXTLINE_OUT_END_OF_LINE_TEXTLINE_2 System%Windows%Unix%Macintosh%Source%None Line Termination:
+# =====================================================================
+# Set whether to write the last line termination character
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2 YES
+TEXTLINE_2_WRITE_LAST_EOL "$(TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2)"
+GUI CHOICE TEXTLINE_OUT_WRITE_LAST_EOL_TEXTLINE_2 YES%NO Write Last Line Terminator:
+DEFAULT_MACRO TEXTLINE_OUT_ENCODING_TEXTLINE_2 SYSTEM
+TEXTLINE_2_ENCODING "$(TEXTLINE_OUT_ENCODING_TEXTLINE_2)"
+GUI STRING_OR_ENCODING TEXTLINE_OUT_ENCODING_TEXTLINE_2 SYSTEM%* Character Encoding:
+# =====================================================================
+# The following GUI line prompts for the overwrite flag. The default is
+# YES. Possible values are YES or NO. Any value other than NO or
+# no is interpreted as YES.
+DEFAULT_MACRO TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2 YES
+TEXTLINE_2_WRITE_UTF8_BOM "$(TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2)"
+GUI CHOICE TEXTLINE_OUT_WRITE_UTF8_BOM_TEXTLINE_2 YES%NO Write UTF Byte Order Mark
+DEFAULT_MACRO TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_2 
+GUI OPTIONAL DISCLOSUREGROUP TEXTLINE_OUT_FME_GROUP_NAMED3_TEXTLINE_2 TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2 FME Server Parameters
+# =====================================================================
+# Set the mime type. Note -- it is actually only used inside of workspaces
+# as a FORMAT_PARAMETER which even then is parsed only by the FME Server
+# Repository Manager
+DEFAULT_MACRO TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2 text/plain
+TEXTLINE_2_MIME_TYPE "$(TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2)"
+GUI STRING_OR_CHOICE TEXTLINE_OUT_MIME_TYPE_TEXTLINE_2 application/json%application/octet-stream%application/xml%application/x-www-form-urlencoded%image/gif%image/jpeg%image/png%image/tiff%multipart/mixed%multipart/alternative%multipart/related%text/html%text/plain%text/xml MIME Type:
+# ============================================================================
+# Opt in for destination dataset type vs format type validation
+DEFAULT_MACRO TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_2 Yes
+TEXTLINE_2_DESTINATION_DATASETTYPE_VALIDATION "$(TEXTLINE_OUT_DESTINATION_DATASETTYPE_VALIDATION_TEXTLINE_2)"
+DEFAULT_MACRO TEXTLINE_OUT_COORDINATE_SYSTEM_GRANULARITY_TEXTLINE_2 FEATURE
+TEXTLINE_2_COORDINATE_SYSTEM_GRANULARITY "$(TEXTLINE_OUT_COORDINATE_SYSTEM_GRANULARITY_TEXTLINE_2)"
+# ============================================================================ 
+TEXTLINE_2_GENERATE_FME_BUILD_NUM 18547
+TEXTLINE_2_DATASET "$(DestDataset_TEXTLINE_2)"
+#! END_DEST_HEADER
+#! START_WB_HEADER
 #! END_WB_HEADER
 #! END_HEADER
 
@@ -2833,6 +3110,7 @@ DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_3 POSTGIS_3
 DEFAULT_MACRO DATASET_KEYWORD_POSTGIS_4 POSTGIS_4
 DEFAULT_MACRO DATASET_KEYWORD_GEOJSON_1 GEOJSON_1
 DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_1 TEXTLINE_1
+DEFAULT_MACRO DATASET_KEYWORD_TEXTLINE_2 TEXTLINE_2
 # -------------------------------------------------------------------------
 
 POSTGIS_1_READER_META_ATTRIBUTES fme_feature_type
@@ -2945,7 +3223,9 @@ FACTORY_DEF * TeeFactory FACTORY_NAME GeometryExtractor_2_<Rejected> INPUT FEATU
 # -------------------------------------------------------------------------
 FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_2 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_2_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_2_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>fme:get-attribute<openparen><quote>minzoom<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space><apos>gauge<apos><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>name<quote><space>:<space>fme:get-attribute<openparen><quote>name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>timeSincePresent<quote>:<space>fme:get-attribute<openparen><quote>timeSincePresent<quote><closeparen><comma><space><lf><space><space><space><space><space><space><space><space><quote>url<quote><space>:<space>fme:get-attribute<openparen><quote>url<quote><closeparen><comma><lf><space><space><space><space><space><space><space><space><quote>value<quote><space>:<space>fme:get-attribute<openparen><quote>value<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_2_OUTPUT
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME 2DForcer_3    INPUT  FEATURE_TYPE public.vw_putins_POSTGIS_1    OUTPUT FEATURE_TYPE 2DForcer_3_2D         @Dimension(2)
+FACTORY_DEF {*} AttrSetFactory    COMMAND_PARM_EVALUATION SINGLE_PASS    FACTORY_NAME AttributeManager_2    INPUT  FEATURE_TYPE public.vw_putins_POSTGIS_1    MULTI_FEATURE_MODE NO     NULL_ATTR_MODE NO_OP     ATTRSET_CREATE_DIRECTIVES _PROPAGATE_MISSING_FDIV    ACTION_COLUMN 3    DEF_VAL_COLUMN 2    ATTR_ACTION { "difficulty_numeric" "difficulty_numeric" "FME_CONDITIONAL:DEFAULT_VALUE'_FME_NO_OP_'BOOL_OP;OR;COMPOSITE_TEST;<Unused>;TEST difficulty_numeric ATTRIBUTE_VALUE_NULL _FME_BLANK_STRING_'-1'FME_NUM_CONDITIONS2___" "SET_TO" }    OUTPUT OUTPUT FEATURE_TYPE AttributeManager_2_OUTPUT
+# -------------------------------------------------------------------------
+FACTORY_DEF * TeeFactory    FACTORY_NAME 2DForcer_3    INPUT  FEATURE_TYPE AttributeManager_2_OUTPUT    OUTPUT FEATURE_TYPE 2DForcer_3_2D         @Dimension(2)
 # -------------------------------------------------------------------------
 # First determine which function we are going to be using -- we can do
 # this statically at parse time for efficiency sake
@@ -2960,14 +3240,19 @@ FACTORY_DEF * TestFactory    FACTORY_NAME GeometryExtractor_3_Rejector    INPUT 
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME GeometryExtractor_3_<Rejected> INPUT FEATURE_TYPE GeometryExtractor_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, GeometryExtractor_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_3 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_3_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_3_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>4<comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space><apos>putins<apos><lf><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>name<quote><space>:<space>fme:get-attribute<openparen><quote>name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote><space>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_3_OUTPUT
+FACTORY_DEF * XMLTemplaterFactory FACTORY_NAME JSONTemplater_3 INPUT CONTROL_FEATURE FEATURE_TYPE GeometryExtractor_3_OUTPUT INPUT DATA_FEATURE FEATURE_TYPE JSONTemplater_3_DataFeatures RESULT_ATTR _result OUTPUT_XML_HEADER NO BUCKET_ATTR_NAME __xml_templater_bucket__ CONTROL_TEMPLATE_EXPR <space><space><opencurly><lf><space><space><space><space><quote>type<quote><space>:<space><quote>Feature<quote><comma><lf><space><space><space><space><quote>tippecanoe<quote><space>:<space><opencurly><lf><space><space><space><space><space><space><space><space><quote>minzoom<quote><space>:<space>4<comma><lf><space><space><space><space><space><space><space><space><quote>layer<quote><space>:<space><apos>putins<apos><lf><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>properties<quote><space>:<space><opencurly><space><lf><space><space><space><space><space><space><space><space><quote>name<quote><space>:<space>fme:get-attribute<openparen><quote>name<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>level<quote><space>:<space>fme:get-attribute<openparen><quote>level<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>awid<quote><space>:<space>fme:get-attribute<openparen><quote>awid<quote><closeparen><space><comma><lf><space><space><space><space><space><space><space><space><quote>difficulty_numeric<quote><space>:<space>xs:int<openparen>fme:get-attribute<openparen><quote>difficulty_numeric<quote><closeparen><closeparen><lf><space><space><space><space><closecurly><comma><lf><space><space><space><space><quote>geometry<quote><space>:<space>fme:get-json-attribute<openparen><quote>_geometry<quote><closeparen><lf><closecurly> OUTPUT XML_DOCUMENT FEATURE_TYPE JSONTemplater_3_OUTPUT
+FACTORY_DEF * TeeFactory   FACTORY_NAME "JSONTemplater_3 OUTPUT Splitter"   INPUT FEATURE_TYPE JSONTemplater_3_OUTPUT   OUTPUT FEATURE_TYPE JSONTemplater_3_OUTPUT_0_q98rmg3W0Gg=   OUTPUT FEATURE_TYPE JSONTemplater_3_OUTPUT_1_bLSI4HzZuMw=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter       INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_3_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_2_OUTPUT    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_<REJECTED>
+FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter_2       INPUT  FEATURE_TYPE JSONTemplater_3_OUTPUT_1_bLSI4HzZuMw=    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter_2)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_2_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_2_<REJECTED>
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME JSONFormatter_2_<Rejected> INPUT FEATURE_TYPE JSONFormatter_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFormatter_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF * JSONFormatterFactory    FACTORY_NAME JSONFormatter       INPUT  FEATURE_TYPE JSONTemplater_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_2_OUTPUT    INPUT  FEATURE_TYPE JSONTemplater_3_OUTPUT_0_q98rmg3W0Gg=    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_result<closeparen>,JSONFormatter)"    FORMAT PRETTY_PRINT    INDENT_SIZE 3    REMOVE_EMPTY_STRINGS NO    REMOVE_NULL_VALUES NO    REMOVE_EMPTY_OBJECTS_AND_ARRAYS NO    OUTPUT_ATTR "_formatted"    OUTPUT_ENCODING UTF-8    SYNTAX_ERROR_LIST_ATTR "_json_error"    OUTPUT OUTPUT FEATURE_TYPE JSONFormatter_OUTPUT    OUTPUT INVALID FEATURE_TYPE JSONFormatter_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFormatter_<Rejected> INPUT FEATURE_TYPE JSONFormatter_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFormatter<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
 
-FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
+FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *    ROUTE FME_GENERIC JSONFormatter_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,1,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY    ROUTE FME_GENERIC public.youtube_POSTGIS_2 TO GEOJSON __GO_TO_FINAL_OUTPUT_ROUTER__ multi_writer_id,0,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>public.youtube<closeparen> GEOMETRY    ROUTE FME_GENERIC JSONFormatter_2_OUTPUT TO TEXTLINE __GO_TO_FINAL_OUTPUT_ROUTER__ <at>CopyAttributes<openparen>ENCODED<comma>text_line_data<comma>_formatted<closeparen>,multi_writer_id,2,<at>SupplyAttributes<openparen>ENCODED<comma>__wb_out_feat_type__<comma>text_line<closeparen> GEOMETRY   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
