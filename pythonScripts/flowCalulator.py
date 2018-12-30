@@ -5,7 +5,7 @@ Populates a network of unknown stream flows from a sparse data.
 import psycopg2,sys
 
 def connect2db():
-    conn_string = "host='localhost' dbname='flowdb' user='justin' password='bobo24'"
+    conn_string = "host='localhost' dbname='postgres' user='postgres' password='bobo24'"
     # print the connection string we will use to connect
     print
     "Connecting to database\n	->%s" % (conn_string)
@@ -85,7 +85,7 @@ def main():
             destination_line.remove(bad_node)
 
 
-    print "number of nodes to analyze: " + str(len(destination_line))
+    print("number of nodes to analyze: ",str(len(destination_line)))
     # get network of rivers
     global upstream_map
     upstream_map = get_upstream_map(cursor)
@@ -102,7 +102,7 @@ def main():
     # go upstream looking for gauge
     # The final result is a river seqment with a list of all gauges for the section
     for destination in destination_line:
-        print "Working on " + str(destination)
+        print("Working on ",str(destination))
         # i need the flow for upstream nodes, not the node itself
         for node in upstream_map.get(destination, []):
             flow(node)
