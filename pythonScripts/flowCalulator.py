@@ -1,6 +1,8 @@
 '''
 Populates a network of unknown stream flows from a sparse data.
 '''
+RECURSION_LIMIT = 8000
+
 
 import psycopg2,sys,os
 
@@ -25,6 +27,11 @@ def get_head_nodes(cursor):
 
 def get_analyzed_headnodes(cursor):
     cursor.execute("SELECT hydroseq FROM analyzed_terminal_streams")
+    data = cursor.fetchall()
+    return [datum[0] for datum in data]
+
+def get_bad_nodes(cursor):
+    cursor.execute("SELECT badnode FROM bad_nodes")
     data = cursor.fetchall()
     return [datum[0] for datum in data]
 
@@ -71,7 +78,8 @@ def flow(node):
 # Get the flow information from database
 def main():
     cursor,conn = connect2db()
-    sys.setrecursionlimit(8000)
+    # this script runs deep recursion to walk up each stream. setting recursion limit higher than normal
+    sys.setrecursionlimit(RECURSION_LIMIT)
     #reset old flow readings
     cursor.execute("TRUNCATE node_flow")
     cursor.execute("TRUNCATE analyzed_terminal_streams")
@@ -81,7 +89,7 @@ def main():
     global destination_line
     destination_line = get_head_nodes(cursor)
 
-    for bad_node in (270000242,10001099,270000782,270001836,90002185,270000256,270000269):
+    for bad_node in get_bad_nodes(cursor):
         # hackish solution. these nodes are causing the algo to run wild along coast lines.
         if bad_node in destination_line:
             destination_line.remove(bad_node)
