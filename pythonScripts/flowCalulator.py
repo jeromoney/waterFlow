@@ -21,9 +21,9 @@ def connect2db():
     return conn.cursor(),conn
 
 def get_head_nodes(cursor):
-    cursor.execute("SELECT * FROM py_head_nodes")
+    cursor.execute("SELECT watersource FROM py_head_nodes")
     data = cursor.fetchall()
-    return [datum[0] for datum in data]
+    return {datum[0] for datum in data}
 
 def get_analyzed_headnodes(cursor):
     cursor.execute("SELECT hydroseq FROM analyzed_terminal_streams")
@@ -33,10 +33,10 @@ def get_analyzed_headnodes(cursor):
 def get_bad_nodes(cursor):
     cursor.execute("SELECT badnode FROM bad_nodes")
     data = cursor.fetchall()
-    return [datum[0] for datum in data]
+    return {datum[0] for datum in data}
 
 def get_upstream_map(cursor):
-    cursor.execute("SELECT * FROM py_upstreammap") # changed this from materialized to normal view
+    cursor.execute("SELECT hydroseq,array_agg FROM py_upstreammap") # changed this from materialized to normal view
     return dict(cursor.fetchall())
 
 def get_gauges(cursor):
@@ -89,13 +89,10 @@ def main():
     global destination_line
     destination_line = get_head_nodes(cursor)
 
-    for bad_node in get_bad_nodes(cursor):
-        # hackish solution. these nodes are causing the algo to run wild along coast lines.
-        if bad_node in destination_line:
-            destination_line.remove(bad_node)
+    # hackish solution. these nodes are causing the algo to run wild along coast lines.
+    destination_line -= get_bad_nodes(cursor)
 
-
-    print("number of nodes to analyze: ",str(len(destination_line)))
+    print(f"number of nodes to analyze: {len(destination_line)}")
     # get network of rivers
     global upstream_map
     upstream_map = get_upstream_map(cursor)
@@ -107,12 +104,12 @@ def main():
     global node_flow_ids
     node_flow_ids = []
     #
-    # for each final destination I will search upstream
+    # for each final destination search upstream
     # The flow is the sum of the all incoming streams
     # go upstream looking for gauge
     # The final result is a river seqment with a list of all gauges for the section
     for destination in destination_line:
-        print("Working on ",str(destination))
+        print(f"Working on {destination}")
         # i need the flow for upstream nodes, not the node itself
         for node in upstream_map.get(destination, []):
             flow(node)
