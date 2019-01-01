@@ -2,12 +2,14 @@
 Populates a network of unknown stream flows from a sparse data.
 '''
 
-import psycopg2,sys
+import psycopg2,sys,os
 
 def connect2db():
-    conn_string = "host='localhost' dbname='postgres' user='postgres' password='bobo24'"
+    db_name = os.environ.get('DB_NAME')
+    db_user = os.environ.get('DB_USER')
+    db_pass = os.environ.get('DB_PASS')
+    conn_string = f"host='localhost' dbname='{db_name}' user='{db_user}' password='{db_pass}'"
     # print the connection string we will use to connect
-    print
     "Connecting to database\n	->%s" % (conn_string)
 
     # get a connection, if a connect cannot be made an exception will be raised here
