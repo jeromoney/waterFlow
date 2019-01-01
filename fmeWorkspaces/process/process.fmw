@@ -16,8 +16,8 @@
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
 #!   FME_BUILD_NUM="18547"
-#!   FME_DOCUMENT_GUID="bd2a7739-d222-42f9-9017-bf9ff1e0e481"
-#!   FME_DOCUMENT_PRIORGUID="7962b2b1-6d9e-4e8a-af49-58c3bc555b97,3e4d2d1f-18c1-4eb2-92c0-f61746719b4c,2ffa3167-f94c-44ce-8f53-54e33be8c888"
+#!   FME_DOCUMENT_GUID="8d177d6f-c4b3-4447-95e8-135fbfbb1787"
+#!   FME_DOCUMENT_PRIORGUID="7962b2b1-6d9e-4e8a-af49-58c3bc555b97,3e4d2d1f-18c1-4eb2-92c0-f61746719b4c,2ffa3167-f94c-44ce-8f53-54e33be8c888,bd2a7739-d222-42f9-9017-bf9ff1e0e481"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,7 +26,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2018.1.0.2 (20180903 - Build 18547 - linux-x64)"
-#!   LAST_SAVE_DATE="2018-12-30T14:39:51"
+#!   LAST_SAVE_DATE="2019-01-01T13:44:45"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -100,7 +100,7 @@
 #!   POSITION="554.50554505545051 -440.00160001600011"
 #!   BOUNDING_RECT="554.50554505545051 -440.00160001600011 -1 -1"
 #!   ORDER="500000000000000"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="18547"
 #! >
@@ -156,7 +156,7 @@
 #!   TITLE="juicyRiverProcess"
 #!   USAGE=""
 #!   USE_MARKDOWN="NO"
-#!   VIEW_POSITION="0 57.0006"
+#!   VIEW_POSITION="-156.002 138.001"
 #!   XFORM_DEPRECATED="No"
 #!   ZOOM_SCALE="100"
 #! >
@@ -214,15 +214,14 @@
 #!   POSITION="1442.0159713541716 -69.999999999999986"
 #!   BOUNDING_RECT="1442.0159713541716 -69.999999999999986 -1 -1"
 #!   ORDER="500000000000068"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18295"
+#!   LAST_PARM_EDIT="18547"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
-#!     <FEAT_COLLAPSED COLLAPSED="0"/>
 #!     <XFORM_ATTR ATTR_NAME="_matched_records" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CMD" PARM_VALUE="python&lt;space&gt;..&lt;solidus&gt;..&lt;solidus&gt;pythonScripts&lt;solidus&gt;flowCalulator.py&lt;space&gt;"/>
+#!     <XFORM_PARM PARM_NAME="CMD" PARM_VALUE="python3&lt;space&gt;..&lt;solidus&gt;..&lt;solidus&gt;pythonScripts&lt;solidus&gt;flowCalulator.py&lt;space&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="SystemCaller"/>
@@ -351,7 +350,7 @@ MACRO $(juicyRiverProcess_WORKSPACE_NAME)___COMPOUND_PARAMETERS
 MACRO $(juicyRiverProcess_WORKSPACE_NAME)_SUB_DOC_NAME juicyRiverProcess
 DEFAULT_MACRO juicyRiverProcess_WORKSPACE_NAME ""
 INCLUDE [puts {MACRO WB_OLD_CONTEXT_$(juicyRiverProcess_WORKSPACE_NAME) $(WB_CURRENT_CONTEXT)};          puts {MACRO WB_CURRENT_CONTEXT $(juicyRiverProcess_WORKSPACE_NAME)}]
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_Input1546205991 Input Splitter"   INPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Input"
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_Input1546375485 Input Splitter"   INPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Input"   OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Input"
 # -------------------------------------------------------------------------
 MACRO $(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_DIRECTIVES NAMED_CONNECTION postgres QUERY_FEATURE_TYPES_FOR_MERGE_FILTERS Yes READ_TIME_WITH_TIMEZONE Yes
 FACTORY_DEF * QueryFactory    FACTORY_NAME $(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor    INPUT  FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Input"    QUERY_SQL            "UPDATE<space>gauge<space>set<space>watersource<space>=<space>nearest_point<openparen>id<closeparen><space>where<space>watersource<space>is<space>null"    READER_TYPE          POSTGRES    READER_DATASET       "postgres"    COMBINE_ATTRIBUTES   RESULT_ONLY    COMBINE_GEOMETRY     QUERY_ONLY    CONTINUE_ON_READER_ERROR YES    QUERYFCT_PROPAGATE_IDS_ON_SQL_EXECUTE YES    READER_PARAMS        $($(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_DIRECTIVES)    OUTPUT RESULT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_RESULT"        @SupplyAttributes(fme_feature_type,$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor)    OUTPUT QUERY FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_INITIATOR"    OUTPUT READER_ERROR FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_<REJECTED>"
@@ -359,8 +358,8 @@ FACTORY_DEF * TeeFactory   FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_SQL
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_<Rejected>" INPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_<REJECTED>"  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, juicyRiverProcess_SQLExecutor<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME $(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller    INPUT  FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_INITIATOR"    OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller_OUTPUT"         @System(LOG_PREFIX,$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller,ENCODED,"python<space>..<solidus>..<solidus>pythonScripts<solidus>flowCalulator.py<space>")
-FACTORY_DEF * TeeFactory   FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_Output1546205991 Output Collector"   INPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Output"
+FACTORY_DEF * TeeFactory    FACTORY_NAME $(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller    INPUT  FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SQLExecutor_INITIATOR"    OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller_OUTPUT"         @System(LOG_PREFIX,$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller,ENCODED,"python3<space>..<solidus>..<solidus>pythonScripts<solidus>flowCalulator.py<space>")
+FACTORY_DEF * TeeFactory   FACTORY_NAME "$(juicyRiverProcess_WORKSPACE_NAME)_Output1546375485 Output Collector"   INPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_SystemCaller_OUTPUT"   OUTPUT FEATURE_TYPE "$(juicyRiverProcess_WORKSPACE_NAME)_Output"
 INCLUDE [puts {MACRO WB_CURRENT_CONTEXT $(WB_OLD_CONTEXT_$(juicyRiverProcess_WORKSPACE_NAME))}]
 FACTORY_DEF * TeeFactory   FACTORY_NAME "juicyRiverProcess Output Output Renamer/Nuker"   INPUT FEATURE_TYPE juicyRiverProcess_Output
 # -------------------------------------------------------------------------
