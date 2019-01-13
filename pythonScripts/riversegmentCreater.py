@@ -2,7 +2,7 @@
 Creates a river segment of WW from the putin points provided by American Whitewater
 """
 
-MAXRIVERLENGTH = 20 #miles. Assumption used so river segments don't hundreds of miles
+MAXRIVERLENGTH = 20 #miles. Assumption used so river segments don't go hundreds of miles
 
 from flowCalulator import connect2db
 class riverSegment:
@@ -159,15 +159,14 @@ def main():
 
     # make sure there are no overlaps in downstream segments. This would occur if a run joins another run
     # Strategy: find a conflict. make a decision. prune downstream segments.
-    putinNodescpy = putinNodes.values()
+    putinNodescpy = list(putinNodes.values())
     while putinNodescpy != []:
-        print "List: ",len(putinNodescpy)
-        if len(putinNodescpy) == 5200:
-            x = 1
+        print(f"List: {len(putinNodescpy)}")
+
         node = putinNodescpy[0]
         node.find_conflict(putinNodescpy, resolve = True)
         if node in putinNodescpy:
-            putinNodescpy.remove(node)
+            putinNodes.remove(node)
 
     for node in putinNodes.keys():
         putinNodes[node].insert_sql(conn, cursor)
